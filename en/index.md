@@ -1,0 +1,25 @@
+---
+title: Eonza Automation Software | Official site
+desc: Eonza is free, open source, cross-platform automation software.
+template: home
+res:
+   alpha: Alpha
+   beta: Beta
+   emailnotice: Eonza is still under development. You can leave your email and I (the founder) will send you a personal message when the desired version is released. 
+   letme: Let me know when the marked version is released
+   name: Name
+   nosubs: This is not a mailing list subscription, it will only be a one-time email.
+   release: Release
+   send: Send
+   success: Thank you very much. Your application has been received.
+---
+# Software for script management
+
+Free, open source cross-platform program for working with scripts and automating actions on the computer.
+
+Status: **In development**. Alpha version is expected at the end of June 2020.
+
+* It does not require installation. Save the program to any directory and run it.
+* Free, cross-platform, open source.
+* Software does not require any additional programs or packages.
+* The current version works through a browser.
