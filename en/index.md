@@ -2,10 +2,13 @@
 title: Eonza Automation Software | Official site
 desc: Eonza is free, open source, cross-platform automation software.
 template: home
+img:
+   eonza-1: eonza-1.png
+   eonza-2: eonza-2.png
 res:
    alpha: Alpha
    beta: Beta
-   emailnotice: Eonza is still under development. You can leave your email and I (the founder) will send you a personal message when the desired version is released. 
+   emailnotice: Eonza is still under development. You can leave your email and I (the developer) will send you a personal message when the desired version is released. 
    letme: Let me know when the marked version is released
    name: Name
    nosubs: This is not a mailing list subscription, it will only be a one-time email.
