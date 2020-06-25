@@ -26,6 +26,6 @@ res:
 
 ## Скачать для Linux, macOS, Windows
 
-* [eonza-0.0.0a-linux-amd64.zip (Linux 64-bit)](https://github.com/gentee/eonza/releases/download/v0.0.0/eonza-0.0.0a-linux-amd64.zip)
-* [eonza-0.0.0a-windows-amd64.zip (Windows 64-bit)](https://github.com/gentee/eonza/releases/download/v0.0.0/eonza-0.0.0a-windows-amd64.zip)
-* [eonza-0.0.0a-darwin-amd64.zip (macOS 64-bit)](https://github.com/gentee/eonza/releases/download/v0.0.0/eonza-0.0.0a-darwin-amd64.zip)
+* [eonza-0.0.0a-linux-amd64.zip (Linux 64-bit)](https://github.com/gentee/eonza/releases/download/v0.0.0-alpha/eonza-0.0.0a-linux-amd64.zip)
+* [eonza-0.0.0a-windows-amd64.zip (Windows 64-bit)](https://github.com/gentee/eonza/releases/download/v0.0.0-alpha/eonza-0.0.0a-windows-amd64.zip)
+* [eonza-0.0.0a-darwin-amd64.zip (macOS 64-bit)](https://github.com/gentee/eonza/releases/download/v0.0.0-alpha/eonza-0.0.0a-darwin-amd64.zip)
