@@ -30,6 +30,8 @@ Status: **Alpha version**. Beta version is expected at the end of July 2020.
 
 ## Download for Linux, macOS, Windows
 
+%% download
 * [eonza-0.0.0a-linux-amd64.zip (Linux 64-bit)](https://github.com/gentee/eonza/releases/download/v0.0.0-alpha/eonza-0.0.0a-linux-amd64.zip)
 * [eonza-0.0.0a-windows-amd64.zip (Windows 64-bit)](https://github.com/gentee/eonza/releases/download/v0.0.0-alpha/eonza-0.0.0a-windows-amd64.zip)
 * [eonza-0.0.0a-darwin-amd64.zip (macOS 64-bit)](https://github.com/gentee/eonza/releases/download/v0.0.0-alpha/eonza-0.0.0a-darwin-amd64.zip)
+%%

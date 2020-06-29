@@ -1,1 +1,6 @@
 template: default
+topmenu:
+  - title: "%download%"
+    href: download
+  - title: "%docs%"
+    href: docs/
