@@ -1,5 +1,5 @@
 template: default
-pagemenu: _home
+pagemenu: 
 topmenu:
   - title: "%download%"
     href: download

@@ -1,4 +1,12 @@
+abouteonza: Eonza - free, open-source automation software.
 docs: Documentation
 download: Download
+downloados: Featured downloads
+editpage: Edit this page
 homepage: Eonza homepage
+license: License
 native: English
+repissue: Report issue
+version: Version
+ver: 0.1.0
+gitpath: https://github.com/gentee/eonza/releases/download/v%ver%-alpha/eonza-%ver%a
