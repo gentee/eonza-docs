@@ -1,7 +1,12 @@
 template: default
-pagemenu: 
+pagemenu: _docs
 topmenu:
-  - title: "%download%"
-    href: download
+  - title: "%downloads%"
+    href: downloads
   - title: "%docs%"
     href: docs/
+navmenu:
+  - title: "%getstart%"
+    children:
+    - href: index
+    - href: license

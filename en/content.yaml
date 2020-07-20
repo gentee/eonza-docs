@@ -1,7 +1,7 @@
 template: default
 pagemenu: _home
 topmenu:
-  - title: "%download%"
-    href: download
+  - title: "%downloads%"
+    href: downloads
   - title: "%docs%"
     href: docs/
