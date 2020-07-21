@@ -10,3 +10,4 @@ navmenu:
     children:
     - href: index
     - href: license
+    - href: installation

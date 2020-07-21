@@ -14,7 +14,7 @@ html:
    windows-64: <a href="%gitpath%-windows-amd64.zip">eonza-%ver%a-windows-amd64.zip</a>
    windows-32: <a href="%gitpath%-windows-386.zip">eonza-%ver%a-windows-386.zip</a>
 ---
-# Download
+# Downloads
 
 Eonza software does not require installation. If you download an archive file, all you need to do is unpack it. At the first launch, the application creates service files and directories, so we recommend that you save the program to a separate folder with write access rights. In the future, you can move this directory wherever you want.
 

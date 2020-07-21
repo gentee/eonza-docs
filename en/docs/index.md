@@ -10,7 +10,7 @@ html:
 ---
 # Introduction
 
-**Eonza** program is intended for users who need to automate and accelerate their work at the computer. Eonza allows you to create scripts without programming knowledge and makes it easy to manage them.
+**Eonza** program is intended for users who need to automate and accelerate their work at the computer. Eonza allows you to create scripts without programming knowledge and makes it easy to manage them. **The program interface opens in the default browser!**
 
 ## Main advantages
 
