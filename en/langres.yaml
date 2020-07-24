@@ -9,6 +9,7 @@ license: License
 native: English
 onpage: On this page
 repissue: Report issue
+userguide: User Guide
 version: Version
 ver: 0.1.0
 gitpath: https://github.com/gentee/eonza/releases/download/v%ver%-alpha/eonza-%ver%a

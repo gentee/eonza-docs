@@ -11,3 +11,16 @@ navmenu:
     - href: index
     - href: license
     - href: installation
+  - title: "%userguide%"
+    href: user-guide
+    children:
+    - href: scripts
+    - href: editor
+      children:
+        - href: editor-script
+        - href: editor-settings
+        - href: editor-parameters
+        - href: editor-language-resources
+        - href: editor-source-code
+    - href: task-manager
+    - href: settings
