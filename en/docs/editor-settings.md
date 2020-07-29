@@ -5,7 +5,6 @@ img:
    editor-settings: editor-settings.png
 html:
    editor-settings: '<img src="%img.editor-settings%" style="margin: 1em 1em;"/>'
-
 ---
 # Settings
 
