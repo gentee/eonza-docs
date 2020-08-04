@@ -95,7 +95,7 @@ html:
 
 Free, open source cross-platform program for working with scripts and automating actions on the computer.
 
-Status: **Alpha version**. Beta version is expected at the end of July 2020.
+Status: **Alpha version**. Beta version is expected in the middle of August 2020.
 
 * It does not require installation. Save the program to any directory and run it.
 * Free, cross-platform, open source.

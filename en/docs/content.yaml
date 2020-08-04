@@ -5,6 +5,8 @@ topmenu:
     href: downloads
   - title: "%docs%"
     href: docs/
+  - title: "%scripts%"
+    href: scripts/
 navmenu:
   - title: "%getstart%"
     children:

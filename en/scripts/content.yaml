@@ -1,5 +1,5 @@
 template: default
-pagemenu: _home
+pagemenu: _docs
 topmenu:
   - title: "%downloads%"
     href: downloads
@@ -7,3 +7,8 @@ topmenu:
     href: docs/
   - title: "%scripts%"
     href: scripts/
+navmenu:
+  - href: index
+  - href: programming
+    children:
+       - href: source-code

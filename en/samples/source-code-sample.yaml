@@ -1,0 +1,31 @@
+settings:
+  name: source-code-sample
+  title: Source Code Sample
+  loglevel: 6
+tree:
+- name: source-code
+  open: true
+  values:
+    code: |-
+      func myFunc(int index) {
+            SetVar("index", str(index))
+           %body%
+      }
+    external: true
+  children:
+  - name: write-console
+    values:
+      text: 'Index: #index#'
+- name: source-code
+  open: true
+  values:
+    code: |-
+      for i in 1..5 {
+          myFunc(i)
+          %body%
+      }
+  children:
+  - name: log-output
+    values:
+      level: LOG_INFO
+      text: 'Index = #index#'
