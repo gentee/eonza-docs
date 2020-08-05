@@ -9,6 +9,9 @@ topmenu:
     href: scripts/
 navmenu:
   - href: index
+  - href: log-console-output
+    children:
+       - href: write-to-console
   - href: programming
     children:
        - href: source-code

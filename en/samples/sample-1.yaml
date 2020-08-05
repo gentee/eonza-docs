@@ -1,0 +1,26 @@
+settings:
+  name: sample-1
+  title: Sample №1
+  loglevel: 6
+tree:
+- name: set-variable
+  values:
+    name: myvar
+    value: Hello, world!
+- name: write-console
+  values:
+    text: The value of "myvar" equals "#myvar#"
+- name: set-variables
+  values:
+    list:
+    - value: '#myvar#'
+      var: var1
+    - value: New value
+      var: myvar
+    - value: '#var1# == #myvar#'
+      var: tmp
+- name: write-console
+  values:
+    text: |-
+      Now "myvar" equals "#var1#"
+      #tmp#

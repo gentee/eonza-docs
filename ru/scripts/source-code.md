@@ -23,9 +23,9 @@ for i in 1..10 {
 
 %html.source-code-2%
 
-* [Скачать пример скрипта](/samples/source-code-sample.yaml)
+* [%dwnsample%](/samples/source-code-sample.yaml)
 
-Результат работы скрипта
+%scriptresult%
 
 %html.source-code-sample-1%
 %html.source-code-sample-2%

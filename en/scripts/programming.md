@@ -1,6 +1,6 @@
 ---
-title: Programming group
-desc: The scripts of Eonza automation software.
+title: Programming scripts
+desc: Scripts for programming in the Eonza software.
 ---
 # Programming
 

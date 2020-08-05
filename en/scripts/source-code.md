@@ -33,9 +33,9 @@ for i in 1..10 {
 
 %html.source-code-2%
 
-* [Download script sample](/samples/source-code-sample.yaml)
+* [%dwnsample%](/samples/source-code-sample.yaml)
 
-The result of the script
+%scriptresult%
 
 %html.source-code-sample-1%
 %html.source-code-sample-2%
