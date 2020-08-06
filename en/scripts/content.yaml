@@ -12,6 +12,12 @@ navmenu:
   - href: applications
     children:
        - href: bash
+  - href: files
+    children:
+       - href: copy-file
+       - href: delete-file
+       - href: curdir
+       - href: chdir
   - href: log-console-output
     children:
        - href: write-to-console
