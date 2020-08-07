@@ -20,9 +20,13 @@ navmenu:
        - href: chdir
   - href: log-console-output
     children:
+       - href: log-output
+       - href: set-log-level
        - href: write-to-console
   - href: programming
     children:
+       - href: error
+       - href: exit
        - href: source-code
   - href: variables
     children:

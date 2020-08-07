@@ -1,0 +1,36 @@
+settings:
+  name: sample-2
+  title: Sample №2
+  loglevel: 6
+tree:
+- name: set-log-level
+  values:
+    level: LOG_DEBUG
+- name: log-output
+  values:
+    level: LOG_DEBUG
+    text: This is debug information
+- name: log-output
+  values:
+    level: LOG_INFO
+    text: Some information
+- name: log-output
+  values:
+    level: LOG_ERROR
+    text: Something happend
+- name: set-log-level
+  values:
+    level: LOG_WARN
+- name: log-output
+  values:
+    level: LOG_WARN
+    text: Warning message
+- name: log-output
+  values:
+    _desc: It will be skipped
+    level: LOG_INFO
+    text: I won't see this line in log
+- name: log-output
+  values:
+    level: LOG_ERROR
+    text: Error message
