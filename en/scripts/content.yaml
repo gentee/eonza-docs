@@ -12,12 +12,19 @@ navmenu:
   - href: applications
     children:
        - href: bash
+       - href: open
+       - href: run
   - href: files
     children:
        - href: copy-file
        - href: delete-file
        - href: curdir
+       - href: read-file
        - href: chdir
+       - href: write-file
+  - href: forms
+    children:
+       - href: form
   - href: log-console-output
     children:
        - href: log-output
@@ -27,6 +34,7 @@ navmenu:
     children:
        - href: error
        - href: exit
+       - href: sleep
        - href: source-code
   - href: variables
     children:

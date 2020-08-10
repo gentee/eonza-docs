@@ -1,0 +1,36 @@
+settings:
+  name: sample-3
+  title: Sample №3
+  loglevel: 6
+tree:
+- name: set-variables
+  values:
+    _desc: Default values for name and agree
+    list:
+    - value: John Dow
+      var: name
+    - type: "2"
+      value: "true"
+      var: agree
+- name: form
+  values:
+    list:
+    - text: Your name
+      type: "2"
+      var: name
+    - text: I agree
+      type: "0"
+      var: agree
+    - text: Today is fine weather
+      type: "0"
+      var: weather
+    - text: Text
+      type: "1"
+      var: text
+- name: write-console
+  values:
+    text: |-
+      Name: #name#
+      Agree: #agree#
+      Weather: #weather#
+      Text: #text#
