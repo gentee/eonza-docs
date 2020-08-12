@@ -26,12 +26,16 @@ Specify the type of form element
 * **Single text**. Single line input field.
 * **Checkbox**.
 * **Multi-line text**. Multiline input field.
+* **Select**. Displays the combo box with your elements. They should be defined in the *Additional settings* field.
 
 **Text**.  
 Description or name of the form element.
 
 **Variable name**  
 The name of the variable bound to this element. If the variable is defined, then the element displays its current value. After submitting the form, the variable will be equal to the value specified by the user.
+
+**Additional settings**  
+Here you can specify additional settings for form elements. These are described in [Editor Parameters](/docs/editor-parameters.html).
 
 [%dwnsample%](/samples/sample-3.yaml)
 

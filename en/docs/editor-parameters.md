@@ -63,12 +63,30 @@ Additional settings must be specified as a JSON object.
 }
 ```
 
-* **list** - Description of the table columns for the *List* parameter. The *list* parameter allows the user to add several records to the table that will be processed by this script. Each *list* element consists of three fields - *name*, *title* and *type*. The *name* field specifies the column name, the *title* field specifies the column title, and the *type* field specifies the numeric field type (0 - checkbox, 1 - multi-line text, 2 - single-line text).
+* **list** - Description of the table columns for the *List* parameter. The *list* parameter allows the user to add several records to the table that will be processed by this script. Each *list* element consists of four fields - *name*, *title*, *type* and *options*. The *name* field specifies the column name, the *title* field specifies the column title, and the *type* field specifies the numeric field type (0 - checkbox, 1 - multi-line text, 2 - single-line text, 3 - combobox).The *options* field may contain additional settings, which are described in this section.
 
 ``` json
 {"list": [
   {"name": "var", "title": "Variable name", "type": 2},
   {"name": "value", "title": "Value", "type": 1},
+  {"name": "mode", "title": "Mode", "type": 3, "options": { "type": "str",
+      "items": [
+            {"title": "Debug", "value": "debug"},
+            {"title": "Demo", "value": "demo"},
+            {"title": "Release", "value": "release"}
+         ]
+      }}
+   ]
+}
+```
+
+* **output** - Array of strings. It is used if you want to display special text in *List* for checkboxes. For example, *not/yes*, *disagree/agree*, etc. The zero element corresponds to *false*, and the first element corresponds to *true*.
+
+``` json
+{"list": [
+  {"name": "company", "title": "Company", "type": 2},
+  {"name": "public", "title": "Public",
+      "type": 0, "options": {"output": ["no", "yes"]}}
    ]
 }
 ```

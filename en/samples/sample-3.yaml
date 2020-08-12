@@ -21,6 +21,17 @@ tree:
     - text: I agree
       type: "0"
       var: agree
+    - options: |-
+        { "type": "str",
+           "items": [
+                 {"title": "Debug", "value": "debug"},
+                 {"title": "Demo", "value": "demo"},
+                 {"title": "Release", "value": "release"}
+        ]
+        }
+      text: Mode
+      type: "3"
+      var: mode
     - text: Today is fine weather
       type: "0"
       var: weather
@@ -32,5 +43,6 @@ tree:
     text: |-
       Name: #name#
       Agree: #agree#
+      Mode: #mode#
       Weather: #weather#
       Text: #text#
