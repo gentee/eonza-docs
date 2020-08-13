@@ -34,6 +34,7 @@ navmenu:
     children:
        - href: error
        - href: exit
+       - href: if-statement
        - href: sleep
        - href: source-code
   - href: variables

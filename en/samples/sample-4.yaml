@@ -1,0 +1,67 @@
+settings:
+  name: sample-4
+  title: Sample №4
+  desc: The sample of If Statement
+  loglevel: 6
+tree:
+- name: form
+  values:
+    list:
+    - options: ""
+      text: Name
+      type: "2"
+      var: name
+    - options: |-
+        {  "type": "int",
+           "initial": "1",
+           "items": [
+                 {"title": "Hi", "value": 0},
+                 {"title": "Hello", "value": 1},
+                 {"title": "Goodbye", "value": 2}
+            ]
+        }
+      text: What to say
+      type: "3"
+      var: say
+- name: if.eonza
+  open: true
+  values:
+    elsevar: mode
+    list:
+    - cmp: equal
+      next: "0"
+      not: false
+      value: "1"
+      var: say
+  children:
+  - name: write-console
+    values:
+      text: |-
+        Hello, #name#!
+        This is the first If Statement.
+- name: if.eonza
+  open: true
+  values:
+    elsevar: mode
+    list:
+    - cmp: equal
+      next: "0"
+      not: false
+      value: ""
+      var: say
+  children:
+  - name: write-console
+    values:
+      text: "Hi, \nYou have specified your name as  #name#.\n"
+- name: if.eonza
+  open: true
+  values:
+    _desc: Else statement
+    elsevar: mode
+    list: {}
+  children:
+  - name: write-console
+    values:
+      text: |+
+        Goodbye, #name#.
+
