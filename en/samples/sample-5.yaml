@@ -1,0 +1,55 @@
+settings:
+  name: sample-5
+  title: Sample №5
+  loglevel: 6
+tree:
+- name: set-variables
+  values:
+    list:
+    - value: "5"
+      var: count
+    - value: "10"
+      var: max
+- name: while
+  open: true
+  values:
+    list:
+    - cmp: equal
+      next: "0"
+      not: false
+      value: ""
+      var: break
+  children:
+  - name: form
+    values:
+      list:
+      - cmp: equal
+        next: "0"
+        options: ""
+        text: Enter a number (1-#max#)
+        type: "2"
+        var: count
+  - name: source-code
+    values:
+      code: |-
+        int tmp = GetVarInt("count")
+        if tmp < 1 : SetVar("count", 1 )
+        if tmp > GetVarInt("max") : SetVar("count",  "#max#")
+  - name: for.eonza
+    open: true
+    values:
+      final: '#count#'
+      initial: "1"
+    children:
+    - name: write-console
+      values:
+        text: '#index#: #count#'
+  - name: form
+    values:
+      list:
+      - cmp: equal
+        next: "0"
+        options: ""
+        text: Finish script
+        type: "0"
+        var: break

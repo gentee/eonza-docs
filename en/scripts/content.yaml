@@ -34,9 +34,11 @@ navmenu:
     children:
        - href: error
        - href: exit
+       - href: for-statement
        - href: if-statement
        - href: sleep
        - href: source-code
+       - href: while-statement
   - href: variables
     children:
        - href: set-variable
