@@ -19,7 +19,9 @@ navmenu:
        - href: copy-file
        - href: delete-file
        - href: curdir
+       - href: move-file
        - href: read-file
+       - href: rename-file
        - href: chdir
        - href: write-file
   - href: forms
