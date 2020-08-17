@@ -8,7 +8,7 @@ res:
    alpha: Alpha
    beta: Beta
    contacts: Contacts
-   emailnotice: Eonza is still under development. You can leave your email and I (the developer) will send you a personal message when the desired version is released. 
+   emailnotice: Eonza is in beta. You can leave your email and I (the developer) will send you a personal email when the release is released.
    letme: Let me know when the marked version is released
    name: Name
    nosubs: This is not a mailing list subscription, it will only be a one-time email.
@@ -54,7 +54,7 @@ html:
       :class="{'is-danger': isemptyemail}">
       </div>
       </div>
-      <div>%res.letme%</div>
+      <!--div>%res.letme%</div>
       <div class="field">
       <div class="control">
       <label class="radio">
@@ -66,7 +66,7 @@ html:
       %res.release%
       </label>
       </div>
-      </div>
+      </div-->
       <div class="field" style="display: flex;margin-top: 1em;">
       <div class="control">
       <button class="button is-primary" @click="send">
@@ -95,7 +95,7 @@ html:
 
 Free, open source cross-platform program for working with scripts and automating actions on the computer.
 
-Status: **Alpha version**. Beta version is expected in the middle of August 2020.
+Status: **Beta version**. The release version is expected at the end of September 2020.
 
 * It does not require installation. Save the program to any directory and run it.
 * Free, cross-platform, open source.
