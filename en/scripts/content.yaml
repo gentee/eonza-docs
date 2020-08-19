@@ -18,6 +18,7 @@ navmenu:
     children:
        - href: copy-file
        - href: delete-file
+       - href: foreach-file
        - href: curdir
        - href: move-file
        - href: read-file

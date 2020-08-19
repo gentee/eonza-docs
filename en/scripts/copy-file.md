@@ -17,3 +17,6 @@ Specify the full or relative path of the file to be copied.
 
 **Destination Folder**  
 Specify the full or relative path to the directory where the file should be copied.
+
+**Save File Time**  
+Check this checkbox if you want to save the time of the copied file.
