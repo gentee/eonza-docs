@@ -27,6 +27,15 @@ Specify the type of form element
 * **Checkbox**.
 * **Multi-line text**. Multiline input field.
 * **Select**. Displays the combo box with your elements. They should be defined in the *Additional settings* field.
+* **HTML Text**. It allows you to insert any HTML text into the form. In this case, the *Text* field remains empty, and the variable in the *Variable Name* field must contain HTML text.
+* **Button**. Shows the button with the name from the *Text*  field. The form can have several buttons. Form data is sent when any of the buttons is clicked. Each button must have a specified variable name. When the button is pressed, the corresponding variable is assigned *true*, and an empty line is assigned to the other buttons' variables. You can assign any value to a variable. To do it, specify it in the **initial** field in *Advanced settings*. You can also define the **default** field to be *"true "* if you want to highlight the button with a color.
+
+``` go
+{
+    "initial": "mybutton",
+    "default": "true"
+}
+```
 
 **Text**.  
 Description or name of the form element.
