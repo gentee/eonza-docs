@@ -37,6 +37,16 @@ Specify the type of form element
 }
 ```
 
+* **Dynamic**. You can generate a list of elements at runtime and show them using this type. To do this leave the *Text* field empty and the variable in the *Variable Name* field must contain a JSON string with the list of elements.
+
+``` go
+[
+    {"type": "7", "var": "btn", "text": "#.retry#", "options": { "initial": "retry"}},
+    {"type": "7", "var": "btn", "text": "#.abort#", "options": {"initial": "abort"}},
+    {"type": "7", "var": "btn", "text": "#.ignore#", "options": {"initial": "ignore"}}
+]
+```
+
 **Text**.  
 Description or name of the form element.
 
@@ -44,7 +54,14 @@ Description or name of the form element.
 The name of the variable bound to this element. If the variable is defined, then the element displays its current value. After submitting the form, the variable will be equal to the value specified by the user.
 
 **Additional settings**  
-Here you can specify additional settings for form elements. These are described in [Editor Parameters](/docs/editor-parameters.html).
+Here you can specify additional settings for form elements. These are described in [Editor Parameters](/docs/editor-parameters.html). You can also define the following parameters:
+
+* **if** - you can hide elements depending on the value of the variable. Specify a variable name and the element will be hidden if the variable is undefined or equal to an empty string, **"0"** or **"false "** at the time the form is displayed. If you, on the contrary, want to show the element in such cases, add a negation symbol **!** to the left.
+
+``` go
+{"if": "myvar"} // show if bool(myvar) == true
+{"if": "!myvar"} // show if bool(myvar) == false
+```
 
 [%dwnsample%](/samples/sample-3.yaml)
 

@@ -1,0 +1,46 @@
+settings:
+  name: sample-6
+  title: Sample №6
+  loglevel: 6
+tree:
+- name: message
+  values:
+    custbtns:
+    - text: Button 1
+      value: btn1
+    - text: I agree
+      value: agree
+    - text: Third button
+      value: "3"
+    icon: info-circle
+    retbtn: mybtn
+    text: 'This is a message with <span style="color: #00f"><b>custom buttons</b></span>!'
+- name: message
+  values:
+    custbtns: []
+    icon: question-circle
+    retbtn: msgbtn
+    text: Do you want to see a warning message?
+- name: if.eonza
+  open: true
+  values:
+    list:
+    - cmp: equal
+      next: "0"
+      not: false
+      value: "yes"
+      var: msgbtn
+  children:
+  - name: message
+    values:
+      custbtns: []
+      icon: exclamation-triangle
+      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- name: message
+  values:
+    custbtns: []
+    icon: info-circle
+    retbtn: msgbtn
+    text: |-
+      Result of Custom message = #mybtn#<br>
+      Result of Question message = #msgbtn#

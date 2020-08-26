@@ -29,6 +29,7 @@ navmenu:
   - href: forms
     children:
        - href: form
+       - href: message
   - href: log-console-output
     children:
        - href: log-output
