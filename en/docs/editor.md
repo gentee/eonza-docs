@@ -5,7 +5,6 @@ img:
    editor: editor.png
 html:
    editor: '<img src="%img.editor%" style="margin: 1em 1em;"/>'
-
 ---
 # Editor
 

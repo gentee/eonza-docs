@@ -30,3 +30,5 @@ navmenu:
     href: usage
     children:
     - href: config
+    - href: command-line-parameters
+    - href: constants
