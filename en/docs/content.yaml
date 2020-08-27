@@ -26,3 +26,7 @@ navmenu:
         - href: editor-source-code
     - href: task-manager
     - href: settings
+  - title: "%usage%"
+    href: usage
+    children:
+    - href: config
