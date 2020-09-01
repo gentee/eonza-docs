@@ -32,3 +32,4 @@ navmenu:
     - href: config
     - href: command-line-parameters
     - href: constants
+    - href: restore-password

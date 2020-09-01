@@ -31,6 +31,7 @@ http:
     open: true
     theme: default
     access: localhost
+    jwtkey: mysecretkey
 ```
 
 * **version** - Eonza version.
@@ -57,3 +58,4 @@ Eonza launches a web server to display the program in a browser. Here are the se
 * **access** - can be one of the following values:
   * *private* - access only from LAN IP.
   * *localhost* - access by domain *localhost*.
+* **jwtkey** is the secret key for creating JWT authorization tokens. It is needed in case you login by  password. The key is generated automatically when the configuration file is created, but you can change it later.
