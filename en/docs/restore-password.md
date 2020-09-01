@@ -1,6 +1,11 @@
 ---
 title: How to recover password in Eonza program
 desc: What to do if you forgot the password to log in the Eonza program.
+img:
+   login: login.png
+html:
+   login: '<img src="%img.login%" style="margin: 1em 1em;"/>'
+
 ---
 # How to recover the password
 
@@ -10,3 +15,5 @@ Eonza does not explicitly store your login password, so you cannot recover a for
 .\eonza -psw=reset
 eonza.exe -psw=mynewpassword
 ```
+
+%html.login%

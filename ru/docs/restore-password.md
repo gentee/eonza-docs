@@ -10,3 +10,5 @@ desc: Что делать, если вы забыли пароль для вхо
 .\eonza -psw=reset
 eonza.exe -psw=mynewpassword
 ```
+
+%html.login%
