@@ -26,10 +26,14 @@ navmenu:
         - href: editor-source-code
     - href: task-manager
     - href: settings
+  - href: script-development
+    children:
+     - href: common-settings
+     - href: constants
+     - href: optional-parameters
   - title: "%usage%"
     href: usage
     children:
     - href: config
     - href: command-line-parameters
-    - href: constants
     - href: restore-password

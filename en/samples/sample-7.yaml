@@ -1,0 +1,46 @@
+settings:
+  name: sample-7
+  title: Sample №7
+  loglevel: 6
+tree:
+- name: form
+  values:
+    _advanced: ""
+    list:
+    - options: ""
+      text: Value1
+      type: "2"
+      var: value1
+    - options: ""
+      text: Checkbox 1
+      type: "0"
+      var: check1
+    - options: ""
+      text: Value 2
+      type: "2"
+      var: value2
+    - options: ""
+      text: Value 3
+      type: "2"
+      var: value_3
+    - options: ""
+      text: Checkbox 2
+      type: "0"
+      var: check.2
+- name: write-console
+  values:
+    _ifcond: GetVarBool("check1")
+    text: 'Value1: #value1#'
+- name: write-console
+  values:
+    _ifcond: GetVarBool("check1") || *GetVar("value1") > 5
+    text: '#check1# || length of ''#value1#'' > 5'
+- name: write-console
+  values:
+    _desc: Print if value2 and value_3 are checked
+    _ifcond: value2 && value_3
+    text: '''#value2#'' && ''#value_3#'' '
+- name: write-console
+  values:
+    _ifcond: '!check1 || !check.2'
+    text: '!#check1# || !#check.2#'

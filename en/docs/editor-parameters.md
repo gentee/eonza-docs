@@ -51,6 +51,7 @@ Additional settings must be specified as a JSON object.
 {"default": "Unknown"}
 ```
 
+* **optional** - specify *true* for [optional parameters](optional-parameters.html).
 * **type** is the variable type for the *Select* parameter. Maybe *str* or *int*. By default, it will be of type *str*.
 * **items** is the list of items for the *Select* parameter. Each item consists of two fields - *title* and *value*. The *title* field contains the name, and the *value* field contains the value of the parameter when this element is selected.
 
