@@ -33,6 +33,7 @@ navmenu:
   - href: log-console-output
     children:
        - href: log-output
+       - href: read-console
        - href: set-log-level
        - href: write-to-console
   - href: programming
