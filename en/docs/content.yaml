@@ -36,4 +36,6 @@ navmenu:
     children:
     - href: config
     - href: command-line-parameters
+    - href: console-mode
+      title: "%console-mode%"
     - href: restore-password
