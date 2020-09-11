@@ -13,7 +13,9 @@ When you run the script, the following constants are automatically created.
 Name | Description
 ------------|------------
 **apppath** | The directory where the Eonza program is located.
+**isconsole** | Equal to *true* if the script is running in console mode. Otherwise, the value is *false*.
 **os** | Operating system. For example *linux, windows, darwin*.
+**port** | The port used by the current script.
 **temppath** | Directory for temporary files.
 
 In addition, the following constants are created:
