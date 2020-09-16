@@ -43,13 +43,15 @@ If you want to use a regular expression, add the '/' character at the beginning 
 **Variable Name**  
 Specify the variable name where the name of the current file will be written. You can use this variable in nested commands. In addition, variables with the following suffixes will be created:
 
-* **_size** - file size.
-* **_dir** - full path of the directory where the file is located.
+* **.size** - file size.
+* **.dir** - full path of the directory where the file is located.
+* **.isdir** - equals *true* if the current item is a directory. Otherwise, it equals *false*.
 
 For example, if you have specified the variable name *myfile*, the following variables will be defined for the file */home/user/tmp/myfile.txt* with the size of 64 bytes:
 
 ``` go
 myfile = "myfile.txt"
-myfile_size = "64"
-myfile_dir = "/home/user/tmp"
+myfile.size = "64"
+myfile.dir = "/home/user/tmp"
+myfile.isdir = "false"
 ```

@@ -20,6 +20,7 @@ navmenu:
        - href: create-file
        - href: delete-dir       
        - href: delete-file
+       - href: fileinfo
        - href: foreach-file
        - href: curdir
        - href: move-file
@@ -37,6 +38,9 @@ navmenu:
        - href: read-console
        - href: set-log-level
        - href: write-to-console
+  - href: network
+    children:
+       - href: httprequest
   - href: programming
     children:
        - href: error
