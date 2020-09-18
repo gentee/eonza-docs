@@ -24,6 +24,7 @@ navmenu:
         - href: editor-parameters
         - href: editor-language-resources
         - href: editor-source-code
+        - href: editor-compile
     - href: task-manager
     - href: settings
   - href: script-development

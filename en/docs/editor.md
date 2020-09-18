@@ -15,6 +15,7 @@ The editor allows you to create and edit scripts. Each script has different para
 * [**Parameters**](editor-parameters.html) allows you to define the list of input parameters, which can be defined when calling this script from other scripts.
 * [**Language resources**](editor-language-resources.html) allows you to implement multilingual support when using a script.
 * [**Source code**](editor-source-code.html) allows to use all features of [Gentee programming language](https://github.com/gentee/gentee/) for solving complex tasks.
+* [**Compile**](editor-compile.html) - this tab is shown on request and allows you to view the generated code and compilation result without running the script.
 
 ## Top menu
 
@@ -31,5 +32,6 @@ The following items are in the drop-down menu.
 
 * **Import** - loads the script from the text *yaml* file.
 * **Export** - saves the current script as a text *yaml* file.
+* **Compile** - opens the corresponding tab with the generated Gentee code and the result of its compilation.
 * **Run Silently** - starts the current script without opening a bookmark in the browser.
 * **Delete** - deletes the current script. The script cannot be deleted if it is used in other scripts. Also, embedded scripts cannot be removed.
