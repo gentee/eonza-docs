@@ -19,66 +19,22 @@ html:
    home: |-
       <div style="margin: 1em 0em;" class="columns">
       <div class="column is-two-thirds">
-      <a class="button is-medium" style="text-decoration:none;" 
+      <a class="button is-medium" style="text-decoration:none;margin-bottom:1rem;color: #fff;
+       background-color: #3273dc;margin-right: 1rem;" href="downloads.html">
+      <span class="icon">
+      <i class="fas fa-download"></i>
+      </span>
+      <span>%downloads%</span>
+      </a>
+
+      <a class="button is-medium" style="text-decoration:none;margin-bottom:1rem;" 
       target="_blank" href="https://github.com/gentee/eonza">
       <span class="icon">
       <i class="fab fa-github"></i>
       </span>
       <span>Eonza on GitHub</span>
       </a>
-      <a button class="button is-medium" style="text-decoration:none;" 
-      target="_blank" href="https://github.com/gentee/eonza-assets">
-      <span class="icon">
-      <i class="fab fa-github"></i>
-      </span>
-      <span>Eonza Client on GitHub</span>
-      </a>
-      <div style="max-width:500px;margin-top: 1em;">
-      <div  class="notification is-success" v-show="success" style="display:none;">
-      <button class="delete" @click="success = false"></button>%res.success%</div>
-      <div  class="notification is-danger" v-show="error" style="display:none;"><button class="delete" @click="error = ''">
-      </button>{{error}}</div>
-      <div  v-show="form">
-      <p style="margin-bottom: 1em;">%res.emailnotice%</p>
-      <div class="field">
-      <label class="label">%res.name%</label>
-      <div class="control">
-      <input class="input" type="text" placeholder="e.g Alex Smith" v-model="name"
-      :class="{'is-danger': isemptyname}">
-      </div>
-      </div>
-      <div class="field">
-      <label class="label">Email</label>
-      <div class="control">
-      <input class="input" type="email" v-model="email" placeholder="e.g. alexsmith@gmail.com" 
-      :class="{'is-danger': isemptyemail}">
-      </div>
-      </div>
-      <!--div>%res.letme%</div>
-      <div class="field">
-      <div class="control">
-      <label class="radio">
-      <input type="radio" v-model="ver" name="ver" value="beta">
-      %res.beta%
-      </label>
-      <label class="radio">
-      <input type="radio" v-model="ver" name="ver" value="release">
-      %res.release%
-      </label>
-      </div>
-      </div-->
-      <div class="field" style="display: flex;margin-top: 1em;">
-      <div class="control">
-      <button class="button is-primary" @click="send">
-      %res.send%
-      </button>
-      </div>
-      <div style="padding: 0em 1em">
-      %res.nosubs%
-      </div>
-      </div>
-      </div>
-      </div>
+
       <h2>%res.contacts%</h2>
       <ul>
       <li><a href="https://github.com/gentee/eonza/issues">GitHub issues</a></li>
@@ -94,8 +50,6 @@ html:
 # Software for script management
 
 Free, open source cross-platform program for working with scripts and automating actions on the computer.
-
-Status: **Beta version**. The release version is expected at the end of September 2020.
 
 * It does not require installation. Save the program to any directory and run it.
 * Free, cross-platform, open source.
