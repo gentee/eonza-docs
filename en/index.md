@@ -5,20 +5,23 @@ img:
    eonza-1: eonza-1.png
    eonza-2: eonza-2.png
 res:
-   alpha: Alpha
-   beta: Beta
    contacts: Contacts
-   emailnotice: Eonza is in beta. You can leave your email and I (the developer) will send you a personal email when the release is released.
-   letme: Let me know when the marked version is released
-   name: Name
-   nosubs: This is not a mailing list subscription, it will only be a one-time email.
-   release: Release
-   send: Send
-   success: Thank you very much. Your application has been received.
+   features-md: |-
+      ## Key features
+
+      * Creating scripts does not require knowledge of programming languages.
+      * Quick search for scripts.
+      * You can launch scripts from the console.
+      * Selection of logging level.
+      * Export/import of scripts to/from a text YAML file.
+      * It is possible to suspend, resume and terminate script execution.
+      * There is a library of built-in scripts.
 html:
    home: |-
       <div style="margin: 1em 0em;" class="columns">
       <div class="column is-two-thirds">
+      %res.features-md%
+      <div style="margin-top: 1rem;">
       <a class="button is-medium" style="text-decoration:none;margin-bottom:1rem;color: #fff;
        background-color: #3273dc;margin-right: 1rem;" href="downloads.html">
       <span class="icon">
@@ -34,7 +37,7 @@ html:
       </span>
       <span>Eonza on GitHub</span>
       </a>
-
+      </div>
       <h2>%res.contacts%</h2>
       <ul>
       <li><a href="https://github.com/gentee/eonza/issues">GitHub issues</a></li>
@@ -51,9 +54,9 @@ html:
 
 Free, open source cross-platform program for working with scripts and automating actions on the computer.
 
-* It does not require installation. Save the program to any directory and run it.
-* Free, cross-platform, open source.
-* Software does not require any additional programs or packages.
-* The current version works through a browser.
+* **It does not require installation. Save the program to any directory and run it.**
+* **Free, cross-platform, open source.**
+* **Software does not require any additional programs or packages.**
+* **Graphical interface is implemented in HTML+JavaScript and opens in the browser.**
 
 %html.home%
