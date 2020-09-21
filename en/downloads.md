@@ -8,11 +8,11 @@ res:
    kind: Kind
    os: OS
 html:
-   linux-64: <a href="%gitpath%-linux-amd64.zip">eonza-%ver%-linux-amd64.zip</a>
-   linux-32: <a href="%gitpath%-linux-386.zip">eonza-%ver%-linux-386.zip</a>
-   macos-64: <a href="%gitpath%-darwin-amd64.zip">eonza-%ver%-darwin-amd64.zip</a>
-   windows-64: <a href="%gitpath%-windows-amd64.zip">eonza-%ver%-windows-amd64.zip</a>
-   windows-32: <a href="%gitpath%-windows-386.zip">eonza-%ver%-windows-386.zip</a>
+   linux-64: <a href="%gitpath%-linux-amd64.zip" @click="track">eonza-%ver%-linux-amd64.zip</a>
+   linux-32: <a href="%gitpath%-linux-386.zip" @click="track">eonza-%ver%-linux-386.zip</a>
+   macos-64: <a href="%gitpath%-darwin-amd64.zip" @click="track">eonza-%ver%-darwin-amd64.zip</a>
+   windows-64: <a href="%gitpath%-windows-amd64.zip" @click="track">eonza-%ver%-windows-amd64.zip</a>
+   windows-32: <a href="%gitpath%-windows-386.zip" @click="track">eonza-%ver%-windows-386.zip</a>
 ---
 # Downloads
 
