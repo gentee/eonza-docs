@@ -40,6 +40,7 @@ navmenu:
        - href: write-to-console
   - href: network
     children:
+       - href: get-webpage
        - href: httprequest
   - href: programming
     children:
