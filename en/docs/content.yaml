@@ -40,3 +40,6 @@ navmenu:
     - href: console-mode
       title: "%console-mode%"
     - href: restore-password
+  - href: development
+    children:
+    - href: open-source
