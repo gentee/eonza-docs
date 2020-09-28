@@ -35,7 +35,7 @@ html:
       <span class="icon">
       <i class="fab fa-github"></i>
       </span>
-      <span>Eonza on GitHub</span>
+      <span>GitHub</span>
       </a>
       </div>
       <h2>%res.contacts%</h2>

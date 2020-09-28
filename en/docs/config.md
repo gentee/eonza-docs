@@ -17,8 +17,8 @@ Eonza program does not require installation and is distributed as a single execu
 The main settings of the program are stored in the YAML configuration file *eonza.yaml*. Below is an example of a configuration file, which is created by default.
 
 ``` yaml
-version: 0.2.0+1 (beta)
-develop: false
+version: 1.0.0+1
+mode: default
 assetsdir: ""
 log:
     dir: ""
@@ -35,7 +35,10 @@ http:
 ```
 
 * **version** - Eonza version.
-* **develop** - specify *true* to enable developer mode.
+* **mode** - program operation mode. If not specified, the program will run in the default mode. The following options are available:
+   * **default** - default mode.
+   * **develop** - developer mode.
+   * **playground** - safe "sandbox" mode.
 * **assetsdir** - by default, the frontend files (html, js, png) are packed into an executable file. You can specify the directory with the unpacked files. This allows you to use modified versions of the files.
 
 ### Logging section
@@ -59,3 +62,22 @@ Eonza launches a web server to display the program in a browser. Here are the se
   * *private* - access only from LAN IP.
   * *localhost* - access by domain *localhost*.
 * **jwtkey** is the secret key for creating JWT authorization tokens. It is needed in case you login by  password. The key is generated automatically when the configuration file is created, but you can change it later.
+
+### Playground Mode Settings
+
+If you specified the **playground** program mode, you can define the following additional settings for that mode.
+
+* **dir** - path to the directory for writing and reading the files. If it is not specified, the subdirectory in the temporary directory will be created.
+* **summary** - the total size of the files. By default, it is 10 MB.
+* **files** - maximum number of files. By default, 100.
+* **size** - maximum file size. The default size is 5 MB.
+
+``` yaml
+mode: playground
+...
+playground:
+    dir: "/tmp/eonza/playground"
+    summary: 20000000
+    files: 250
+    size: 3000000
+```
