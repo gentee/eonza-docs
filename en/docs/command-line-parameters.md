@@ -4,8 +4,8 @@ desc: Eonza command line parameters.
 ---
 # Command Line Parameters
 
-```
-eonza [-cfg=config file] [-psw=password]
+``` txt
+eonza [-cfg=config file] [-psw=password] [-install]
 ```
 
 **-cfg**  
@@ -13,6 +13,9 @@ If you want to store all settings and data separately from the executable file, 
 
 **-psw**  
 With this option you can set or reset a password to connect to Eonza.  The specified password will be saved in the settings and will be active for all subsequent launches of the program. To reset the password, specify *reset* as the parameter value.
+
+**-install**  
+If this parameter is specified, the program will only create all necessary files and directories and finish its work. It can be used in combination with the *-psw* parameter to set a password. If the program has already been installed, running with this parameter will not affect anything.
 
 ## Examples
 

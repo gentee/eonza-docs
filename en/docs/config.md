@@ -17,21 +17,28 @@ Eonza program does not require installation and is distributed as a single execu
 The main settings of the program are stored in the YAML configuration file *eonza.yaml*. Below is an example of a configuration file, which is created by default.
 
 ``` yaml
-version: 1.0.0+1
+version: 1.1.0+1
 mode: default
 assetsdir: ""
 log:
-    dir: ""
-    mode: file
-    level: info
+  dir: ""
+  mode: file
+  level: info
 users:
-    dir: ""
+  dir: ""
 http:
-    port: 3234
-    open: true
-    theme: default
-    access: localhost
-    jwtkey: mysecretkey
+  host: localhost
+  port: 3234
+  open: true
+  theme: default
+  access: localhost
+  jwtkey: s5c82473epey
+playground:
+  dir: ""
+  summary: 0
+  files: 0
+  size: 0
+whitelist: []
 ```
 
 * **version** - Eonza version.
@@ -40,6 +47,14 @@ http:
    * **develop** - developer mode.
    * **playground** - safe "sandbox" mode.
 * **assetsdir** - by default, the frontend files (html, js, png) are packed into an executable file. You can specify the directory with the unpacked files. This allows you to use modified versions of the files.
+* **whitelist** - if you installed Eonza on a remote server (hosting), we recommend specifying a "whitelist" of ip addresses in addition to password protection. In this case, specify the array of subnets from which which it is possible to connect to the program. If a request to Eonza comes from an ip-address that is not included in any of the specified networks, an error will be sent - *Access denied*. When defining the "whitelist", be sure to add the following subnetworks to it: **::1/128, 127.0.0.0/31**.
+
+``` yaml
+whitelist:
+  - ::1/128
+  - 127.0.0.0/31
+  - 192.168.0.0/24
+```
 
 ### Logging section
 
@@ -71,6 +86,7 @@ If you specified the **playground** program mode, you can define the following a
 * **summary** - the total size of the files. By default, it is 10 MB.
 * **files** - maximum number of files. By default, 100.
 * **size** - maximum file size. The default size is 5 MB.
+* **tasks** - maximum number of simultaneously running scripts. By default, 2.
 
 ``` yaml
 mode: playground
@@ -80,4 +96,5 @@ playground:
     summary: 20000000
     files: 250
     size: 3000000
+    tasks: 3
 ```
