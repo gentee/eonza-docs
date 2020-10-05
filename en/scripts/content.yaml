@@ -17,6 +17,7 @@ navmenu:
   - href: files
     children:
        - href: copy-file
+       - href: create-dir
        - href: create-file
        - href: delete-dir       
        - href: delete-file

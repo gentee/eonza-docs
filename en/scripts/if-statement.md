@@ -43,6 +43,7 @@ Click this checkbox when you want to negate the condition ( true => false, false
 Select the comparison operation.
 
 * **Equal**. Check if the variable is equal to the specified value. If the value is not specified, the result will be *true*, if the variable is not defined, equal to an empty string, zero or "false".
+* **File/Dir Exists**. If the value of the variable is an existing file or directory, then the result is *true*. Otherwise, *false* will be returned. If the *Variable Name* is not specified, then the parameter *Value* will be checked.
 
 **Value**  
 The value to compare the variable with.
