@@ -13,6 +13,7 @@ navmenu:
     - href: index
     - href: license
     - href: installation
+    - href: playground
   - title: "%userguide%"
     href: user-guide
     children:
