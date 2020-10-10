@@ -23,7 +23,7 @@ html:
       %res.features-md%
       <div style="margin-top: 1rem;">
       <a class="button is-medium" title="%onlinedemo%" style="text-decoration:none;margin-bottom:1rem;color: #fff;
-       background-color: #3273dc;margin-right: 1rem;" href="https://playground.eonza.org" target="_play">
+       background-color: #3273dc;margin-right: 1rem;" href="https://playground.eonza.org" @click="trackplay('home')" target="_play">
       <span class="icon">
       <i class="fas fa-caret-square-right"></i>
       </span>
