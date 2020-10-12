@@ -7,6 +7,8 @@ res:
    filename: Имя файла
    kind: Вид
    os: ОС
+   program: Программа
+   size: Размер
 ---
 # Скачать
 
