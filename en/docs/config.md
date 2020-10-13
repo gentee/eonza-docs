@@ -70,12 +70,14 @@ whitelist:
 
 Eonza launches a web server to display the program in a browser. Here are the settings related to the work of the web server.
 
+* **host** - hostname (domain) by which you can access Eonza if you run the program on a remote server. In this case *access* field should be *host*. You should also set a password and specify a whitelist of IP addresses to access.
 * **port** is the port that the web server uses. By default, **3234**.
 * **open** - specify *false* if you do not want to automatically open the tab in your browser when you start the program.
 * **theme** - reserved.
 * **access** - can be one of the following values:
   * *private* - access only from LAN IP.
   * *localhost* - access by domain *localhost*.
+  * *host* - indicates that Eonza is installed on a remote server. In this case, the host (domain) name must be specified in the *host* field.
 * **jwtkey** is the secret key for creating JWT authorization tokens. It is needed in case you login by  password. The key is generated automatically when the configuration file is created, but you can change it later.
 
 ### Playground Mode Settings

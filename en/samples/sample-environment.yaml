@@ -1,0 +1,40 @@
+settings:
+  name: sample-environment
+  title: Sample Environment
+  loglevel: 6
+tree:
+- name: bash
+  values:
+    source: |-
+      echo MYTEST=$MYTEST
+      echo MYBUILD=$MYBUILD
+      echo MYVER=$MYVER
+    wait: "1"
+- name: set-environment
+  values:
+    list:
+    - value: Test Value
+      var: MYTEST
+    - value: "1034"
+      var: MYBUILD
+- name: bash
+  values:
+    source: |-
+      echo MYTEST=$MYTEST
+      echo MYBUILD=$MYBUILD
+      echo MYVER=$MYVER
+    wait: "1"
+- name: set-environment
+  values:
+    list:
+    - value: ""
+      var: MYBUILD
+    - value: 1.3.0
+      var: MYVER
+- name: bash
+  values:
+    source: |-
+      echo MYTEST=$MYTEST
+      echo MYBUILD=$MYBUILD
+      echo MYVER=$MYVER
+    wait: "1"

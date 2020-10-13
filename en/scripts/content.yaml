@@ -54,5 +54,6 @@ navmenu:
        - href: while-statement
   - href: variables
     children:
+       - href: set-environment
        - href: set-variable
        - href: set-variables
