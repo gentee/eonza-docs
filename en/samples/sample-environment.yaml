@@ -38,3 +38,33 @@ tree:
       echo MYBUILD=$MYBUILD
       echo MYVER=$MYVER
     wait: "1"
+- name: if.eonza
+  open: true
+  values:
+    list:
+    - cmp: envexists
+      next: "0"
+      not: true
+      value: MYBUILD
+      var: ""
+  children:
+  - name: write-console
+    values:
+      text: MYBUILD doesn't exist
+- name: set-variable
+  values:
+    name: myver
+    value: MYVER
+- name: if.eonza
+  open: true
+  values:
+    list:
+    - cmp: envexists
+      next: "0"
+      not: false
+      value: ""
+      var: myver
+  children:
+  - name: write-console
+    values:
+      text: MYVER exists
