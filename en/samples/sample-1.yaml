@@ -5,6 +5,7 @@ settings:
 tree:
 - name: set-variable
   values:
+    list: []
     name: myvar
     value: Hello, world!
 - name: write-console
@@ -19,8 +20,22 @@ tree:
       var: myvar
     - value: '#var1# == #myvar#'
       var: tmp
+    - value: Initial
+      var: test
+- name: set-variable
+  values:
+    list:
+    - func: upper
+      param: ""
+    - func: substr
+      param: "10:4"
+    - func: append
+      param: '#test#'
+    name: test
+    value: This is a test string.
 - name: write-console
   values:
     text: |-
       Now "myvar" equals "#var1#"
       #tmp#
+      #test#
