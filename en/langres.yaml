@@ -20,4 +20,5 @@ usage: Usage
 userguide: User Guide
 version: Version
 ver: 1.2.0
+betaver: 1.3.0
 gitpath: https://github.com/gentee/eonza/releases/download/v%ver%/eonza-%ver%

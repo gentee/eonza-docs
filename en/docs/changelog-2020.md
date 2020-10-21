@@ -4,7 +4,7 @@ desc: Eonza Program Changelog for 2020
 ---
 # Changelog for 2020
 
-## Developer version
+## Beta version 1.3.0
 
 * Added the [Set Environment](/scripts/set-environment.html) script to set the environment variables.
 * Added comparisons *Environment Exists* and *RegEx Match* in **If Statement** and **While Statement** commands.
