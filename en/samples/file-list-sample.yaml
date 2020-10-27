@@ -1,0 +1,34 @@
+settings:
+  name: file-list-sample
+  title: File List Sample
+  loglevel: 6
+tree:
+- name: file-list
+  values:
+    _advanced: ""
+    _optional: 'ok: true'
+    ok: true
+    path: '#.apppath#'
+    pattern: '*.log'
+    recursive: true
+    resultvar: ret
+- name: foreach
+  open: true
+  values:
+    varindex: index
+    varitem: item
+    varname: ret
+  children:
+  - name: write-console
+    values:
+      text: '#index#: #item.name#  #item.size# #item.time#'
+  - name: foreach
+    open: true
+    values:
+      varindex: key
+      varitem: val
+      varname: item
+    children:
+    - name: write-console
+      values:
+        text: '#key# = #val#'

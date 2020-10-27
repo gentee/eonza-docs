@@ -4,7 +4,14 @@ desc: Eonza Program Changelog for 2020
 ---
 # Changelog for 2020
 
-## Beta version 1.3.0
+## Beta version 1.4.0
+
+* Added work with objects in variables. You can access object fields and elements. For example, *#myobj.param#, #val[field]#, #val[#i#]#, #list[10].size#*.
+* Added **File**(str) str, **SetVar**(str, obj), **GetVarObj**(str), **ResultVar**(str,obj) functions.
+* Added substitution of file contents in values. For example, *</home/user/#mypath#/settings.json>*.
+* Added the [File List](/scripts/file-list.html) and [Foreach](/scripts/foreach.html) commands.
+
+## Version 1.3.0 - 2020/10/27
 
 * Added the [Set Environment](/scripts/set-environment.html) script to set the environment variables.
 * Added comparisons *Environment Exists* and *RegEx Match* in **If Statement** and **While Statement** commands.

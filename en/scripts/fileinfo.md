@@ -21,6 +21,7 @@ Specify the variable name where the full file name will be written. In addition,
 * **.exist** - equals *true*, if the file exists and *false*, otherwise.
 * **.isdir** - equals *true* if the specified file is a directory. Otherwise, it equals *false*.
 * **.size** - file size.
+* **.time** - time of last modification of the file in *YYYY-MM-DD HH:mm:ss* format.
 * **.stime** - time of last modification of the file in *YYYYMMDDHHmmss* format.
 
 For example, if you have specified the variable name *fi*, then for the file *myfile.txt* the variables with values similar to the following will be created:
@@ -30,5 +31,5 @@ fi = "/home/user/temp/myfile.txt"
 fi.size = "4523"
 fi.exist = "true"
 fi.isdir = "false"
-fi.stime = "20200916112034"
+fi.time = "2020-09-16 11:20:34"
 ```
