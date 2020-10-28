@@ -31,6 +31,7 @@ navmenu:
   - href: script-development
     children:
      - href: common-settings
+     - href: variables-and-values
      - href: constants
      - href: optional-parameters
   - title: "%usage%"
