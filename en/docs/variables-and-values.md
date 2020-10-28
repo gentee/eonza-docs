@@ -10,6 +10,8 @@ As a rule, while the script is running, you need to store some values and get th
 
 The scope of the variable is limited by the script where it was defined. This is so that the scripts cannot influence each other. For example, you assigned the variable *name* the value *John* and called another script. This script also creates a variable with the same name *name* and value *Alex* for its purposes. If you do not limit the scope of the variables, in this case the value of your variable will change to *Alex*, which you would not want at all.
 
+It should be noted that the new scope is created when executing scripts in the [Script](editor-script.html) tab, but all code that is defined in the [Source code](editor-source-code.html) tab works with the scope of the parent script. Therefore, it is not recommended to assign values to variables there.
+
 ## Getting the values
 
 To substitute a variable value in any field, just enclose the variable name between characters **#**. For example,
@@ -37,12 +39,12 @@ Besides usual variables, there are variables that allow to store objects. Object
     "files": [
         {
             "file": "myfile.txt",
-            "size": 2543,
+            "size": 2543
         },
         {
             "file": "test.txt",
-            "size": 257,
-        },
+            "size": 257
+        }
     ]
 }
 ```
