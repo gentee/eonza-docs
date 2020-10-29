@@ -14,6 +14,9 @@ navmenu:
        - href: bash
        - href: open
        - href: run
+  - href: encoding
+    children:
+       - href: parse-json
   - href: files
     children:
        - href: copy-file
