@@ -56,6 +56,10 @@ navmenu:
        - href: sleep
        - href: source-code
        - href: while-statement
+  - href: text
+    children:
+       - href: join-text
+       - href: split-text
   - href: variables
     children:
        - href: foreach
