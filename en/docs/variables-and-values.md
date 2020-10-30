@@ -27,7 +27,7 @@ In this case, **Name: #name#** will return **Name: John Doe** because all nested
 
 Note that in fields like **Variable Name, Resulting Variable, Variable Index** etc. you only need to specify the variable names without *#* characters. You can only use *#varname#* if another variable (in this case *varname*) contains your variable name.
 
-## Variable objects
+## Object variables
 
 Besides usual variables, there are variables that allow to store objects. Objects are necessary to work with JSON, YAML and similar data as well as to work with different lists. An object may contain values of the following types: **number, string, floating point number, logical value, array of objects and associative array of objects**. Different arrays are used to store the names of ordinary variables and object variables. If you specified *#myvar#*, then at the beginning there is a search among ordinary variables, if nothing is found, then an object with that name is searched. If the found object is a number, a string or a logical value, then its value will return, otherwise no substitution will occur and *#myvar#* will remain unchanged. To get the fields of an associative array, you can use square brackets or specify the name of the required field separated by a dot. In the case of a regular array, you need to use square brackets to get the element by its index. You can also use a substitution of values within square brackets. Suppose that the variable *myobj* contains the following data:
 

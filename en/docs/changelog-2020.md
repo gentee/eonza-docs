@@ -4,12 +4,17 @@ desc: Eonza Program Changelog for 2020
 ---
 # Changelog for 2020
 
+## Developer version
+
+* Added constants for line feed, carriage return, tab and space characters.
+* Error processing on correct completion of the task has been removed.
+
 ## Beta version 1.4.0
 
 * Added work with objects in variables. You can access object fields and elements. For example, *#myobj.param#, #val[field]#, #val[#i#]#, #list[10].size#*.
 * Added **File**(str) str, **SetVar**(str, obj), **GetVarObj**(str), **ResultVar**(str,obj) functions.
 * Added substitution of file contents in values. For example, *</home/user/#mypath#/settings.json>*.
-* Added the [File List](/scripts/file-list.html) and [Foreach](/scripts/foreach.html) commands.
+* Added the [File List](/scripts/file-list.html), [Foreach](/scripts/foreach.html) and [Parse JSON](/scripts/parse-json.html) commands.
 
 ## Version 1.3.0 - 2020/10/27
 

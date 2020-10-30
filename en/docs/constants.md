@@ -14,8 +14,12 @@ Name | Description
 ------------|------------
 **apppath** | The directory where the Eonza program is located.
 **isconsole** | Equal to *true* if the script is running in console mode. Otherwise, the value is *false*.
+**n** | Line feed character (0xA).
 **os** | Operating system. For example *linux, windows, darwin*.
 **port** | The port used by the current script.
+**r** | Carriage return character (0xD).
+**s** | Space character.
+**t** | Tab character (0x9).
 **temppath** | Directory for temporary files.
 
 In addition, the following constants are created:
