@@ -59,6 +59,7 @@ navmenu:
   - href: text
     children:
        - href: join-text
+       - href: replace
        - href: split-text
   - href: variables
     children:

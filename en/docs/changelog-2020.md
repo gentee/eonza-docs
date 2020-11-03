@@ -6,6 +6,8 @@ desc: Eonza Program Changelog for 2020
 
 ## Developer version
 
+* Added the [Replace](/scripts/replace.html) command.
+
 ## Beta version 1.4.0
 
 * Added work with objects in variables. You can access object fields and elements. For example, *#myobj.param#, #val[field]#, #val[#i#]#, #list[10].size#*.
