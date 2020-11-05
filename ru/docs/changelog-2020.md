@@ -7,7 +7,7 @@ desc: История изменений программы Eonza за 2020
 ## Версия разработчика
 
 * Добавлена командa [Заменить](/ru/scripts/replace.html).
-* Добавлена командa [Regex - Найти](/ru/scripts/regex-find.html).
+* Добавлена команды [Regex - Найти](/ru/scripts/regex-find.html) и [Regex - Заменить](/ru/scripts/regex-replace.html).
 
 ## Версия 1.4.0 - 2020/11/04
 

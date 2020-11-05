@@ -60,6 +60,7 @@ navmenu:
     children:
        - href: join-text
        - href: regex-find
+       - href: regex-replace
        - href: replace
        - href: split-text
   - href: variables

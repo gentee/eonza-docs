@@ -10,12 +10,14 @@ res:
       ## Key features
 
       * Creating scripts does not require knowledge of programming languages.
+      * There is a constantly updated library of built-in scripts.
+      * **The program can be installed on a remote server or VPS/VDS hosting and managed from a browser**.
+      * Protection by password and using a "white list" of IP-addresses.
       * Quick search for scripts.
       * You can launch scripts from the console.
-      * Selection of logging level.
+      * Saving logs and console output for each completed task.
       * Export/import of scripts to/from a text YAML file.
       * It is possible to suspend, resume and terminate script execution.
-      * There is a library of built-in scripts.
 html:
    home: |-
       <div style="margin: 1em 0em;" class="columns">

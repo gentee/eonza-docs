@@ -7,7 +7,7 @@ desc: Eonza Program Changelog for 2020
 ## Developer version
 
 * Added the [Replace](/scripts/replace.html) command.
-* Added the [Regex - Find](/scripts/regex-find.html) command.
+* Added the [Regex - Find](/scripts/regex-find.html) and [Regex - Replace](/scripts/regex-replace.html) commands.
 
 ## Version 1.4.0 - 2020/11/04
 
