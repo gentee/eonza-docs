@@ -8,6 +8,8 @@ desc: Eonza Program Changelog for 2020
 
 * Added the [Replace](/scripts/replace.html) command.
 * Added the [Regex - Find](/scripts/regex-find.html) and [Regex - Replace](/scripts/regex-replace.html) commands.
+* Added check of required fields in forms.
+* A form for specifying parameters is shown when running a script with parameters.
 
 ## Version 1.4.0 - 2020/11/04
 
