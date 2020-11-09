@@ -20,7 +20,6 @@ res:
 
 %snippet.downloadlist%
 
-<!--## Бета-версия %betaver%
+## Бета-версия %betaver%
 
 %snippet.downloadbeta%
--->

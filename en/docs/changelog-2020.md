@@ -4,7 +4,9 @@ desc: Eonza Program Changelog for 2020
 ---
 # Changelog for 2020
 
-## Developer version
+<!--## Developer version-->
+
+## Beta version 1.5.0
 
 * Added the [Replace](/scripts/replace.html) command.
 * Added the [Regex - Find](/scripts/regex-find.html) and [Regex - Replace](/scripts/regex-replace.html) commands.
@@ -15,7 +17,7 @@ desc: Eonza Program Changelog for 2020
 
 * Added work with objects in variables. You can access object fields and elements. For example, *#myobj.param#, #val[field]#, #val[#i#]#, #list[10].size#*.
 * Added **File**(str) str, **SetVar**(str, obj), **GetVarObj**(str), **ResultVar**(str,obj) functions.
-* Added substitution of file contents in values. For example, *</home/user/#mypath#/settings.json>*.
+* Added substitution of file contents in values. For example, *&lt;/home/user/#mypath#/settings.json&gt;*.
 * Added the [File List](/scripts/file-list.html), [Foreach](/scripts/foreach.html) and [Parse JSON](/scripts/parse-json.html) commands.
 * Added [Split Text](/scripts/split-text.html), [Join Text](/scripts/join-text.html) commands.
 * Added constants for line feed, carriage return, tab and space characters.

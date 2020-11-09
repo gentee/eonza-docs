@@ -4,7 +4,9 @@ desc: История изменений программы Eonza за 2020
 ---
 # История изменений за 2020
 
-## Версия разработчика
+<!--## Версия разработчика-->
+
+## Бета-версия 1.5.0
 
 * Добавлена командa [Заменить](/ru/scripts/replace.html).
 * Добавлена команды [Regex - Найти](/ru/scripts/regex-find.html) и [Regex - Заменить](/ru/scripts/regex-replace.html).
@@ -15,7 +17,7 @@ desc: История изменений программы Eonza за 2020
 
 * Добавлена работа с объектами в переменных. Можно обращаться к полям и элементам объекта. Например, *#myobj.param#, #val[field]#, #val[#i#]#, #list[10].size#*.
 * Добавлены функции **File**(str) str, **SetVar**(str, obj), **GetVarObj**(str), **ResultVar**(str,obj).
-* Добавлена подстановка содержимого файла в значениях. Например, *</home/user/#mypath#/settings.json>*.
+* Добавлена подстановка содержимого файла в значениях. Например, *&lt;/home/user/#mypath#/settings.json&gt;*.
 * Добавлены команды [Список файлов](/ru/scripts/file-list.html), [Для каждого](/ru/scripts/foreach.html) и [Разбор JSON](/ru/scripts/parse-json.html).
 * Добавлены команды [Разбить текст](/ru/scripts/split-text.html), [Объединить текст](/ru/scripts/join-text.html).
 * Добавлены константы для символов перевода строки, возврата каретки, табуляции и пробела.
