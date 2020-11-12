@@ -27,6 +27,7 @@ You can specify a list of functions that will sequentially convert the current v
 * **Absolute Path**. If the value is a relative path to a file or a directory, then it is converted into an absolute path.
 * **Append**. The value of the field *Parameter* will be appended to the current value.
 * **Get Environment Variable**. Get the value of the environment variable specified in the *Parameter* field. If the parameter is not specified, then the variable name is taken from the current value.
+* **Length**. The length of the current value is returned. If there is a variable with such name, the length of its value is returned. If there is an object variable, the number of elements in the array (map) or 0 is returned.
 * **Lower case**. Convert the current string to lower case.
 * **Upper case**. Convert the current line to upper case.
 * **Substring**. Take a substring from the current line. Specify the offset and length of the substring separated by a colon (offset:length) in the *Parameter* field. For example, *10:4*.

@@ -60,7 +60,7 @@ html:
       </div>
       </div>
 ---
-# Software for script management
+# Eonza is a program for creating and managing scripts
 
 Free, open source cross-platform program for working with scripts and automating actions on the computer.
 
@@ -68,5 +68,6 @@ Free, open source cross-platform program for working with scripts and automating
 * **Free, cross-platform, open source.**
 * **Software does not require any additional programs or packages.**
 * **Graphical interface is implemented in HTML+JavaScript and opens in the browser.**
+* **Portable by default.**
 
 %html.home%
