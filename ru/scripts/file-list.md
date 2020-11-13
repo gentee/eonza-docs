@@ -26,7 +26,6 @@ desc: Получить список файлов в переменную объ�
 onlydirs: true
 ```
 
-
 [%dwnsample%](/samples/file-list-sample.yaml)
 
 %scriptresult%

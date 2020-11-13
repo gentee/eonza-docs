@@ -25,6 +25,7 @@ navmenu:
        - href: delete-dir      
        - href: delete-empty-folders 
        - href: delete-file
+       - href: delete-files       
        - href: fileinfo
        - href: file-list
        - href: foreach-file
