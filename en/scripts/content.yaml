@@ -22,7 +22,8 @@ navmenu:
        - href: copy-file
        - href: create-dir
        - href: create-file
-       - href: delete-dir       
+       - href: delete-dir      
+       - href: delete-empty-folders 
        - href: delete-file
        - href: fileinfo
        - href: file-list
