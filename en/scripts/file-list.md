@@ -17,10 +17,20 @@ The **File List** command gets an array of files that match the specified parame
 **Path**  
 **Recursive search**  
 **Wildcard or regular expression**  
+**Exclude Wildcard or RegExp**  
 These parameters are described in the [Foreach File](foreach-file.html) command.
 
 **Result Variable**  
 Specify the name of the variable where the resulting list will be saved. The variable is an array of objects with fields *name, size, time, dir*, etc. Later, you can use this variable in other commands (e.g. [Foreach](foreach.html)) to process this file list.
+
+## Optional Parameters
+
+**Search only directories**  
+If you want to search only directories, then specify **onlydirs** parameter equal to *true*.
+
+``` txt
+onlydirs: true
+```
 
 [%dwnsample%](/samples/file-list-sample.yaml)
 
