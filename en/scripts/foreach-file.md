@@ -22,22 +22,30 @@ Check this checkbox if you want to search for files in all subdirectories.
 Click this checkbox if you want to search only for files.
 
 **Wildcard or RegExp**  
-You can specify a wildcard or a regular expression to search for files. In this case, the file or directory will be processed only if its name matches the specified mask or regular expression.
+You can specify a wildcard or a regular expression to search for files. In this case, the file or directory will be processed only if its name matches the specified mask or regular expression. You can specify multiple masks or regular expressions separated by commas. In this case, you can use both wildcards and regular expressions.
+
 The wildcard is a string using characters:
 
 * '\*' - any sequence except the delimiter character
 * '?' - any single character except the delimiter character
 
 ``` text
-*.pdf  
+*.pdf,*.docx  
 ??file.
 ```
 
 If you want to use a regular expression, add the '/' character at the beginning and end.
 
 ``` text
-/\d\d .*/
+/\d\d .*/,/^my/
 /\w*\.txt$/
+```
+
+**Exclude Wildcard or RegExp**  
+Similarly, you can specify masks and regular expressions to ignore such files and directories. Note that if a directory matches a specified mask or a regular expression, it is completely excluded from search with all its files.
+
+``` text
+.git,/^temp/
 ```
 
 **Variable Name**  
@@ -54,4 +62,13 @@ myfile = "myfile.txt"
 myfile.size = "64"
 myfile.dir = "/home/user/tmp"
 myfile.isdir = "false"
+```
+
+## Optional Parameters
+
+**Search only directories**  
+If you want to search only directories, then specify **onlydirs** parameter equal to *true*.
+
+``` txt
+onlydirs: true
 ```

@@ -4,8 +4,12 @@ desc: Eonza Program Changelog for 2020
 ---
 # Changelog for 2020
 
-<!--## Developer version
-## Beta version 1.5.0-->
+## Developer version
+
+* Added the *Exclude the mask* and *Search only the directories* parameters in the command **Foreach File**.
+
+<!--## Beta version 1.5.0-->
+
 ## Version 1.5.0 - 2020/11/12
 
 * Added the [Replace](/scripts/replace.html) command.
