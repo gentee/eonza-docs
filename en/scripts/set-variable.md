@@ -30,6 +30,7 @@ You can specify a list of functions that will sequentially convert the current v
 * **Length**. The length of the current value is returned. If there is a variable with such name, the length of its value is returned. If there is an object variable, the number of elements in the array (map) or 0 is returned.
 * **Lower case**. Convert the current string to lower case.
 * **Upper case**. Convert the current line to upper case.
+* **Split**. Split the value into substrings formed by the separator. In the *Parameter* field, specify the separator string. If you want to use a space as a separator, specify *#.s#*. This function will assign the first substring to the current value and create an object with the same name as the variable name that will contain an array of substrings.
 * **Substring**. Take a substring from the current line. Specify the offset and length of the substring separated by a colon (offset:length) in the *Parameter* field. For example, *10:4*.
 * **Current Time**. Get the current time in the format specified in the *Parameter* field. If it is not specified, the *YYYY/MM/DD HH:mm:ss* format will be used by default.
 

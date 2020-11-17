@@ -7,7 +7,9 @@ desc: Eonza Program Changelog for 2020
 ## Developer version
 
 * Added the [Delete Empty Folders](/scripts/delete-empty-folders.html) and [Delete Files](/scripts/delete-files.html) commands.
+* Added the [File Confirmation](/scripts/file-confirmation.html) command.
 * Added the *Exclude the mask* and *Search only the directories* parameters in the command **Foreach File**.
+* Added *Split* function to the **Set Variable** command.
 
 <!--## Beta version 1.5.0-->
 

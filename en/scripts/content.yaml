@@ -37,6 +37,7 @@ navmenu:
        - href: write-file
   - href: forms
     children:
+       - href: file-confirmation
        - href: form
        - href: message
   - href: log-console-output
