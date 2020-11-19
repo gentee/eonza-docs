@@ -30,7 +30,16 @@ Specify the name of the object variable to get information from the user. This v
 
 * **all** - equals *true*, if the selected action should be applied to all files. Otherwise, it is *false*.
 * **btn** - the selected action. Can be one of the following values:
-    * *replace* - replace the file.
+    * *overwrite* - replace the file.
     * *skip* - skip the file.
 
 %html.file-confirmation-1%
+
+## Optional Parameters
+
+**Hide Apply to All**  
+The confirmation form has a checkbox *Apply the action to all files*. If **hideapply** is *true*, then this checkbox will not be shown. Otherwise, it will be displayed. By default, **hideapply** is *true* and the checkbox is hidden.
+
+``` txt
+hideapply: false
+```
