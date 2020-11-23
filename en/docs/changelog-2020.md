@@ -4,7 +4,11 @@ desc: Eonza Program Changelog for 2020
 ---
 # Changelog for 2020
 
-## Developer version
+<!--## Developer version-->
+
+<!--## Beta version 1.6.0-->
+
+## Version 1.6.0 - 2020/11/23
 
 * Added the [Copy Files](/scripts/copy-files.html) command.
 * Added the [Delete Empty Folders](/scripts/delete-empty-folders.html) and [Delete Files](/scripts/delete-files.html) commands.
@@ -12,8 +16,6 @@ desc: Eonza Program Changelog for 2020
 * Added the *Exclude the mask* and *Search only the directories* parameters in the command **Foreach File**.
 * Added *Split* function to the **Set Variable** command.
 * Added selection of actions *If File exists* in the [Copy File](/scripts/copy-file.html) command.
-
-<!--## Beta version 1.5.0-->
 
 ## Version 1.5.0 - 2020/11/12
 

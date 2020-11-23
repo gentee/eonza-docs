@@ -8,7 +8,7 @@ html:
 ---
 # Exit
 
-The **Exit**  command exits the script. When this command is invoked, the script exits gracefully regardless of the return code value.
+The **Exit**  command exits the script. When this command is invoked, the script exits gracefully regardless of the return code value. Note that this command terminates the script that was run. For example, if the *Exit* command is called in the *A* script, and you run the *B*  script and called *A* there, then the *B* script will complete its work with this command.
 
 %html.exit%
 
