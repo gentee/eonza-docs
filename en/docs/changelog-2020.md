@@ -4,7 +4,9 @@ desc: Eonza Program Changelog for 2020
 ---
 # Changelog for 2020
 
-<!--## Developer version-->
+## Developer version
+
+* Added the [Return](/scripts/return.html) command.
 
 <!--## Beta version 1.6.0-->
 

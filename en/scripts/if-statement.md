@@ -34,7 +34,14 @@ To implement the above example, you need to create 4 *If Statement* with the sam
 You can specify one or more conditions.
 
 **Variable name**  
-Specify the name of the variable whose value will be used in the comparison.
+Specify the name of the variable whose value will be used in the comparison. You can also specify fields and indexes of object variables or string values.
+
+``` txt
+varname
+myobj.param
+list[#item#]
+This is #param#
+```
 
 **Negation of Condition**  
 Click this checkbox when you want to negate the condition ( true => false, false => true).

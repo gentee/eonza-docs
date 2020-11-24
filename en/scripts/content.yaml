@@ -57,6 +57,7 @@ navmenu:
        - href: exit
        - href: for-statement
        - href: if-statement
+       - href: return
        - href: sleep
        - href: source-code
        - href: while-statement
