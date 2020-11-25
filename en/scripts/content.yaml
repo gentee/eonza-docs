@@ -53,6 +53,7 @@ navmenu:
        - href: httprequest
   - href: programming
     children:
+       - href: assertions
        - href: error
        - href: exit
        - href: for-statement

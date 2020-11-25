@@ -18,7 +18,7 @@ html:
 ---
 # Language Resources
 
-Language resources allow you to implement multi-language support for the script. Moreover, the automatic substitution of the required language will occur both in the program interface and during the script execution. This feature is useful if you plan to make your script available to the public. At the time of writing this article, Eonza supported only two languages - English and Russian. So for example, let's create a script that will also support these two languages.
+Language resources allow you to implement multi-language support for the script. Moreover, the automatic substitution of the required language will occur both in the program interface and during the script execution. This feature is useful if you plan to make your script available to the public. Note that if the Script tab is empty, you must give unique names to resources without the *_* prefix. For example, *yourscriptname.resname*. At the time of writing this article, Eonza supported only two languages - English and Russian. So for example, let's create a script that will also support these two languages.
 
 **Step 1.** Let's define the name of the script and the text it will output in English. If the resource is not used during the script execution, you can start its name with the symbol **_**. In this case, the compiler will skip this line.
 
