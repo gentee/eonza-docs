@@ -28,6 +28,7 @@ navmenu:
        - href: delete-file
        - href: delete-files       
        - href: fileinfo
+       - href: file-hash
        - href: file-list
        - href: foreach-file
        - href: curdir
