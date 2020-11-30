@@ -47,6 +47,8 @@ Specify the type of form element
 ]
 ```
 
+* **Password**. An element of this type is used to enter passwords. All characters are hidden when you enter them. Also, the entered value is not written to the log file.
+
 **Text**.  
 Description or name of the form element.
 

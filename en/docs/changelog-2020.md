@@ -8,6 +8,7 @@ desc: Eonza Program Changelog for 2020
 
 * Added the [Return](/scripts/return.html) command.
 * Added the [Assertions](/scripts/assertions.html) command.
+* Added *Password* element to the [Form](/scripts/form.html) command.
 
 <!--## Beta version 1.6.0-->
 
