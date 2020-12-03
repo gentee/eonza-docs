@@ -14,6 +14,11 @@ navmenu:
        - href: bash
        - href: open
        - href: run
+  - href: cryptography
+    children:
+       - href: decrypt-file
+       - href: encrypt-file
+       - href: file-hash
   - href: encoding
     children:
        - href: parse-json
@@ -28,7 +33,6 @@ navmenu:
        - href: delete-file
        - href: delete-files       
        - href: fileinfo
-       - href: file-hash
        - href: file-list
        - href: foreach-file
        - href: curdir

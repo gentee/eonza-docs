@@ -27,6 +27,7 @@ You can specify a list of functions that will sequentially convert the current v
 * **Absolute Path**. If the value is a relative path to a file or a directory, then it is converted into an absolute path.
 * **Append**. The value of the field *Parameter* will be appended to the current value.
 * **Append Path**. The path or file name in the *Parameter* field will be added to the current value with a **/** or **\\** separator, depending on the OS.
+* **Filename**. Get the last file or directory name from the current value.
 * **Get Environment Variable**. Get the value of the environment variable specified in the *Parameter* field. If the parameter is not specified, then the variable name is taken from the current value.
 * **Length**. The length of the current value is returned. If there is a variable with such name, the length of its value is returned. If there is an object variable, the number of elements in the array (map) or 0 is returned.
 * **Lower case**. Convert the current string to lower case.

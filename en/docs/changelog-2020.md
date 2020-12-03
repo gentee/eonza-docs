@@ -4,15 +4,16 @@ desc: Eonza Program Changelog for 2020
 ---
 # Changelog for 2020
 
-## Developer version
+<!--## Developer version-->
+
+## Beta version 1.7.0
 
 * Added the [Return](/scripts/return.html) command.
 * Added the [Assertions](/scripts/assertions.html) command.
 * Added the [File Hash](/scripts/file-hash.html) command.
+* Added the [Encrypt File](/scripts/encrypt-file.html) and [Decrypt File](/scripts/decrypt-file.html) commands.
 * Added *Password* element to the [Form](/scripts/form.html) command.
-* Added *Append Path* function to the **Set Variable** command.
-
-<!--## Beta version 1.6.0-->
+* Added *Append Path*, *Filename* functions to the **Set Variable** command.
 
 ## Version 1.6.0 - 2020/11/23
 
