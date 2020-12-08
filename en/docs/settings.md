@@ -6,17 +6,26 @@ img:
    settings-personal: settings-personal.png
    settings-constants: settings-constants.png
    settings-security: settings-security.png
+   settings-general: settings-general.png
    logout: logout.png
 html:
    settings-scripts: '<img src="%img.settings-scripts%" style="margin: 1em 1em;"/>'
    settings-personal: '<img src="%img.settings-personal%" style="margin: 1em 1em;"/>'
    settings-constants: '<img src="%img.settings-constants%" style="margin: 1em 1em;"/>'
    settings-security: '<img src="%img.settings-security%" style="margin: 1em 1em;"/>'
+   settings-general: '<img src="%img.settings-general%" style="margin: 1em 1em;"/>'
    logout: '<img src="%img.logout%" style="margin: 1em 1em;"/>'
 ---
 # Settings
 
 Here you can specify various settings for more comfortable work with the Eonza program. For the changes to the settings to take effect, you need to click on the Save button.
+
+## General
+
+**Title**  
+You can provide your own title for the Eonza program. This can be useful if you use more than one Eonza installation.
+
+%html.settings-general%
 
 ## Scripts
 
