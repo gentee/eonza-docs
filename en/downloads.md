@@ -50,7 +50,7 @@ If you are not sure what to download and have a regular computer, please use **6
 | %html.macos-64% |%res.program%| %size-darwin-amd64% | 64-bit (x86-64)| macOS
 %%
 
-<1--## Beta version %betaver%
+## Beta version %betaver%
 
 %% downloadbeta
 | %res.os% | %res.filename% | %res.kind% | %res.size% | %res.arch%
@@ -58,4 +58,4 @@ If you are not sure what to download and have a regular computer, please use **6
 | **Windows** | %html.windowsb-64%|%res.program%| %sizeb-windows-amd64% | 64-bit (x86-64)
 | **Linux** | %html.linuxb-64% |%res.program%| %sizeb-linux-amd64%| 64-bit (x86-64)
 | **Apple macOS**  | %html.macosb-64% |%res.program%| %sizeb-darwin-amd64% | 64-bit (x86-64)
-%%-->
+%%

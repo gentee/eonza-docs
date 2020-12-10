@@ -4,15 +4,16 @@ desc: Eonza Program Changelog for 2020
 ---
 # Changelog for 2020
 
-## Developer version
+<!--## Developer version-->
+## Beta version 1.8.0
 
+* Added tray icon with *Open in Browser* and *Shutdown* items (except MacOS).
 * Added **Folder** parameter to script settings.
 * Created *Standard library* folder for built-in scripts.
 * If another Eonza instance is running with the same configuration file, a web page with the previously launched instance will open in the browser.
 * Added *Title* parameter to **Settings**.
 * Improved **Shutdown** page.
 
-<!--## Beta version 1.7.0-->
 ## Version 1.7.0 - 2020/12/06
 
 * Added the [Return](/scripts/return.html) command.
