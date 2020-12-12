@@ -25,6 +25,9 @@ Here you can specify various settings for more comfortable work with the Eonza p
 **Title**  
 You can provide your own title for the Eonza program. This can be useful if you use more than one Eonza installation.
 
+**Hide Tray Icon**  
+This option is available if your version of Eonza supports displaying a menu icon in the system tray. Check this checkbox if you want to disable the creation of a system tray icon.
+
 %html.settings-general%
 
 ## Scripts

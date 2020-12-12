@@ -4,8 +4,12 @@ desc: Eonza Program Changelog for 2020
 ---
 # Changelog for 2020
 
-<!--## Developer version-->
-## Beta version 1.8.0
+## Developer version
+
+* Added *Hide Tray Icon* option in **Settings**.
+
+<!--## Beta version 1.8.0-->
+## Version 1.8.0 - 2020/12/12
 
 * Added tray icon with *Open in Browser* and *Shutdown* items (except MacOS).
 * Added **Folder** parameter to script settings.

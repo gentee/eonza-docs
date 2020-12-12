@@ -12,6 +12,7 @@ res:
 html:
    linux-64z: <strong><a href="%gitpath%-linux-amd64.zip" @click="track">eonza-%ver%-linux-amd64.zip</a></strong>
    linux-64: <a href="/downloads/linux-amd64/eonza" @click="track">eonza</a>
+   linux-64t: <a href="/downloads/linux-amd64/eonzat" @click="track">eonzat</a>
    linuxb-64: <a href="/downloads/linux-amd64/eonza-%betaver%b" @click="track">eonza</a>
    linux-32z: <a href="%gitpath%-linux-386.zip" @click="track">eonza-%ver%-linux-386.zip</a>
    linux-32: <a href="/downloads/linux-386/eonza" @click="track">eonza</a>
@@ -42,7 +43,8 @@ If you are not sure what to download and have a regular computer, please use **6
 | %html.windows-32%|%res.program%| %size-windows-386% | 32-bit (x86-32)| Windows
 | **Linux**
 | %html.linux-64z% |%res.archive%| %zsize-linux-amd64%| 64-bit (x86-64)| Linux
-| %html.linux-64% |%res.program%| %size-linux-amd64%| 64-bit (x86-64)| Linux
+| %html.linux-64%|%res.program%| %size-linux-amd64%| 64-bit (x86-64)| Linux
+| %html.linux-64t% (+TrayIcon)|%res.program%| %tsize-linux-amd64%| 64-bit (x86-64)| Linux
 | %html.linux-32z% |%res.archive%| %zsize-linux-386%| 32-bit (x86-32)| Linux
 | %html.linux-32% |%res.program%| %size-linux-386%| 32-bit (x86-32)| Linux
 | **Apple macOS**
@@ -50,7 +52,7 @@ If you are not sure what to download and have a regular computer, please use **6
 | %html.macos-64% |%res.program%| %size-darwin-amd64% | 64-bit (x86-64)| macOS
 %%
 
-## Beta version %betaver%
+<!--## Beta version %betaver%
 
 %% downloadbeta
 | %res.os% | %res.filename% | %res.kind% | %res.size% | %res.arch%
@@ -59,3 +61,4 @@ If you are not sure what to download and have a regular computer, please use **6
 | **Linux** | %html.linuxb-64% |%res.program%| %sizeb-linux-amd64%| 64-bit (x86-64)
 | **Apple macOS**  | %html.macosb-64% |%res.program%| %sizeb-darwin-amd64% | 64-bit (x86-64)
 %%
+-->
