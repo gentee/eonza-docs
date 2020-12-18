@@ -7,6 +7,8 @@ desc: Eonza Program Changelog for 2020
 ## Developer version
 
 * Added *Hide Tray Icon* option in **Settings**.
+* Add [Favorites](/docs/scripts.html) scripts.
+* Added Favorite Scripts to the system tray icon.
 
 <!--## Beta version 1.8.0-->
 ## Version 1.8.0 - 2020/12/12
