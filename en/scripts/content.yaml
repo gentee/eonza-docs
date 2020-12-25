@@ -14,6 +14,11 @@ navmenu:
        - href: bash
        - href: open
        - href: run
+  - href: archive
+    children:
+       - href: create-archive
+       - href: unpack-targz
+       - href: unpack-zip
   - href: cryptography
     children:
        - href: decrypt-file
@@ -32,6 +37,7 @@ navmenu:
        - href: delete-empty-folders 
        - href: delete-file
        - href: delete-files       
+       - href: directory-size
        - href: fileinfo
        - href: file-list
        - href: foreach-file

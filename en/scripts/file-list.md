@@ -28,6 +28,9 @@ Specify the name of the variable where the resulting list will be saved. The var
 **Search only directories**  
 If you want to search only directories, then specify **onlydirs** parameter equal to *true*.
 
+**Search only files**  
+If you want to search only files, then specify **onlyfiles** parameter equal to *true*.
+
 ``` txt
 onlydirs: true
 ```

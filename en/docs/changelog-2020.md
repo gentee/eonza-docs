@@ -4,13 +4,20 @@ desc: Eonza Program Changelog for 2020
 ---
 # Changelog for 2020
 
-## Developer version
+<!--## Developer version
+## Beta version 1.8.0-->
+
+## Version 1.9.0 - 2020/12/26
 
 * Added *Hide Tray Icon* option in **Settings**.
 * Add [Favorites](/docs/scripts.html) scripts.
 * Added Favorite Scripts to the system tray icon.
+* Added optional *onlyfiles* parameter to the *File List* command.
+* Added the [Directory Size](/scripts/directory-size.html) command.
+* Added the [Create Archive](/scripts/create-archive.html) command.
+* Added the [Unpack ZIP](/scripts/unpack-zip.html) command.
+* Added the [Unpack TAR.GZ](/scripts/unpack-targz.html) command.
 
-<!--## Beta version 1.8.0-->
 ## Version 1.8.0 - 2020/12/12
 
 * Added tray icon with *Open in Browser* and *Shutdown* items (except MacOS).

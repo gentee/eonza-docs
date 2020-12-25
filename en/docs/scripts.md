@@ -20,7 +20,6 @@ By clicking on the Recently Launched link you can see which tasks and in which o
 
 ## Favorites
 
-**Beta version**   
 In this tab you can see all your favorite scripts, delete them from the list or change their order. Favorite scripts are displayed in the top menu, which is updated automatically when you add or delete a script to Favorites. There is an icon in the upper right corner of each script card, which shows whether or not the script is added to the Favorites section. In addition, this button allows you to quickly add or remove a script from Favorites. You can create folders for more convenient work. In this case, all scripts in folders will be shown in the drop-down menu. Also, all the favorite scripts are shown in the Eonza menu in the system tray if you use the corresponding version of the program. Unfortunately, the system tray menu is not automatically updated, so you have to restart the program if you want to update the menu with scripts.
 
 %html.favorites%

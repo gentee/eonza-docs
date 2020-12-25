@@ -1,6 +1,6 @@
 ---
 title: Scripts for working with applications
-desc: SScripts for working with applications in the Eonza software.
+desc: Scripts for working with applications in the Eonza software.
 ---
 # Applications
 
