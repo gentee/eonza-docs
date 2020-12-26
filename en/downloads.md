@@ -10,11 +10,11 @@ res:
    program: Program
    size: Size
 html:
-   linux-64z: <strong><a href="%gitpath%-linux-amd64.zip" @click="track">eonza-%ver%-linux-amd64.zip</a></strong>
+   linux-64z: <strong><a href="%gitpath%-linux-amd64.tar.gz" @click="track">eonza-%ver%-linux-amd64.tar.gz</a></strong>
    linux-64: <a href="/downloads/linux-amd64/eonza" @click="track">eonza</a>
    linux-64t: <a href="/downloads/linux-amd64/eonzat" @click="track">eonzat</a>
    linuxb-64: <a href="/downloads/linux-amd64/eonza-%betaver%b" @click="track">eonza</a>
-   linux-32z: <a href="%gitpath%-linux-386.zip" @click="track">eonza-%ver%-linux-386.zip</a>
+   linux-32z: <a href="%gitpath%-linux-386.tar.gz" @click="track">eonza-%ver%-linux-386.tar.gz</a>
    linux-32: <a href="/downloads/linux-386/eonza" @click="track">eonza</a>
    macos-64z: <strong><a href="%gitpath%-darwin-amd64.zip" @click="track">eonza-%ver%-darwin-amd64.zip</a></strong>
    macos-64: <a href="/downloads/darwin-amd64/eonza" @click="track">eonza</a>
