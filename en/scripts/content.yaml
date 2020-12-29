@@ -75,6 +75,7 @@ navmenu:
        - href: while-statement
   - href: text
     children:
+       - href: foreach-line-file
        - href: join-text
        - href: regex-find
        - href: regex-replace

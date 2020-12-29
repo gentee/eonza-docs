@@ -29,6 +29,7 @@ You can specify a list of functions that will sequentially convert the current v
 * **Append Path**. The path or file name in the *Parameter* field will be added to the current value with a **/** or **\\** separator, depending on the OS.
 * **Filename**. Get the last file or directory name from the current value.
 * **Get Environment Variable**. Get the value of the environment variable specified in the *Parameter* field. If the parameter is not specified, then the variable name is taken from the current value.
+* **Hash**. Calculates the hash of the current value. In the *Parameter* field specify the hashing method - **md5** or **sha256**. If nothing is specified, *MD5* will be used.
 * **Length**. The length of the current value is returned. If there is a variable with such name, the length of its value is returned. If there is an object variable, the number of elements in the array (map) or 0 is returned.
 * **Lower case**. Convert the current string to lower case.
 * **Upper case**. Convert the current line to upper case.

@@ -4,8 +4,11 @@ desc: Eonza Program Changelog for 2020
 ---
 # Changelog for 2020
 
-<!--## Developer version
-## Beta version 1.8.0-->
+## Developer version
+<!--## Beta version 1.8.0-->
+
+* Added the [Foreach Line in File](/scripts/foreach-line-file.html) command.
+* Added Hash function to **Set Variable** command.
 
 ## Version 1.9.0 - 2020/12/26
 

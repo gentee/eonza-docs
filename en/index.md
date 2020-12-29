@@ -16,6 +16,7 @@ res:
       * Quick search for scripts.
       * You can launch scripts from the console.
       * Saving logs and console output for each completed task.
+      * Launch your favorite scripts from the system tray menu.
       * Export/import of scripts to/from a text YAML file.
       * It is possible to suspend, resume and terminate script execution.
 html:
