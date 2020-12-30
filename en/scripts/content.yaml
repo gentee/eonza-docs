@@ -60,6 +60,7 @@ navmenu:
        - href: write-to-console
   - href: network
     children:
+       - href: download-file
        - href: get-webpage
        - href: httprequest
   - href: programming
