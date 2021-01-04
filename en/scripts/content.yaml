@@ -43,6 +43,7 @@ navmenu:
        - href: foreach-file
        - href: curdir
        - href: move-file
+       - href: move-files
        - href: read-file
        - href: rename-file
        - href: chdir

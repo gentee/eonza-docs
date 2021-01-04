@@ -32,6 +32,8 @@ Specify the name of the object variable to get information from the user. This v
 * **btn** - the selected action. Can be one of the following values:
     * *overwrite* - replace the file.
     * *skip* - skip the file.
+    * *savecopy* - save a copy.
+
 
 %html.file-confirmation-1%
 

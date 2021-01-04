@@ -17,3 +17,10 @@ Specify the full or relative path to the directory or file to be moved.
 
 **Destination Path**  
 Specify the directory to which the specified file or directory should be moved.
+
+**If File Exists**  
+This parameter is described in the [Copy file](copy-file.html) command. This parameter is not used when moving the directory.
+
+## Optional parameters
+
+You can use the same optional parameters as in the **Copy file** command.

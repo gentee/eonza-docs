@@ -26,6 +26,7 @@ You can specify what to do if a file already exists in the target directory.
 * *Skip* - do not write the file.
 * *Ask* - ask the user for permission to overwrite this file.
 * *Ask if newer* - ask the user for permission to overwrite the file only if it is newer. Otherwise, the file will be skipped.
+* *Save a copy* - the file will be saved as a copy with a name like *filename (1).ext*.
 
 **Save File Time**  
 Check this checkbox if you want to save the time of the copied file.
