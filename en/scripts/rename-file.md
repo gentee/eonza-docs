@@ -15,5 +15,12 @@ The **Rename File** command renames the specified file or directory.
 **Path**  
 Specify the full or relative path to the directory or file to be renamed.
 
-**New Name**  
+**New Filename**  
 Enter a new name for the file or directory.
+
+**If File Exists**  
+This parameter is described in the [Copy file](copy-file.html) command.
+
+## Optional parameters
+
+You can use the same optional parameters as in the **Copy file** command.

@@ -11,7 +11,7 @@ desc: Eonza Program Changelog for 2020
 * Added the [Download File](/scripts/download-file.html) command.
 * Added the [Foreach Line in File](/scripts/foreach-line-file.html) command.
 * Added Hash function to **Set Variable** command.
-* Added *If File Exists* parameter to the **Move File** command.
+* Added *If File Exists* parameter to the **Move File** and **Rename File** commands.
 * Added *Save a copy* to the *If File Exists* parameter in the **Copy File** command.
 * Added *Save a copy* button in the **File Confirmation** command.
 * Fixed some minor bugs.
