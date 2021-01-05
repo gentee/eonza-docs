@@ -46,6 +46,7 @@ navmenu:
        - href: move-files
        - href: read-file
        - href: rename-file
+       - href: rename-files
        - href: chdir
        - href: write-file
   - href: forms

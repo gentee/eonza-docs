@@ -6,6 +6,7 @@ desc: История изменений программы Eonza за 2020
 
 ## Версия разработчика
 
+* Добавлена командa [Переименовать файлы](/ru/scripts/rename-files.html).
 * Добавлена командa [Переместить файлы](/ru/scripts/move-files.html).
 * Добавлена командa [Скачать файл](/ru/scripts/download-file.html).
 * Добавлена командa [Для каждой строки в файле](/ru/scripts/foreach-line-file.html).
