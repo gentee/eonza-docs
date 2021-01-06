@@ -8,7 +8,6 @@ html:
 ---
 # Download File
 
-**v1.10.0**  
 The **Download File** command downloads the file at the specified URL and saves it in the specified directory.
 
 %html.download-file%

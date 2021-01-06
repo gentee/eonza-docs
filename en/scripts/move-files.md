@@ -8,7 +8,6 @@ html:
 ---
 # Move Files
 
-**v1.10.0**  
 The **Move Files** command moves files from one directory to another one according to the specified masks and regular expressions. If no masks and regular expressions are specified, then all files will be moved.
 
 %html.move-files%

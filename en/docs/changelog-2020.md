@@ -4,19 +4,6 @@ desc: Eonza Program Changelog for 2020
 ---
 # Changelog for 2020
 
-## Developer version
-<!--## Beta version 1.8.0-->
-
-* Added the [Rename Files](/scripts/rename-files.html) command.
-* Added the [Move Files](/scripts/move-files.html) command.
-* Added the [Download File](/scripts/download-file.html) command.
-* Added the [Foreach Line in File](/scripts/foreach-line-file.html) command.
-* Added Hash function to **Set Variable** command.
-* Added *If File Exists* parameter to the **Move File** and **Rename File** commands.
-* Added *Save a copy* to the *If File Exists* parameter in the **Copy File** command.
-* Added *Save a copy* button in the **File Confirmation** command.
-* Fixed some minor bugs.
-
 ## Version 1.9.0 - 2020/12/26
 
 * Added *Hide Tray Icon* option in **Settings**.

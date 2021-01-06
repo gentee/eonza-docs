@@ -47,5 +47,7 @@ navmenu:
     - href: open-source
     - title: "%changelog%"
       children:
+        - href: changelog-2021
+          title: 2021
         - href: changelog-2020
           title: 2020

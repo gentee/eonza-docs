@@ -8,7 +8,6 @@ html:
 ---
 # Foreach Line in File
 
-**v1.10.0.**  
 The **Foreach Line in File** command executes nested commands for each line in the specified text file.
 
 %html.foreach-line-file%

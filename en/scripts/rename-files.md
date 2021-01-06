@@ -8,7 +8,6 @@ html:
 ---
 # Rename Files
 
-**v1.10.0**  
 The **Rename Files** command renames files according to the specified regular expression.
 
 %html.rename-files%
