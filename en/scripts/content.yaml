@@ -60,6 +60,9 @@ navmenu:
        - href: read-console
        - href: set-log-level
        - href: write-to-console
+  - href: messaging
+    children:
+       - href: send-telegram-message
   - href: network
     children:
        - href: download-file

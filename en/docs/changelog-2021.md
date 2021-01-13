@@ -4,8 +4,13 @@ desc: Eonza Program Changelog for 2021
 ---
 # Changelog for 2021
 
-<!--## Developer version
-<## Beta version 1.8.0-->
+## Developer version
+
+* Added the [Send Telegram Message](/scripts/send-telegram-message.html) command.
+* Added language selection on first launch.
+* Added variable substitution to the **HTTP Request** command.
+
+<!--## Beta version 1.8.0-->
 
 ## Version 1.10.0 - 2021/01/06
 
