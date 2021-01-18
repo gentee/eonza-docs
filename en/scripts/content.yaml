@@ -54,6 +54,7 @@ navmenu:
        - href: file-confirmation
        - href: form
        - href: message
+       - href: notification
   - href: log-console-output
     children:
        - href: log-output

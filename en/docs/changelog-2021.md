@@ -6,6 +6,8 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Added [Notifications](/docs/notifications.html).
+* Added the [Notification](/scripts/notification.html) command.
 * Added the [Send Telegram Message](/scripts/send-telegram-message.html) command.
 * Added language selection on first launch.
 * Added variable substitution to the **HTTP Request** command.
