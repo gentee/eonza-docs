@@ -11,6 +11,7 @@ Eonza program does not require installation and is distributed as a single execu
 * **eonza(.exe)** - Eonza program.
 * **eonza.eox** - binary file with data. It contains user-created scripts and common settings.
 * **eonza.yaml** - configuration file.
+* **eonza.eon** - binary file with notifications and other service information. Deleting this file does not affect the performance of the program.
 
 ## Config File
 

@@ -28,6 +28,9 @@ You can provide your own title for the Eonza program. This can be useful if you 
 **Hide Tray Icon**  
 This option is available if your version of Eonza supports displaying a menu icon in the system tray. Check this checkbox if you want to disable the creation of a system tray icon.
 
+**Automatic check for updates**  
+You can specify the frequency with which you want to check for new versions of the program. You will be notified if a new version is found. Also, you can check for updates at any time in the *Help* tab.
+
 %html.settings-general%
 
 ## Scripts
