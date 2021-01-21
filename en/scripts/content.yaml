@@ -82,7 +82,9 @@ navmenu:
        - href: while-statement
   - href: text
     children:
+       - href: copy-to-clipboard
        - href: foreach-line-file
+       - href: get-clipboard
        - href: join-text
        - href: regex-find
        - href: regex-replace
