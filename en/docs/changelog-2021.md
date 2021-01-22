@@ -4,17 +4,20 @@ desc: Eonza Program Changelog for 2021
 ---
 # Changelog for 2021
 
-## Developer version
+<!--## Beta version 1.8.0
+## Developer version-->
 
+## Version 1.11.0 - 2021/01/22
+
+* Added the [Copy To Clipboard](/scripts/copy-to-clipboard.html) command.
+* Added the [Get Clipboard](/scripts/get-clipboard.html) command.
 * Added [Notifications](/docs/notifications.html).
 * Added the [Notification](/scripts/notification.html) command.
 * Added the [Send Telegram Message](/scripts/send-telegram-message.html) command.
-* Added language selection on first launch.
+* Added language selection on the first launch.
 * Added variable substitution to the **HTTP Request** command.
 * Added *Check for Update* button in **Help - About**.
 * Added setting for automatic check for updates in **Settings - General**.
-
-<!--## Beta version 1.8.0-->
 
 ## Version 1.10.0 - 2021/01/06
 
