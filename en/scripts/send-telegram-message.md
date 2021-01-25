@@ -8,7 +8,6 @@ html:
 ---
 # Send Telegram Message
 
-**v1.11.0**  
 The **Send Telegram Message** command sends a text message to the specified Telegram channel using a bot.
 
 %html.send-telegram-message%

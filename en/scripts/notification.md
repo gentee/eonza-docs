@@ -8,7 +8,6 @@ html:
 ---
 # Notification
 
-**v1.11.0**  
 The **Notification** command sends a notification to the Eonza program. You can see the received notifications in the [Notifications](/docs/notifications.html) tab.
 
 %html.notification%
