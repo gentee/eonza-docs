@@ -63,7 +63,9 @@ navmenu:
        - href: write-to-console
   - href: messaging
     children:
+       - href: send-email
        - href: send-telegram-message
+       - href: smtp-server
   - href: network
     children:
        - href: download-file
