@@ -8,6 +8,7 @@ desc: Eonza Program Changelog for 2021
 ## Developer version
 
 * Added the [SMTP Server](/scripts/smtp-server.html) command.
+* Added the [Send Email](/scripts/send-email.html) command.
 
 ## Version 1.11.0 - 2021/01/22
 
