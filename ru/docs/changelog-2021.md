@@ -11,6 +11,7 @@ desc: История изменений программы Eonza за 2021
 * Добавлена командa [Отправить письмо](/ru/scripts/send-email.html).
 * Добавлена командa [SQL соединение](/ru/scripts/sql-connection.html).
 * Добавлена командa [Закрыть SQL](/ru/scripts/sql-close.html).
+* Добавлена командa [Выполнить SQL](/ru/scripts/sql-exec.html).
 * Исправлено несколько мелких ошибок.
 
 ## Версия 1.11.0 - 2021/01/22
