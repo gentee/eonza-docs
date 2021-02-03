@@ -24,6 +24,10 @@ navmenu:
        - href: decrypt-file
        - href: encrypt-file
        - href: file-hash
+  - href: database
+    children:
+       - href: sql-close
+       - href: sql-connection
   - href: encoding
     children:
        - href: parse-json
