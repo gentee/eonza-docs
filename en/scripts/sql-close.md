@@ -8,7 +8,6 @@ html:
 ---
 # SQL Close
 
-**1.12.0**  
 The **SQL Close** command closes the connection to the SQL server.
 
 %html.sql-close%

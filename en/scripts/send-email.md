@@ -8,7 +8,6 @@ html:
 ---
 # Send Email
 
-**1.12.0**  
 The **Send Email** command sends an email using the specified SMTP server.
 
 %html.send-email%

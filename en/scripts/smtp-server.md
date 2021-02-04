@@ -8,7 +8,6 @@ html:
 ---
 # SMTP Server
 
-**1.12.0**  
 The **SMTP server** command saves the specified settings for connecting to the SMTP server into a variable. Further, the name of this variable should be specified in the [Send Email](send-email.html) command.
 
 %html.smtp-server%

@@ -8,7 +8,6 @@ html:
 ---
 # SQL Query
 
-**1.12.0**  
 The **SQL Query** command executes an SQL query to select data and writes the received data to an object variable.
 
 %html.sql-query%

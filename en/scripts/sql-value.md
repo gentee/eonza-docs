@@ -8,7 +8,6 @@ html:
 ---
 # SQL Value
 
-**1.12.0**  
 The **SQL Value** command executes an SQL query to select data and writes the value of the first column of the first record found into a variable.
 
 %html.sql-value%

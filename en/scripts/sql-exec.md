@@ -8,7 +8,6 @@ html:
 ---
 # SQL Exec
 
-**1.12.0**  
 Command **SQL Exec** executes SQL statements.
 
 %html.sql-exec%

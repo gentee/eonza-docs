@@ -8,7 +8,6 @@ html:
 ---
 # SQL Connection
 
-**1.12.0**  
 The **SQL Сonnection** command establishes a connection to the SQL server and saves the connection ID in a variable.
 
 %html.sql-connection%

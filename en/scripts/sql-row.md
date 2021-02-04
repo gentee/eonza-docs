@@ -8,7 +8,6 @@ html:
 ---
 # SQL Row
 
-**1.12.0**  
 The **SQL Row** command executes an SQL query to select data and writes the first record found to an object variable.
 
 %html.sql-row%
