@@ -12,6 +12,9 @@ desc: Eonza Program Changelog for 2021
 * Added the [SQL Connection](/scripts/sql-connection.html) command.
 * Added the [SQL Close](/scripts/sql-close.html) command.
 * Added the [SQL Exec](/scripts/sql-exec.html) command.
+* Added the [SQL Query](/scripts/sql-query.html) command.
+* Added the [SQL Row](/scripts/sql-row.html) command.
+* Added the [SQL Value](/scripts/sql-value.html) command.
 * Fixed some minor bugs.
 
 ## Version 1.11.0 - 2021/01/22

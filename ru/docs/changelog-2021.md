@@ -12,6 +12,9 @@ desc: История изменений программы Eonza за 2021
 * Добавлена командa [SQL соединение](/ru/scripts/sql-connection.html).
 * Добавлена командa [Закрыть SQL](/ru/scripts/sql-close.html).
 * Добавлена командa [Выполнить SQL](/ru/scripts/sql-exec.html).
+* Добавлена командa [SQL запрос](/ru/scripts/sql-query.html).
+* Добавлена командa [SQL строка](/ru/scripts/sql-row.html).
+* Добавлена командa [SQL значение](/ru/scripts/sql-value.html).
 * Исправлено несколько мелких ошибок.
 
 ## Версия 1.11.0 - 2021/01/22

@@ -29,6 +29,9 @@ navmenu:
        - href: sql-close
        - href: sql-connection
        - href: sql-exec
+       - href: sql-query
+       - href: sql-row
+       - href: sql-value
   - href: encoding
     children:
        - href: parse-json
