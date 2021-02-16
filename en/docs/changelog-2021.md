@@ -4,8 +4,15 @@ desc: Eonza Program Changelog for 2021
 ---
 # Changelog for 2021
 
-<!--## Beta version 1.8.0
-## Developer version-->
+<!--## Beta version 1.8.0-->
+## Developer version
+
+* Added the *Substitute Variable Values* parameter to the [Set Variable](/scripts/set-variable.html) command.
+* Refactored password protection.
+
+Fixed bugs
+
+* Notifications were not shown when using a password.
 
 ## Version 1.12.0 - 2021/02/04
 

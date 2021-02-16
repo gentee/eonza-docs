@@ -20,6 +20,33 @@ Specify the name of the variable to which you want to assign the value.
 **Value**  
 Specify the value to be assigned to the variable. It can be multi-line.
 
+**Substitute Variable Values**  
+Whether or not to replace the values ​​of variables when assigning.
+
+* *No* - The #varname# variables will not be replaced.
+* *Everywhere* - All #varname# variables will be replaced with their values.
+* *Only in the Value* - Replace #varname# variables in the Value.
+* *Only in the Variable Name* - Replace #varname# variables in the Variable Name.
+
+By default, the variable is assigned to the specified string without substituting the variables that are included in it. For example, we assign the value *#mytest#* to the variable *myvar*. If the *mytest* variable changes, the next reference #myvar# will return the new value of variable *mytest*.
+
+``` txt
+mytest = a test
+myvar = This is #mytest#.
+#myvar# => This is a test.
+mytest = an example
+#myvar# => This is an example.
+```
+
+If you select *Only in the Value*, then the variable will be assigned a value with the replaced variables and the variable will not be changed in the future.
+
+``` txt
+mytest = a test
+myvar = This is #mytest#.
+mytest = an example
+#myvar# => This is a test.
+```
+
 ## Functions
 
 You can specify a list of functions that will sequentially convert the current value. In this case, the *Value* field is the initial value. If the *Value* field is not specified, then the current value of the variable is taken as the initial value. You can add these functions in the order you need. The final result will be assigned to the variable.
