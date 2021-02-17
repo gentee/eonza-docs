@@ -9,6 +9,7 @@ desc: Eonza Program Changelog for 2021
 
 * Added the [Hex Encoding](/scripts/hex-encoding.html) command.
 * Added the [Base64 Encoding](/scripts/base64-encoding.html) command.
+* Added the [Convert Text](/scripts/convert-text.html) command.
 * Added the *Substitute Variable Values* parameter to the [Set Variable](/scripts/set-variable.html) command.
 * Refactored password protection.
 

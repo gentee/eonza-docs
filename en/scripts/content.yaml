@@ -96,6 +96,7 @@ navmenu:
        - href: while-statement
   - href: text
     children:
+       - href: convert-text
        - href: copy-to-clipboard
        - href: foreach-line-file
        - href: get-clipboard
