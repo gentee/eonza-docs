@@ -36,6 +36,8 @@ navmenu:
        - href: sql-value
   - href: encoding
     children:
+       - href: base64-encoding
+       - href: hex-encoding
        - href: parse-json
   - href: files
     children:
