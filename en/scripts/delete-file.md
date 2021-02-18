@@ -14,3 +14,6 @@ The **Delete File** command deletes the specified file or empty directory.
 
 **Path**  
 Specify the full or relative path to the directory or file to be deleted. If a directory is specified and it is not empty, an error will be generated.
+
+**Skip if file does not exist**  
+By default, an error is returned if the specified file does not exist. Check this checkbox if you want to skip non-existent files.

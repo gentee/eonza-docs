@@ -11,6 +11,7 @@ desc: Eonza Program Changelog for 2021
 * Added the [Base64 Encoding](/scripts/base64-encoding.html) command.
 * Added the [Convert Text](/scripts/convert-text.html) command.
 * Added the *Substitute Variable Values* parameter to the [Set Variable](/scripts/set-variable.html) command.
+* Added the *Skip if file does not exist* checkbox to the [Delete File](/scripts/delete-file.html) command.
 * Refactored password protection.
 
 Fixed bugs
