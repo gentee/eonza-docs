@@ -39,6 +39,7 @@ navmenu:
        - href: base64-encoding
        - href: hex-encoding
        - href: parse-json
+       - href: parse-yaml
   - href: files
     children:
        - href: copy-file

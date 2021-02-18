@@ -7,6 +7,7 @@ desc: Eonza Program Changelog for 2021
 <!--## Beta version 1.8.0-->
 ## Developer version
 
+* Added the [Parse YAML](/scripts/parse-yaml.html) command.
 * Added the [Hex Encoding](/scripts/hex-encoding.html) command.
 * Added the [Base64 Encoding](/scripts/base64-encoding.html) command.
 * Added the [Convert Text](/scripts/convert-text.html) command.

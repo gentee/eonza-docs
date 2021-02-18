@@ -7,6 +7,7 @@ desc: История изменений программы Eonza за 2021
 <!--## Бета версия 1.8.0-->
 ## Версия разработчика
 
+* Добавлена командa [Разобрать YAML](/ru/scripts/parse-yaml.html).
 * Добавлена командa [Hex кодирование](/ru/scripts/hex-encoding.html).
 * Добавлена командa [Base64 кодирование](/ru/scripts/base64-encoding.html).
 * Добавлена командa [Конвертировать текст](/ru/scripts/convert-text.html).
