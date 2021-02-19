@@ -8,7 +8,6 @@ html:
 ---
 # Parse YAML
 
-**1.13.0**  
 The **Parse YAML** command parses YAML data and stores it in an object variable.
 
 %html.parse-yaml%

@@ -8,7 +8,6 @@ html:
 ---
 # Convert Text
 
-**1.13.0**  
 The *Convert Text* command converts text from one code page to another.
 
 %html.convert-text%

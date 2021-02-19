@@ -8,7 +8,6 @@ html:
 ---
 # Base64 Encoding
 
-**1.13.0**  
 The **Base64 Encoding** command encodes a regular string to a Base64 string, or decodes a Base64 string to a regular string.
 
 %html.base64-encoding%

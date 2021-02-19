@@ -8,7 +8,6 @@ html:
 ---
 # Hex Encoding
 
-**1.13.0**  
 The **Hex Encoding** command encodes bytes into a hexadecimal string or decodes a hexadecimal string into a sequence of bytes.
 
 %html.hex-encoding%
