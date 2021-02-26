@@ -4,8 +4,10 @@ desc: Eonza Program Changelog for 2021
 ---
 # Changelog for 2021
 
-<!--## Beta version 1.8.0
-## Developer version-->
+<!--## Beta version 1.8.0-->
+## Developer version
+
+* Improved security.
 
 ## Version 1.13.0 - 2021/02/19
 
