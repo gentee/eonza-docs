@@ -37,6 +37,7 @@ navmenu:
   - href: encoding
     children:
        - href: base64-encoding
+       - href: foreach-line-csv
        - href: hex-encoding
        - href: parse-json
        - href: parse-yaml
