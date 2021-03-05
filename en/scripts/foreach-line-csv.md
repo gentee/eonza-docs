@@ -8,6 +8,7 @@ html:
 ---
 # Foreach Line in CSV
 
+**v1.14.0**  
 The command **Foreach Line in CSV** executes nested commands for each line in the specified CSV file.
 
 %html.foreach-line-csv%

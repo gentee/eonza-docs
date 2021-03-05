@@ -7,6 +7,8 @@ desc: Eonza Program Changelog for 2021
 <!--## Beta version 1.8.0-->
 ## Developer version
 
+* Added the [Foreach Registry Value](/scripts/foreach-registry-value.html) command.
+* Added the [Foreach Registry Subkey](/scripts/foreach-registry-subkey.html) command.
 * Added the [Foreach Line in CSV](/scripts/foreach-line-csv.html) command.
 * Improved security.
 

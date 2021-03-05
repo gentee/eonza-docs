@@ -113,3 +113,9 @@ navmenu:
        - href: set-environment
        - href: set-variable
        - href: set-variables
+  - href: windows
+    children:
+       - href: registry
+         children:
+            - href: foreach-registry-subkey
+            - href: foreach-registry-value
