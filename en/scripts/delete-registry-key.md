@@ -8,7 +8,6 @@ html:
 ---
 # Delete Registry Key
 
-**v1.14.0**  
 The **Delete Registry Key** command deletes the specified Windows Registry key with all subkeys.
 
 %html.delete-registry-key%

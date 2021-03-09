@@ -8,7 +8,6 @@ html:
 ---
 # Delete Registry Value
 
-**v1.14.0**  
 The **Delete Registry Value** command deletes the Windows Registry values ​​in the specified subkey.
 
 %html.delete-registry-value%

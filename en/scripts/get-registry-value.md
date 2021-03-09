@@ -8,7 +8,6 @@ html:
 ---
 # Get Registry Value
 
-**v1.14.0**  
 The **Get Registry Value** command retrieves the Windows Registry values ​​in the specified subkey and assigns these values ​​to variables.
 
 %html.get-registry-value%

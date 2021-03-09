@@ -8,7 +8,6 @@ html:
 ---
 # Foreach Registry Value
 
-**v1.14.0**  
 The **Foreach Registry Value** command executes nested commands for each value in the specified Windows Registry subkey.
 
 %html.foreach-registry-value%

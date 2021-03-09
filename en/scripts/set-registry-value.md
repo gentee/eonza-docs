@@ -8,7 +8,6 @@ html:
 ---
 # Set Registry Value
 
-**v1.14.0**  
 The **Set Registry Value** command creates or modifies the Windows Registry values ​​in the specified subkey.
 
 %html.set-registry-value%

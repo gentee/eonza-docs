@@ -8,7 +8,6 @@ html:
 ---
 # Foreach Registry Subkey
 
-**v1.14.0**  
 The **Foreach Registry Subkey** command enumerates all subkeys of the specified subkey and executes the nested commands for each subkey.
 
 %html.foreach-registry-subkey%

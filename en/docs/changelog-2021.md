@@ -4,8 +4,10 @@ desc: Eonza Program Changelog for 2021
 ---
 # Changelog for 2021
 
-<!--## Beta version 1.8.0-->
-## Developer version
+<!--## Beta version 1.8.0
+## Developer version-->
+
+## Version 1.14.0 - 2021/03/09
 
 * Added the [Set Registry Value](/scripts/set-registry-value.html) command.
 * Added the [Get Registry Value](/scripts/get-registry-value.html) command.
