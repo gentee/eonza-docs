@@ -7,6 +7,8 @@ desc: История изменений программы Eonza за 2021
 <!--## Бета версия 1.8.0-->
 ## Версия разработчика
 
+* Добавлена командa [Удалить значение Реестра](/ru/scripts/delete-registry-value.html).
+* Добавлена командa [Удалить ключ Реестра](/ru/scripts/delete-registry-key.html).
 * Добавлена командa [Для каждого значения Реестра](/ru/scripts/foreach-registry-value.html).
 * Добавлена командa [Для каждого подключа Реестра](/ru/scripts/foreach-registry-subkey.html).
 * Добавлена командa [Для каждой строки в CSV](/ru/scripts/foreach-line-csv.html).

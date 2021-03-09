@@ -117,5 +117,7 @@ navmenu:
     children:
        - href: registry
          children:
+            - href: delete-registry-key
+            - href: delete-registry-value
             - href: foreach-registry-subkey
             - href: foreach-registry-value
