@@ -121,3 +121,5 @@ navmenu:
             - href: delete-registry-value
             - href: foreach-registry-subkey
             - href: foreach-registry-value
+            - href: get-registry-value
+            - href: set-registry-value

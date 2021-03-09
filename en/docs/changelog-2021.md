@@ -7,6 +7,8 @@ desc: Eonza Program Changelog for 2021
 <!--## Beta version 1.8.0-->
 ## Developer version
 
+* Added the [Set Registry Value](/scripts/set-registry-value.html) command.
+* Added the [Get Registry Value](/scripts/get-registry-value.html) command.
 * Added the [Delete Registry Value](/scripts/delete-registry-value.html) command.
 * Added the [Delete Registry Key](/scripts/delete-registry-key.html) command.
 * Added the [Foreach Registry Value](/scripts/foreach-registry-value.html) command.
