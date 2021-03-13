@@ -45,9 +45,11 @@ navmenu:
     - href: console-mode
       title: "%console-mode%"
     - href: restore-password
+    - href: two-factor-authentication
   - title: "%prover%"
     children:
       - href: users
+      - href: pro-security
   - href: development
     children:
     - href: open-source
