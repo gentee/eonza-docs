@@ -29,6 +29,9 @@ navmenu:
         - href: editor-source-code
         - href: editor-compile
     - href: task-manager
+    - href: scheduler
+      children:
+        - href: timers
     - href: notifications
     - href: settings
   - href: script-development

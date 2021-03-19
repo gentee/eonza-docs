@@ -27,6 +27,8 @@ Since the demo version runs on real hosting and the program has great computer c
 
 * **Scripts**. The number of simultaneously running scripts cannot exceed 2.
 
+* **Scheduler**. The scheduler disables script launching. The scheduler sends a notification instead of running the script.
+
 * **Settings**. Disabled the ability to set login password.
 
 If an error occurs during the script operation due to sandbox limitations, the script will stop working and output an error that starts with text **[Playground]**.
