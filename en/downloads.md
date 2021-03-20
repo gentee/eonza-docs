@@ -9,6 +9,7 @@ res:
    os: OS
    program: Program
    size: Size
+   nodownloads: 1
 html:
    linux-64z: <strong><a href="%gitpath%-linux-amd64.tar.gz" @click="track">eonza-%ver%-linux-amd64.tar.gz</a></strong>
    linux-64: <a href="/downloads/linux-amd64/eonza" @click="track">eonza</a>

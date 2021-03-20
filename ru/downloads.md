@@ -9,6 +9,7 @@ res:
    os: ОС
    program: Программа
    size: Размер
+   nodownloads: 1
 ---
 # Скачать
 
