@@ -8,7 +8,7 @@ res:
    contacts: Contacts
    keys-md: |-
       * **It does not require installation. Save the program to any directory and run it. To uninstall just delete the folder.**
-      * **Free, cross-platform, open source.**
+      * **Free, open source, cross-platform.**
       * **Software does not require any additional programs or packages.**
       * **Graphical interface is implemented in HTML+JavaScript and opens in the browser.**
       * **Portable by default.**
@@ -25,6 +25,7 @@ res:
       * Export/import of scripts to/from a text YAML file.
       * It is possible to suspend, resume and terminate script execution.
 html:
+   line: <div>&nbsp;</div>
    features: |-
       <div style="margin: 0em 0em;" class="columns">
       <div class="column is-two-thirds">
@@ -76,11 +77,11 @@ html:
 ---
 # Create scripts and automate tasks
 
-&nbsp;
+%html.line%
 
 ## Automate your work on the computer
 
-**Eonza** software is designed to create scripts and automate tasks on a computer. The program will help you increase productivity and save time.
+The **Eonza** automation tool is used to create scripts and automate tasks on a computer. It is a free and open source cross-platform program that can help you increase productivity and save time.
 
 %html.features%
 
