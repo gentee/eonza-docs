@@ -39,6 +39,7 @@ navmenu:
        - href: base64-encoding
        - href: foreach-line-csv
        - href: hex-encoding
+       - href: markdown-to-html
        - href: parse-json
        - href: parse-yaml
   - href: files

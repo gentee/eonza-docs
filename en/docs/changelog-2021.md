@@ -8,6 +8,11 @@ desc: Eonza Program Changelog for 2021
 ## Developer version
 
 * Added the Scheduler - [Timers](/docs/timers.html).
+* Added the [Markdown To HTML](/scripts/markdown-to-html.html) command.
+
+Fixed bugs
+
+* Wrong display *HTML Text* in the **Form** command.
 
 ## Version 1.14.0 - 2021/03/09
 

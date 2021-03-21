@@ -6,16 +6,17 @@ img:
    eonza-2: eonza-2.png
 res:
    contacts: Contacts
-   keys-md: |-
-      * **It does not require installation. Save the program to any directory and run it. To uninstall just delete the folder.**
+   features-md: |-
+      * **It does not require installation. Save the file to any directory and run it. To uninstall just delete the folder.**
       * **Free, open source, cross-platform.**
       * **Software does not require any additional programs or packages.**
-      * **Graphical interface is implemented in HTML+JavaScript and opens in the browser.**
+      * **Responsive interface accessible in your browser.**
       * **Portable by default.**
-   features-md: |-
+   keys-md: |-
+      ## Key features
+
       * Creating scripts does not require knowledge of programming languages.
       * There is a constantly updated library of built-in scripts.
-      * **The program can be installed on a remote server or VPS/VDS hosting and managed from a browser**.
       * Protection by password and using a "white list" of IP-addresses.
       * Quick search for scripts.
       * You can launch scripts from the console.
@@ -32,12 +33,13 @@ html:
       %res.features-md%
       </div>
       <div  class="column" style="padding-left: 1em;max-width: 350px;">
-      <a href="%img.eonza-1%"><img src="%img.eonza-1%" style="margin: 1em 1em;width: 300px;"/></a>
+      <a href="%img.eonza-1%"><img src="%img.eonza-2%" style="margin: 1em 1em;width: 300px;"/></a>
       </div>
       </div>
    home: |-
       <div style="margin: 0em 0em;" class="columns">
       <div class="column is-two-thirds">
+      %res.features-md%
       %res.keys-md%
       <div style="margin-top: 1rem;">
       <a class="button is-medium" title="%onlinedemo%" style="text-decoration:none;margin-bottom:1rem;color: #fff;
@@ -71,23 +73,18 @@ html:
       </ul>
       </div>
       <div  class="column" style="padding-left: 1em;max-width: 350px;">
+      <a href="%img.eonza-1%"><img src="%img.eonza-1%" style="margin: 1em 1em;width: 300px;"/></a>
       <a href="%img.eonza-2%"><img src="%img.eonza-2%" style="margin: 1em 1em;width: 300px;"/></a>
       </div>
       </div>
 ---
-# Create scripts and automate tasks
+# Create scripts and automate IT tasks
 
 %html.line%
 
-## Automate your work on the computer
+## Automate tasks on your computer
 
-The **Eonza** automation tool is used to create scripts and automate tasks on a computer. It is a free and open source cross-platform program that can help you increase productivity and save time.
-
-%html.features%
-
-## Manage your servers from any browser on any device
-
-You can run the necessary scripts on the server from any browser. Scripts can display various forms with input fields, checkboxes, and drop-down lists. Console output and logs are available even after the script ends.
+The **Eonza** automation tool is used to create scripts and automate tasks on a computer. It is a free and open source cross-platform program that can help you increase productivity and save time. The program and scripts have a responsive and intuitive interface accessible in your browser. You can use Eonza not only on a desktop computer, but also on a remote server or VPS/VDS hosting. In this case, you can **manage servers from any browser on any device**.
 
 <!--Free, open source cross-platform program for working with scripts and automating actions on the computer.-->
 
