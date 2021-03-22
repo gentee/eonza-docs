@@ -6,7 +6,7 @@ desc: License Agreement of Eonza automation software.
 
 MIT License  
 
-Copyright (c) 2020 Alexey Krivonogov  
+Copyright (c) 2020-21 Alexey Krivonogov  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
