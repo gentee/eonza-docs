@@ -9,6 +9,8 @@ desc: Eonza Program Changelog for 2021
 
 * Added the Scheduler - [Timers](/docs/timers.html).
 * Added the [Markdown To HTML](/scripts/markdown-to-html.html) command.
+* Added the [Readme](/scripts/readme.html) command.
+* Added *Preview* option for **Multi-line text** in the script parameters.
 
 Fixed bugs
 

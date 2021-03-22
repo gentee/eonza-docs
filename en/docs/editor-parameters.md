@@ -92,6 +92,10 @@ Additional settings must be specified as a JSON object.
 }
 ```
 
+* **flags** - additional flags for parameters.
+  
+  * **preview** - This flag is used for parameters with *Multi-line text* type. If it is specified, you can switch to **Preview** mode when editing text. The text will be shown as HTML, Markdown or preformatted text, depending on the content of the current text.
+
 ## Example
 
 As an example, let's create a simple script with parameters.

@@ -11,5 +11,6 @@ The program **Eonza** is distributed as a single executable file and requires no
 * **eonza/eonza.exe** - Eonza program.
 * **eonza.eox** - the file with demo scripts. In the future, it will store all your scripts.
 * **eonza.yaml** - the configuration file with default settings that you can change.
+* **eonza.eon** - the file with notifications. You can delete it to clear the list of notifications.
 
 The program does not write data to other directories and does not remember the directory where it is located. Therefore, you can always move or copy the installation directory to another location, to a flash drive or other computer. Also, it makes it possible to easily create backup copies of the program and all data.

@@ -70,6 +70,7 @@ navmenu:
        - href: form
        - href: message
        - href: notification
+       - href: readme
   - href: log-console-output
     children:
        - href: log-output
