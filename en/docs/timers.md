@@ -10,7 +10,6 @@ html:
 ---
 # Timers
 
-**v1.15.0**  
 Timers allow you to set automatic launching of scripts at regular intervals. The minimum interval between timer activations is one minute. If you want to perform some actions more often, then you need to create a script with an infinite loop and [pauses](/scripts/sleep.html) in the required number of seconds. The timers only work when the Eonza program is running.
 
 %html.timers%

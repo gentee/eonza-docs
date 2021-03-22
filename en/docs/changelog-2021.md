@@ -4,8 +4,10 @@ desc: Eonza Program Changelog for 2021
 ---
 # Changelog for 2021
 
-<!--## Beta version 1.8.0-->
-## Developer version
+<!--## Beta version 1.8.0
+## Developer version-->
+
+## Version 1.15.0 - 2021/03/23
 
 * Added the Scheduler - [Timers](/docs/timers.html).
 * Added the [Markdown To HTML](/scripts/markdown-to-html.html) command.

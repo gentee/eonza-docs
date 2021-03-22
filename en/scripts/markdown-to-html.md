@@ -8,7 +8,6 @@ html:
 ---
 # Markdown To HTML
 
-**v1.15.0**  
 The **Markdown to HTML** command converts Markdown text to HTML format.
 
 %html.markdown-to-html%

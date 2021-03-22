@@ -4,7 +4,6 @@ desc: Команда конвертирует Markdown текст в HTML.
 ---
 # Markdown в HTML
 
-**v1.15.0**  
 Команда **Markdown в HTML** конвертирует Markdown текст в HTML формат.
 
 %html.markdown-to-html%

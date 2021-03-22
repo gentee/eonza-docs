@@ -10,7 +10,6 @@ html:
 ---
 # Readme
 
-**v1.15.0**  
 The **Readme** command displays HTML, Markdown or preformatted text. This command can also be used to describe script capabilities, documentation, etc.
 
 %html.readme-1%
