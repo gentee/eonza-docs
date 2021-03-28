@@ -4,8 +4,12 @@ desc: Eonza Program Changelog for 2021
 ---
 # Changelog for 2021
 
-<!--## Beta version 1.8.0
-## Developer version-->
+<!--## Beta version 1.8.0-->
+## Developer version
+
+* Added the [Run Script](/scripts/run-script.html) command.
+* Added predefined constant **data**.
+* Added display of IP address to the Information tab of the running script.
 
 ## Version 1.15.0 - 2021/03/23
 

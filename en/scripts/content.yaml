@@ -16,6 +16,7 @@ navmenu:
        - href: bash
        - href: open
        - href: run
+       - href: run-script
   - href: archive
     children:
        - href: create-archive

@@ -54,7 +54,7 @@ You can specify your preferred language of the program interface and the scripts
 
 ## Global Constants
 
-You can define global constants that can be used in all scripts. Values ​​are substituted like variables, but a dot is added to the left of the constant name. For example, if you want to insert the value of the constant *myconst* in some script, then specify *#.myconst#*.
+You can define global constants that can be used in all scripts. Values ​​are substituted like variables, but a dot is added to the left of the constant name. For example, if you want to insert the value of the constant *myconst* in some script, then specify *#.myconst#*. Do not use names for constants that have already been used for [predefined constants](constants.html).
 
 %html.settings-constants%
 
