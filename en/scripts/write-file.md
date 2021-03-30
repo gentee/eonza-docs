@@ -12,8 +12,11 @@ The **Write To File** command writes the value of the variable to the specified 
 
 %html.write-file%
 
-**Variable name**  
+**Variable Name**  
 Specify the name of the variable whose value you want to write.
 
-**File name**  
-Specify the full or relative path to the file where you want to write data. If the file exists, it will be overwritten.
+**Filename**  
+Specify the full or relative path to the file where you want to write data. If the file does not exist, then it will be created.
+
+**Append Data**  
+By default, if the file exists, it will be overwritten. Check this checkbox if you want to append data to the end of the file.

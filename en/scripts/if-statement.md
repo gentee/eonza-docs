@@ -53,6 +53,7 @@ Select the comparison operation.
 * **File/Dir Exists**. If the value of the variable is an existing file or directory, then the result is *true*. Otherwise, *false* will be returned. If the *Variable Name* is not specified, then the parameter *Value* will be checked.
 * **Environment Exists**. Returns *true* if the environment variable exists. Otherwise, it returns *false*. The name of the environment variable is taken from the variable value. You can also leave the *Variable Name* field empty and specify the environment variable in the *Value* field.  
 * **RegEx Match**. Check if the value of the variable matches the regular expression. Specify the regular expression in the *Value* field.
+* **Starts With**. Returns *true* if the variable starts with the specified string.
 
 **Value**  
 The value to compare the variable with.

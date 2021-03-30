@@ -8,7 +8,9 @@ desc: Eonza Program Changelog for 2021
 ## Developer version
 
 * Added the [Run Script](/scripts/run-script.html) command.
-* Added predefined constant **data**.
+* Added **data** and **eonzaport** predefined constants.
+* Added *Starts with* parameter to the **If Statement** command.
+* Added *Append Data* parameter to the **Write To File** command.
 * Added display of IP address to the Information tab of the running script.
 
 ## Version 1.15.0 - 2021/03/23
