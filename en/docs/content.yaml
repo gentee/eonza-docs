@@ -32,6 +32,7 @@ navmenu:
     - href: scheduler
       children:
         - href: timers
+        - href: events
     - href: notifications
     - href: settings
   - href: script-development
@@ -48,6 +49,7 @@ navmenu:
     - href: console-mode
       title: "%console-mode%"
     - href: restore-password
+    - href: run-script-http
     - href: two-factor-authentication
   - title: "%prover%"
     children:
