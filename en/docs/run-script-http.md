@@ -27,7 +27,7 @@ data: "value: 2345
 
 ## How to run a script from another computer
 
-You can trigger an event in the Eonza program not only on the same computer, but also from any other computer. To do this, first bind Eonza to a domain name or static IP address. Also, specify the *Token* parameter in the event that will be triggered. It is recommended to specify more than 8 random characters as a token.
+You can trigger an event in the Eonza program not only on the same computer, but also from any other computer. To do this, first [bind Eonza to a domain name](installation-on-vps-hosting.html) or static IP address. Also, specify the *Token* parameter in the event that will be triggered. It is recommended to specify more than 8 random characters as a token.
 
 ### Step 1: Get a one-time ID
 

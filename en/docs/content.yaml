@@ -15,6 +15,7 @@ navmenu:
     - href: index
     - href: license
     - href: installation
+    - href: installation-on-vps-hosting
     - href: playground
   - title: "%userguide%"
     href: user-guide
