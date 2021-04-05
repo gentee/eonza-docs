@@ -36,6 +36,7 @@ navmenu:
         - href: events
     - href: notifications
     - href: settings
+    - href: help
   - href: script-development
     children:
      - href: common-settings

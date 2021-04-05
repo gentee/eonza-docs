@@ -7,6 +7,7 @@ desc: Eonza Program Changelog for 2021
 <!--## Beta version 1.8.0-->
 ## Developer version
 
+* Added [Feedback](/docs/help.html) form.
 * Added the Scheduler - [Events](/docs/events.html).
 * Added the [Create Event](/scripts/create-event.html) command.
 * Added the [Run Script](/scripts/run-script.html) command.
