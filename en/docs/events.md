@@ -10,7 +10,6 @@ html:
 ---
 # Events
 
-**v1.16.0**  
 Events are used to integrate Eonza with other programs and services. When an event occurs, Eonza runs the corresponding script. An event can be created in two ways:
 
 * By [Create Event](/scripts/create-event.html) command in some script.

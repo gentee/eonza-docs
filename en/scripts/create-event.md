@@ -8,7 +8,6 @@ html:
 ---
 # Create Event
 
-**v1.16.0**  
 The **Create Event** command creates an [event](/docs/events.html) in the Eonza program. In this case, the Eonza program will run the corresponding script.
 
 %html.create-event%

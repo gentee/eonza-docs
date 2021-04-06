@@ -4,7 +4,6 @@ desc: How to run Eonza scripts from other applications.
 ---
 # How to run a script from outside
 
-**v1.16.0**  
 The Eonza program allows you to run scripts from other applications. You can integrate Eonza with any program that can send HTTP requests.
 
 First, add an event to [Task Scheduler](events.html). Be sure to specify the name of the event and the name of the script to run. If you want to send a request from the same computer, you do not need to configure anything else. Send a POST request **http://localhost:[port]/api/event** with the following parameters:

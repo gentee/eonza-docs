@@ -8,7 +8,6 @@ html:
 ---
 # Run Script
 
-**v1.16.0**  
 The **Run Script** command runs the specified script as a separate process and continues running the current script.
 
 %html.run-script%

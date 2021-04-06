@@ -4,8 +4,10 @@ desc: Eonza Program Changelog for 2021
 ---
 # Changelog for 2021
 
-<!--## Beta version 1.8.0-->
-## Developer version
+<!--## Beta version 1.8.0
+## Developer version-->
+
+## Version 1.16.0 - 2021/04/06
 
 * Added [Feedback](/docs/help.html) form.
 * Added the Scheduler - [Events](/docs/events.html).
