@@ -99,6 +99,7 @@ navmenu:
        - href: return
        - href: sleep
        - href: source-code
+       - href: try-catch
        - href: while-statement
   - href: text
     children:
