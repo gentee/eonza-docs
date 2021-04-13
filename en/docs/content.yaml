@@ -57,6 +57,7 @@ navmenu:
     children:
       - href: users
       - href: pro-security
+      - href: pro-storage
   - href: development
     children:
     - href: open-source
