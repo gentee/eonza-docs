@@ -55,6 +55,8 @@ navmenu:
     - href: two-factor-authentication
   - title: "%prover%"
     children:
+      - href: eonza-pro-license
+        title: "%prolicense%"
       - href: users
       - href: pro-security
       - href: pro-storage
