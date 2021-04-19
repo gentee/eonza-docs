@@ -4,7 +4,7 @@ desc: Как установить Eonza на VPS хостинг.
 ---
 # Установка на VPS хостинг
 
-Eonza - это обычный веб-сервер, который слушает определенный порт и имеет API. Таким образом, если у вас имеется VPS хостинг, то вы можете установить Eonza на сервер и управлять вашим хостингом из браузера. Рекомендуется дополнительно использовать *NGINX* или другой веб-сервер в качестве прокси-сервера. Рассмотрим пример установки Eonza на CentOS 64-bit с веб-сервером **nginx** и готовым доменным именем *my-eonza-domain.org*. Предположим, что на данном домене уже имеется веб-сайт, поэтому сделаем так, чтобы Eonza открывалась в браузере по адресу **https://my-eonza-domain.org:[port]**. При желании, вы можете настроить nginx для использования адреса *https://my-eonza-domain.org/eonza*.
+Eonza - это обычный веб-сервер, который слушает определенный порт и имеет API. Таким образом, если у вас имеется VPS хостинг, то вы можете установить Eonza на сервер и управлять вашим хостингом из браузера. Рекомендуется дополнительно использовать *NGINX* или другой веб-сервер в качестве прокси-сервера. Рассмотрим пример установки Eonza на CentOS 64-bit с веб-сервером **nginx** и готовым доменным именем *my-eonza-domain.org*. Предположим, что на данном домене уже имеется веб-сайт, поэтому сделаем так, чтобы Eonza открывалась в браузере по адресу **https://www.my-eonza-domain.org:[port]**.
 
 ## Шаг 1. Установка Eonza
 
@@ -29,8 +29,8 @@ cd /home/eonza
 
 ``` yaml
 http:
-    host: my-eonza-domain.org
-    port: 5050
+    host: www.my-eonza-domain.org
+    port: 5001
     open: false
     theme: default
     access: host
@@ -45,6 +45,16 @@ whitelist:
     - 127.0.0.0/31
     - 92.140.108.0/24
     - 92.140.109.0/24
+```
+
+Так как каждый скрипт запускается как отдельный процесс и занимает свой порт, то укажите еще два параметра.
+
+* *portshift* - разность между портом nginx и реальным портом. Например, если указано -1000, то *https://www.my-eonza-domain.org:4002* будет соответствовать *localhost:5002*.
+* *cdn* - укажите адрес Eonza для того, чтобы скрипты могли использовать уже загруженные в браузер js и html файлы.
+
+``` yaml
+portshift: -1000
+cdn: https://www.my-eonza-domain.org:4001
 ```
 
 ## Шаг 3. Создание systemd сервиса
@@ -74,12 +84,16 @@ systemctl enable eonza.service
 
 ## Шаг 4. Настройка прокси-сервера
 
-Использование *nginx* в качестве прокси-сервера, позволит подключить Eonza к существующему доменному имени по https протоколу. Предположим, что уже имеется веб-сайт https://my-eonza-domain.org с [Let’s Encrypt](https://letsencrypt.org) сертификатом и мы хотим, чтобы Eonza открывалась по адресу *https://my-eonza-domain.org:5040*. Для этого в файл настроек */etc/nginx/conf.d/my-eonza-domain.org.conf* добавьте следующий раздел:
+Использование *nginx* в качестве прокси-сервера, позволит подключить Eonza к существующему доменному имени по https протоколу. Предположим, что уже имеется веб-сайт https://www.my-eonza-domain.org с [Let’s Encrypt](https://letsencrypt.org) сертификатом и мы хотим, чтобы Eonza открывалась по адресу *https://www.my-eonza-domain.org:4001*. Для этого в файл настроек */etc/nginx/conf.d/my-eonza-domain.org.conf* добавьте следующие разделы:
 
 ``` txt
+map $server_port $port {
+    "~^4(?P<1>[0-9]+)$" "5$1";
+}
+
 server {
-    listen 5040 ssl;
-    server_name my-eonza-domain.org;
+    listen 4001-4100 ssl;
+    server_name www.my-eonza-domain.org;
     
     ssl_certificate /etc/letsencrypt/live/my-eonza-domain.org/fullchain.pem; 
     ssl_certificate_key /etc/letsencrypt/live/my-eonza-domain.org/privkey.pem;
@@ -97,7 +111,7 @@ server {
     add_header Strict-Transport-Security max-age=15768000;
 
     location = /ws {
-        proxy_pass http://127.0.0.1:5050/ws;
+        proxy_pass http://127.0.0.1:$port/ws;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection "Upgrade";
@@ -105,11 +119,11 @@ server {
     }
     
     location / {
-        if ($http_origin ~ '^https://my-eonza-domain.org') {
+        if ($http_origin ~ '^https://www.my-eonza-domain.org') {
             add_header Access-Control-Allow-Origin "$http_origin";
         }
         access_log off;
-        proxy_pass http://127.0.0.1:5050;
+        proxy_pass http://127.0.0.1:$port;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -118,4 +132,4 @@ server {
 }
 ```
 
-В параметре **proxy_pass** укажите порт, который использует Eonza. Сохраните файл настроек и перезапустите nginx (*service nginx restart*). Укажите в браузере *https://my-eonza-domain.org:5040* и если всё было настроено правильно, то вы увидите страницу логина программы Eonza.
+Эти настройки дают указание nginx слушать все порты с 4001 до 4100 и перенаправлять запросы на соответствующие порты 5001-5100 на localhost. Следует заметить, что старые версии nginx не поддерживают запись *listen 4001-4100 ssl*. В этом случае обновитесь до последней стабильной версии или создавайте отдельные разделы для нескольких портов. Сохраните файл настроек и перезапустите nginx (*service nginx restart*). Укажите в браузере *https://www.my-eonza-domain.org:4001* и если всё было настроено правильно, то вы увидите страницу логина программы Eonza.

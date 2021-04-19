@@ -7,7 +7,7 @@ tree:
   values:
     _desc: Default values for name and agree
     list:
-    - value: John Dow
+    - value: John Doe
       var: name
     - type: "2"
       value: "true"

@@ -22,7 +22,7 @@ desc: Команда выполняет вложенные команды для
 
 ``` txt
 "Robert","Google",1200
-"John Dow","My Company, Inc.",3600
+"John Doe","My Company, Inc.",3600
 Alex 1,Private Company,4800
 ```
 
@@ -30,7 +30,7 @@ Alex 1,Private Company,4800
 
 ``` txt
 Robert = 1200
-John Dow = 3600
+John Doe = 3600
 Alex 1 = 4800
 ```
 
