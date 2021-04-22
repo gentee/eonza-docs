@@ -8,6 +8,12 @@ desc: Eonza Program Changelog for 2021
 ## Developer version
 
 * Added the [Try / Catch](/scripts/try-catch.html) command.
+* Added [Pro version](/pro-version.html).
+    * [License Pro](/docs/eonza-pro-license.html)
+    * [General Settings](/docs/pro-general.html)
+    * [Roles and users](/docs/users.html)
+    * [Security](/docs/pro-security.html)
+    * [Storage](/docs/pro-storage.html)
 
 ## Version 1.16.0 - 2021/04/06
 

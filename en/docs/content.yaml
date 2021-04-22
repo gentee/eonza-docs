@@ -57,6 +57,7 @@ navmenu:
     children:
       - href: eonza-pro-license
         title: "%prolicense%"
+      - href: pro-general
       - href: users
       - href: pro-security
       - href: pro-storage

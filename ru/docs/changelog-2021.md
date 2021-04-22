@@ -8,6 +8,12 @@ desc: История изменений программы Eonza за 2021
 ## Версия разработчика
 
 * Добавлена командa [Попытка / Перехват](/ru/scripts/try-catch.html).
+* Добавлена [Pro версия](/ru/pro-version.html).
+    * [Лицензия Pro](/ru/docs/eonza-pro-license.html)
+    * [Общие настройки](/ru/docs/pro-general.html)
+    * [Роли и пользователи](/ru/docs/users.html)
+    * [Безопасность](/ru/docs/pro-security.html)
+    * [Хранилище](/ru/docs/pro-storage.html)
 
 ## Версия 1.16.0 - 2021/04/06
 
