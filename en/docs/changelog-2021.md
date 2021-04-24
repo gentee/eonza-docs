@@ -4,8 +4,9 @@ desc: Eonza Program Changelog for 2021
 ---
 # Changelog for 2021
 
-<!--## Beta version 1.8.0-->
-## Developer version
+<!--## Beta version 1.8.0
+## Developer version -->
+## Version 1.17.0 - 2021/04/24
 
 * Added the [Try / Catch](/scripts/try-catch.html) command.
 * Added [Pro version](/pro-version.html).

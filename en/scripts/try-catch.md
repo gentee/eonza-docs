@@ -10,7 +10,6 @@ html:
 ---
 # Try / Catch
 
-**v1.17.0**  
 By default, the script terminates when an error occurs. If you want to repeat some actions or ignore the error, then use the **Try / Catch** command. If an error occurs in any of the nested commands, then you will see a message with the error text and you can choose one of three options:
 
 * **Retry** - start repeated execution from the first nested script.
