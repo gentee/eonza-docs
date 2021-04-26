@@ -22,6 +22,21 @@ Using the Pro version gives you the following additional features.
 
 Also, you can **upgrade the program for free** during the entire period of the license.
 
+## Promo! Giving away Eonza Pro for free
+
+If you use Eonza, you can become one of the first users of the Pro version for free. We are giving away **64 licenses** for a period of one year to six months. One user/company can get only one license. To receive a free license key, send an email to [eonza.dev@gmail.com](mailto:eonza.dev@gmail.com) with the following information:
+
+* Name
+* Company (optional)
+* Country
+
+License Term | Issued/Reserved
+-------------|---------------
+**1 year** | **0/16**
+10 months | 0/16
+8 months | 0/16
+6 months | 0/16
+
 ## Purchase Pro version
 
 An annual license for the Pro version costs **$48**.
