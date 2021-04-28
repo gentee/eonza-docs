@@ -1,9 +1,12 @@
 ---
 title: PRO version of Eonza
 desc: PRO version of the Eonza program.
+res:
+   nopromo: 1
+   promo: Promo! Giving away Eonza Pro for free
 html:
    buy: '<a class="button is-primary" style="text-decoration: none" href="https://store.payproglobal.com/checkout?products[1][id]=65094">Buy Pro version</a>'
-
+   promo: '<div style="background-color: #FF9800; color: #fff;font-weight:bold;font-size:1.4em;padding: 0.2em 1em;">%res.promo%</div>'
 ---
 # PRO version
 
@@ -22,9 +25,9 @@ Using the Pro version gives you the following additional features.
 
 Also, you can **upgrade the program for free** during the entire period of the license.
 
-## Promo! Giving away Eonza Pro for free
+%html.promo%
 
-If you use Eonza, you can become one of the first users of the Pro version for free. We are giving away **64 licenses** for a period of one year to six months. One user/company can get only one license. To receive a free license key, send an email to [eonza.dev@gmail.com](mailto:eonza.dev@gmail.com) with the following information:
+If you use Eonza, you can become one of the first users of the Pro version for free. We are giving away **64 licenses** for a period of one year to six months. One user/company can get only one license. To receive a **free license key**, send an email to [eonza.dev@gmail.com](mailto:eonza.dev@gmail.com) with the following information:
 
 * Name
 * Company (optional)
