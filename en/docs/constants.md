@@ -14,8 +14,9 @@ Name | Description
 ------------|------------
 **apppath** | The directory where the Eonza program is located.
 **data** | This constant is used to transfer data when running scripts using the [Run Script](/scripts/run-script.html) command or [HTTP request](run-script-http.html) from other applications. In this case, the script must process the received text data.
-**eonzaport** | A port that is occupied by the Eonza program.
+**eonzaport** | A system *localhost* port that is occupied by the Eonza program.
 **isconsole** | Equal to *true* if the script is running in console mode. Otherwise, the value is *false*.
+**localport** | The port of the system *localhost* server in the current script.
 **n** | Line feed character (0xA).
 **os** | Operating system. For example *linux, windows, darwin*.
 **port** | The port used by the current script.

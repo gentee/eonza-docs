@@ -23,6 +23,6 @@ scripts: Scripts
 usage: Usage
 userguide: User Guide
 version: Version
-ver: 1.17.0
-betaver: 1.18.0
+ver: 1.19.0
+betaver: 1.19.0
 gitpath: https://github.com/gentee/eonza/releases/download/v%ver%/eonza-%ver%

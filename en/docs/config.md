@@ -32,7 +32,6 @@ http:
   port: 3234
   open: true
   theme: default
-  access: localhost
   jwtkey: s5c82473epey
 playground:
   dir: ""
@@ -71,15 +70,27 @@ whitelist:
 
 Eonza launches a web server to display the program in a browser. Here are the settings related to the work of the web server.
 
-* **host** - hostname (domain) by which you can access Eonza if you run the program on a remote server. In this case *access* field should be *host*. You should also set a password and specify a whitelist of IP addresses to access.
+* **host** - hostname (domain) by which you can access Eonza. By default, it is *localhost*. If you are installing Eonza on a VPS hosting, then specify the domain name. In this case, you should set a password, specify the *cert* and *priv* parameters. It is also recommended that you define a whitelist of IP addresses for access.
 * **port** is the port that the web server uses. By default, **3234**.
-* **open** - specify *false* if you do not want to automatically open the tab in your browser when you start the program.
+* **localport** - port for the system localhost server. If not specified or equal to 0, then port + 1 is used.
+* **open** - specify *false* if you do not want to automatically open the tab in your browser when you start the program.Ignored if *host* is not equal to *localhost*.
 * **theme** - reserved.
-* **access** - can be one of the following values:
-  * *private* - access only from LAN IP.
-  * *localhost* - access by domain *localhost*.
-  * *host* - indicates that Eonza is installed on a remote server. In this case, the host (domain) name must be specified in the *host* field.
 * **jwtkey** is the secret key for creating JWT authorization tokens. It is needed in case you login by  password. The key is generated automatically when the configuration file is created, but you can change it later.
+
+If *host* is not equal to *localhost*, then only *https* connection is used. Therefore, you must provide the full path to the SSL certificate and private key.
+
+* **cert** - SSL certificate.
+* **priv** - private key.
+
+``` yaml
+http:
+  host: www.eonza.org
+  port: 3234
+  theme: default
+  jwtkey: s5c82473epey
+  cert: "/etc/letsencrypt/live/eonza.org/fullchain.pem"
+  priv: "/etc/letsencrypt/live/eonza.org/privkey.pem"
+```
 
 ### Playground Mode Settings
 

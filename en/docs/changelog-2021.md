@@ -4,10 +4,16 @@ desc: Eonza Program Changelog for 2021
 ---
 # Changelog for 2021
 
-<!--## Beta version 1.8.0 -->
-## Developer version
+<!--## Beta version 1.8.0 
+## Developer version-->
 
+## Version 1.18.0 - 2021/04/30
+
+* Added support for TLS connections. Working with a remote server is only possible via **https**. [Installation on VPS hosting](installation-on-vps-hosting.html) does not require Nginx, Apache and other web servers.
+* Added the *localport* predefined constant.
+* Removed *access* parameter and added *localport, cert, priv* parameters in [config file](config.html).
 * Fixed bug with the incorrect result of *Check for Update*.
+* Fixed minor bugs in the Task Manager.
 
 ## Version 1.17.0 - 2021/04/24
 
