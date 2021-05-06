@@ -40,6 +40,7 @@ navmenu:
     children:
        - href: parse-json
        - href: parse-yaml
+       - href: read-ini-values
   - href: encoding
     children:
        - href: base64-encoding

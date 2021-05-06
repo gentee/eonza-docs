@@ -4,8 +4,10 @@ desc: Eonza Program Changelog for 2021
 ---
 # Changelog for 2021
 
-<!--## Beta version 1.8.0 
-## Developer version-->
+<!--## Beta version 1.8.0 -->
+## Developer version
+
+* Added the [Read INI Values](/scripts/read-ini-values.html) command.
 
 ## Version 1.18.0 - 2021/04/30
 
