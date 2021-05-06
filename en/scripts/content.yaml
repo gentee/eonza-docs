@@ -36,14 +36,16 @@ navmenu:
        - href: sql-query
        - href: sql-row
        - href: sql-value
+  - href: data-parsing
+    children:
+       - href: parse-json
+       - href: parse-yaml
   - href: encoding
     children:
        - href: base64-encoding
        - href: foreach-line-csv
        - href: hex-encoding
        - href: markdown-to-html
-       - href: parse-json
-       - href: parse-yaml
   - href: files
     children:
        - href: copy-file

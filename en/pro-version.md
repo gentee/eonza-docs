@@ -33,9 +33,9 @@ If you use Eonza, you can become one of the first users of the Pro version for f
 * Company (optional)
 * Country
 
-License Term | Issued/Reserved
+License Term | Used/Reserved
 -------------|---------------
-**1 year** | **0/16**
+**1 year** | **1/16**
 10 months | 0/16
 8 months | 0/16
 6 months | 0/16
