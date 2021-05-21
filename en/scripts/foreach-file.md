@@ -52,6 +52,7 @@ Similarly, you can specify masks and regular expressions to ignore such files an
 Specify the variable name where the name of the current file will be written. You can use this variable in nested commands. In addition, variables with the following suffixes will be created:
 
 * **.size** - file size.
+* **.time** - the time the file was last modified.
 * **.dir** - full path of the directory where the file is located.
 * **.isdir** - equals *true* if the current item is a directory. Otherwise, it equals *false*.
 

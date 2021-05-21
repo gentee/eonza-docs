@@ -14,3 +14,6 @@ The **Exit**  command exits the script. When this command is invoked, the script
 
 **Exit code**  
 You can specify a numeric code that the program will return when it stops working. The default value is **0**.
+
+**Timeout (msec)**  
+If you want to pause before the script exits, specify the desired timeout in milliseconds. This can be useful if you need to wait for console output or a report in the browser.

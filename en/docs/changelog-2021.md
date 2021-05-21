@@ -9,6 +9,7 @@ desc: Eonza Program Changelog for 2021
 
 * Added the [Read INI Values](/scripts/read-ini-values.html) command.
 * Added the [Create File From Template](/scripts/create-file-from-template.html) command.
+* Added *Timeout* parameter to the **Exit** command.
 
 ## Version 1.18.0 - 2021/04/30
 
