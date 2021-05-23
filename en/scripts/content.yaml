@@ -72,6 +72,7 @@ navmenu:
        - href: write-file
   - href: forms
     children:
+       - href: create-report
        - href: file-confirmation
        - href: form
        - href: message
