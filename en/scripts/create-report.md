@@ -10,6 +10,7 @@ html:
 ---
 # Create Report
 
+**v1.19.0**  
 The **Create Report** command displays an HTML, Markdown or text report. You can create multiple reports while the script is running. You can view the report both while the script is running and after it ends. In addition, you can save the report to a file.
 
 %html.create-report%
