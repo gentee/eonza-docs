@@ -4,13 +4,20 @@ desc: Eonza Program Changelog for 2021
 ---
 # Changelog for 2021
 
-<!--## Beta version 1.8.0 -->
-## Developer version
+<!--## Beta version 1.8.0 
+## Developer version-->
+
+## Version 1.19.0 - 2021/06/07
 
 * Added the [Read INI Values](/scripts/read-ini-values.html) command.
 * Added the [Create File From Template](/scripts/create-file-from-template.html) command.
 * Added the [Create Report](/scripts/create-report.html) command.
 * Added *Timeout* parameter to the **Exit** command.
+* Task Manager
+    * Added [settings](/docs/settings.html).
+    * Added pagination.
+    * Added Refresh button.
+    * Added protection of completed tasks from deletion.
 
 ## Version 1.18.0 - 2021/04/30
 

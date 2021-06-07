@@ -8,7 +8,6 @@ html:
 ---
 # Create File From Template
 
-**v1.19.0**  
 The **Create File From Template** command creates a file from a text template.
 
 %html.create-file-from-template%

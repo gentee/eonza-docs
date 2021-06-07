@@ -12,3 +12,6 @@ html:
 Using the Task Manager, you can manage the execution of scripts and get all information (console output, log) about completed scripts. In the table you can see the script name, status, start and end time. In addition, you can pause, resume, and stop running scripts. For both active and completed scripts, you can open the script window with the results or the current output data. All these features allow you to fully control the execution of scripts and get the entire history of completed tasks.
 
 %html.task-manager%
+
+The program periodically deletes old tasks. You can specify the number of storage days and the maximum number of tasks in the program settings. If you want to protect a task from accidental or automatic deletion, click on the button
+with a lock for the corresponding task.

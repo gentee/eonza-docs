@@ -7,6 +7,7 @@ img:
    settings-constants: settings-constants.png
    settings-security: settings-security.png
    settings-general: settings-general.png
+   settings-general-2: settings-general-2.png
    logout: logout.png
 html:
    settings-scripts: '<img src="%img.settings-scripts%" style="margin: 1em 1em;"/>'
@@ -14,6 +15,7 @@ html:
    settings-constants: '<img src="%img.settings-constants%" style="margin: 1em 1em;"/>'
    settings-security: '<img src="%img.settings-security%" style="margin: 1em 1em;"/>'
    settings-general: '<img src="%img.settings-general%" style="margin: 1em 1em;"/>'
+   settings-general-2: '<img src="%img.settings-general-2%" style="margin: 1em 1em;"/>'
    logout: '<img src="%img.logout%" style="margin: 1em 1em;"/>'
 ---
 # Settings
@@ -25,13 +27,26 @@ Here you can specify various settings for more comfortable work with the Eonza p
 **Title**  
 You can provide your own title for the Eonza program. This can be useful if you use more than one Eonza installation.
 
+%html.settings-general%
+
 **Hide Tray Icon**  
 This option is available if your version of Eonza supports displaying a menu icon in the system tray. Check this checkbox if you want to disable the creation of a system tray icon.
 
 **Automatic check for updates**  
 You can specify the frequency with which you want to check for new versions of the program. You will be notified if a new version is found. Also, you can check for updates at any time in the *Help* tab.
 
-%html.settings-general%
+### Task Manager
+
+Task Manager settings. The program periodically deletes old tasks. Here you can specify
+parameters for automatic deletion. Eonza does not delete locked tasks.
+
+**Remove automatically after X days**  
+Specify the number of days after which a completed task can be deleted.
+
+**Maximum number of tasks**  
+Specify the maximum number of tasks to be stored.
+
+%html.settings-general-2%
 
 ## Scripts
 

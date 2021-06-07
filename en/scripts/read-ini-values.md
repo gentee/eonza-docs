@@ -8,7 +8,6 @@ html:
 ---
 # Read INI Values
 
-**v1.19.0**  
 The command **Read INI Values** retrieves one or more values from the specified section of the INI file.
 
 %html.read-ini-values%
