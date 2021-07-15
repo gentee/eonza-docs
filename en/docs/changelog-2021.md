@@ -7,6 +7,10 @@ desc: Eonza Program Changelog for 2021
 <!--## Beta version 1.8.0 
 ## Developer version-->
 
+## Developer version
+
+* Added the [Parse HTML](/scripts/parse-html.html) command.
+
 ## Version 1.19.0 - 2021/06/07
 
 * Added the [Read INI Values](/scripts/read-ini-values.html) command.

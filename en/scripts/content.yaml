@@ -123,6 +123,9 @@ navmenu:
        - href: set-environment
        - href: set-variable
        - href: set-variables
+  - href: web-scraping
+    children:
+       - href: parse-html
   - href: windows
     children:
        - href: registry
