@@ -16,6 +16,9 @@ We invite everyone to take part in the program development. This applies both to
 * **[github.com/gentee/eonza-assets](https://github.com/gentee/eonza-assets)**  
 [**JavaScript (VueJS), HTML, CSS**] Repository with user interface (Web GUI).
 
+* **[github.com/gentee/eonza-chrome](https://github.com/gentee/eonza-chrome)**  
+[**JavaScript (Svelte), HTML, CSS**] Chrome extension repository for running scripts from the browser.
+
 * **[github.com/gentee/eonza-docs](https://github.com/gentee/eonza-docs)**.  
 [**English, Russian**] Repository with Eonza documentation. In particular, it contains all the content of this website.
 

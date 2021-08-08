@@ -16,6 +16,9 @@ Eonza - это **программа с открытым исходным код�
 * **[github.com/gentee/eonza-assets](https://github.com/gentee/eonza-assets)**  
 [**JavaScript (VueJS), HTML, CSS**] Репозитарий с пользовательским интерфейсом (Веб GUI).
 
+* **[github.com/gentee/eonza-chrome](https://github.com/gentee/eonza-chrome)**  
+[**JavaScript (Svelte), HTML, CSS**] Репозитарий Chrome расширения для запуска скриптов из браузера.
+
 * **[github.com/gentee/eonza-docs](https://github.com/gentee/eonza-docs)**  
 [**English, Русский**] Репозитарий с документацией по программе Eonza. В частности, он содержит всё содержимое этого сайта.
 
