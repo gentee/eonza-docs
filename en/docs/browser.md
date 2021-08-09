@@ -10,7 +10,6 @@ html:
 ---
 # Browser
 
-**v1.20.0**  
 There is a [Chrome extension](chrome-extension.html), which can be used to run Eonza scripts. Here you can specify the scripts that will be available to run in the Chrome extension. If you are using Pro version and you have several users, they can also use the browser extension, but they will see only those scripts
 to which they have access.
 

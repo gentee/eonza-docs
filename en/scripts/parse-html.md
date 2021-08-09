@@ -8,7 +8,6 @@ html:
 ---
 # Parse HTML
 
-**v1.20.0**  
 The **Parse HTML** command parses HTML text and retrieves the content or attributes of the selected elements.
 
 %html.parse-html%

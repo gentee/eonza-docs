@@ -16,7 +16,6 @@ html:
 ---
 # Chrome Extension
 
-**v1.20.0**  
 You can install and use the Eonza extension for Chrome browser. This extension allows you to run scripts that have been defined in the [Browser tab](browser.html). When you run the script, the URL address and the title of the current page in the browser are passed to it. Also, the content of the HTML page can be passed to the script. The extension will work in any browser that supports Chrome extensions. Let's see how to install and configure this browser extension.
 
 ## Installing the extension

@@ -7,7 +7,7 @@ desc: Eonza Program Changelog for 2021
 <!--## Beta version 1.8.0 
 ## Developer version-->
 
-## Developer version
+## Version 1.20.0 - 2021/08/09
 
 * Added the [Parse HTML](/scripts/parse-html.html) command.
 * Added the [Browser](/docs/browser.html) tab to define scripts in Chrome extension.
