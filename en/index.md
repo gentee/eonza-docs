@@ -16,15 +16,16 @@ res:
       ## Key features
 
       * Creating scripts does not require knowledge of programming languages.
-      * There is a constantly updated library of built-in scripts.
       * Protection by password and using a "white list" of IP-addresses.
-      * Quick search for scripts.
       * You can launch scripts from the console.
       * There is a scheduler and a task manager.
       * Saving logs and console output for each completed task.
       * Launch your favorite scripts from the system tray menu.
+      * Running scripts from a Chrome extension.
       * Export/import of scripts to/from a text YAML file.
       * It is possible to suspend, resume and terminate script execution.
+      * Secure storage for passwords and tokens (Pro).
+      * User access by role (Pro).
 html:
    line: <div>&nbsp;</div>
    features: |-
