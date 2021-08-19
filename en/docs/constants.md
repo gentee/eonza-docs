@@ -14,9 +14,12 @@ Name | Description
 ------------|------------
 **apppath** | The directory where the Eonza program is located.
 **data** | This constant is used to transfer data when running scripts using the [Run Script](/scripts/run-script.html) command or [HTTP request](run-script-http.html) from other applications. In this case, the script must process the received text data.
+**date** | Current date in YYYYMMDD format. For example, *20210819*.
+**day** | The current day of the month. For example, *03*, *19*, *28*.
 **eonzaport** | A system *localhost* port that is occupied by the Eonza program.
 **isconsole** | Equal to *true* if the script is running in console mode. Otherwise, the value is *false*.
 **localport** | The port of the system *localhost* server in the current script.
+**month** | Current month. For example, *01*, *07*, *12*.
 **n** | Line feed character (0xA).
 **os** | Operating system. For example *linux, windows, darwin*.
 **port** | The port used by the current script.
@@ -24,6 +27,8 @@ Name | Description
 **s** | Space character.
 **t** | Tab character (0x9).
 **temppath** | Directory for temporary files.
+**time** | Current time in HHMMSS format. For example, *135000*.
+**year** | Current year.
 
 In addition, the following constants are created:
 
