@@ -119,6 +119,7 @@ navmenu:
        - href: split-text
   - href: variables
     children:
+       - href: append-to-array
        - href: foreach
        - href: set-environment
        - href: set-variable
