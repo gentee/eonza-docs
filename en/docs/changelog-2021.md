@@ -10,6 +10,7 @@ desc: Eonza Program Changelog for 2021
 ## Developer version
 
 * Added the [Append To Array](/scripts/append-to-array.html) command.
+* Added the [Append To Map](/scripts/append-to-map.html) command.
 * Added [predefined constants](/docs/constants.html) - *date*, *time*, *year*, *month*, *day*.
 * Fixed a bug in the **Set Variable** command - the 'Substitute Variable Values' parameter worked incorrectly.
 

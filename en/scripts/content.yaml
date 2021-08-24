@@ -120,6 +120,7 @@ navmenu:
   - href: variables
     children:
        - href: append-to-array
+       - href: append-to-map
        - href: foreach
        - href: set-environment
        - href: set-variable
