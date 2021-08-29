@@ -9,6 +9,8 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Added the [Odf/Odt Template](/scripts/odf-odt-template.html) command.
+* Added the [Docx Template](/scripts/docx-template.html) command.
 * Added the [Append To Array](/scripts/append-to-array.html) command.
 * Added the [Append To Map](/scripts/append-to-map.html) command.
 * Added [predefined constants](/docs/constants.html) - *date*, *time*, *year*, *month*, *day*.

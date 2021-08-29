@@ -94,6 +94,10 @@ navmenu:
        - href: download-file
        - href: get-webpage
        - href: httprequest
+  - href: office
+    children:
+       - href: docx-template
+       - href: odf-odt-template
   - href: programming
     children:
        - href: assertions
