@@ -9,8 +9,9 @@ desc: История изменений программы Eonza за 2021
 
 ## Версия разработчика
 
-* Добавлена командa [Шаблон Odf/Odt](/ru/scripts/odf-odt-template.html).
-* Добавлена командa [Шаблон Docx](/ru/scripts/docx-template.html).
+* Добавлена командa [Шаблон ODS](/ru/scripts/ods-template.html).
+* Добавлена командa [Шаблон ODT](/ru/scripts/odf-odt-template.html).
+* Добавлена командa [Шаблон DOCX](/ru/scripts/docx-template.html).
 * Добавлена командa [Добавить в массив](/ru/scripts/append-to-array.html).
 * Добавлена командa [Добавить в хэш-массив](/ru/scripts/append-to-map.html).
 * Добавлены [предопределённые константы](/ru/docs/constants.html) - *date*, *time*, *year*, *month*, *day*.
