@@ -99,6 +99,7 @@ navmenu:
        - href: docx-template
        - href: odf-odt-template
        - href: ods-template
+       - href: xlsx-template
   - href: programming
     children:
        - href: assertions

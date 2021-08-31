@@ -9,12 +9,14 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Added the [XLSX Template](/scripts/xlsx-template.html) command.
 * Added the [ODS Template](/scripts/ods-template.html) command.
 * Added the [ODT Template](/scripts/odf-odt-template.html) command.
 * Added the [DOCX Template](/scripts/docx-template.html) command.
 * Added the [Append To Array](/scripts/append-to-array.html) command.
 * Added the [Append To Map](/scripts/append-to-map.html) command.
 * Added [predefined constants](/docs/constants.html) - *date*, *time*, *year*, *month*, *day*.
+* A comparison condition by the presence of a substring has been added to the **If Statement** and **While Statement** commands.
 * Fixed a bug in the **Set Variable** command - the 'Substitute Variable Values' parameter worked incorrectly.
 
 ## Version 1.20.0 - 2021/08/09

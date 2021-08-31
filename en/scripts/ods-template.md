@@ -8,6 +8,7 @@ html:
 ---
 # ODS Template
 
+**v1.21.0**  
 The **ODS Template** command replaces the variables in the Ods template (LibreOffice Calc). Since the script makes all replacements in the spreadsheet itself, it does not require Libre Office installed. Replacements are made on all sheets of the spreadsheet.
 
 %html.ods-template%

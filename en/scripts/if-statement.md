@@ -50,6 +50,7 @@ Click this checkbox when you want to negate the condition ( true => false, false
 Select the comparison operation.
 
 * **Equal**. Check if the variable is equal to the specified value. If the value is not specified, the result will be *true*, if the variable is not defined, equal to an empty string, zero or "false".
+* **Contains**. Returns *true* if the variable contains the specified substring.
 * **File/Dir Exists**. If the value of the variable is an existing file or directory, then the result is *true*. Otherwise, *false* will be returned. If the *Variable Name* is not specified, then the parameter *Value* will be checked.
 * **Environment Exists**. Returns *true* if the environment variable exists. Otherwise, it returns *false*. The name of the environment variable is taken from the variable value. You can also leave the *Variable Name* field empty and specify the environment variable in the *Value* field.  
 * **RegEx Match**. Check if the value of the variable matches the regular expression. Specify the regular expression in the *Value* field.
