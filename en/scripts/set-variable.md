@@ -61,7 +61,7 @@ You can specify a list of functions that will sequentially convert the current v
 * **Lower case**. Convert the current string to lower case.
 * **Upper case**. Convert the current line to upper case.
 * **Split**. Split the value into substrings formed by the separator. In the *Parameter* field, specify the separator string. If you want to use a space as a separator, specify *#.s#*. This function will assign the first substring to the current value and create an object with the same name as the variable name that will contain an array of substrings.
-* **Substring**. Take a substring from the current line. Specify the offset and length of the substring separated by a colon (offset:length) in the *Parameter* field. For example, *10:4*. If you want to take a substring from a specified position to the end of the string, then specify only the offset without a colon.
+* **Substring**. Take a substring from the current line. Specify the offset and length of the substring separated by a colon (offset:length) in the *Parameter* field. For example, *10:4*. If you want to take a substring from a specified position to the end of the string, then specify only the offset without a colon. If the required substring is outside the string, then the substring from the specified offset to the end of the string will be returned.
 
 * **Current Time**. Get the current time in the format specified in the *Parameter* field. If it is not specified, the *YYYY/MM/DD HH:mm:ss* format will be used by default.
 

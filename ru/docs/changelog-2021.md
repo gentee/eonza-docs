@@ -9,6 +9,7 @@ desc: История изменений программы Eonza за 2021
 
 ## Версия разработчика
 
+* Добавлена командa [Для каждой строки](/ru/scripts/foreach-line.html).
 * Добавлена командa [Шаблон XLSX](/ru/scripts/xlsx-template.html).
 * Добавлена командa [Шаблон ODS](/ru/scripts/ods-template.html).
 * Добавлена командa [Шаблон ODT](/ru/scripts/odf-odt-template.html).

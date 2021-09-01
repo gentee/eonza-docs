@@ -116,6 +116,7 @@ navmenu:
     children:
        - href: convert-text
        - href: copy-to-clipboard
+       - href: foreach-line
        - href: foreach-line-file
        - href: get-clipboard
        - href: join-text
