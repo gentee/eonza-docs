@@ -9,6 +9,7 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Added the [Remove Lines](/scripts/remove-lines.html) command.
 * Added the [Foreach Line](/scripts/foreach-line.html) command.
 * Added the [XLSX Template](/scripts/xlsx-template.html) command.
 * Added the [ODS Template](/scripts/ods-template.html) command.

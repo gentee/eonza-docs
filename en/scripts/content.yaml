@@ -122,6 +122,7 @@ navmenu:
        - href: join-text
        - href: regex-find
        - href: regex-replace
+       - href: remove-lines
        - href: replace
        - href: split-text
   - href: variables

@@ -9,6 +9,7 @@ desc: История изменений программы Eonza за 2021
 
 ## Версия разработчика
 
+* Добавлена командa [Удалить подстроки](/ru/scripts/remove-lines.html).
 * Добавлена командa [Для каждой строки](/ru/scripts/foreach-line.html).
 * Добавлена командa [Шаблон XLSX](/ru/scripts/xlsx-template.html).
 * Добавлена командa [Шаблон ODS](/ru/scripts/ods-template.html).
