@@ -9,6 +9,7 @@ desc: История изменений программы Eonza за 2021
 
 ## Версия разработчика
 
+* Добавлена командa [Для каждого ряда в XSLX](/ru/scripts/foreach-xlsx.html).
 * Добавлена командa [Удалить подстроки](/ru/scripts/remove-lines.html).
 * Добавлена командa [Для каждой строки](/ru/scripts/foreach-line.html).
 * Добавлена командa [Шаблон XLSX](/ru/scripts/xlsx-template.html).

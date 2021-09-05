@@ -9,6 +9,7 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Added the [Foreach Row in XLSX](/scripts/foreach-xlsx.html) command.
 * Added the [Remove Lines](/scripts/remove-lines.html) command.
 * Added the [Foreach Line](/scripts/foreach-line.html) command.
 * Added the [XLSX Template](/scripts/xlsx-template.html) command.
