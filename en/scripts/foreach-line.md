@@ -8,7 +8,6 @@ html:
 ---
 # Foreach Line
 
-**v1.21.0**  
 The **Foreach Line** command executes nested commands for each line in the specified text. This command is convenient to use when you want to perform some action for each line in a certain set.
 
 %html.foreach-line%

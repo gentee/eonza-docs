@@ -8,7 +8,6 @@ html:
 ---
 # Remove Lines
 
-**v1.21.0**  
 The **Remove Lines** command deletes lines in the text. The lines to be deleted must contain at least one of the specified substrings.
 
 %html.remove-lines%

@@ -8,7 +8,6 @@ html:
 ---
 # Append To Map
 
-**v1.21.0**  
 The **Append To Map** command adds an item to a variable object. The object must be an associative array.
 If the specified variable does not exist, then it will be created.
 

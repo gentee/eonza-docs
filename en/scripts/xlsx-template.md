@@ -8,7 +8,6 @@ html:
 ---
 # XLSX Template
 
-**v1.21.0**  
 The **XLSX Template** command replaces the variables in the Xlsx template (Microsoft Excel). Since the script makes all replacements in the spreadsheet itself, it does not require Microsoft Office installed. Replacements are made on all sheets of the spreadsheet.
 
 %html.xlsx-template%

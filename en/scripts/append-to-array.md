@@ -8,7 +8,6 @@ html:
 ---
 # Append To Array
 
-**v1.21.0**  
 The **Append To Array** command appends an item to a variable object. The object must be an array.
 If the specified variable does not exist, it will be created.
 

@@ -8,7 +8,6 @@ html:
 ---
 # ODT Template
 
-**v1.21.0**  
 The **ODT Template** command replaces variables in the Odt template (LibreOffice Writer). Since the script makes all replacements in the document itself, it does not require Libre Office installed. If the command does not replace some variables in the template, you need to copy them separately (*#varname#*) from a regular text editor and paste them into the document. This is because LibreOffice Writer can split the variable name into invisible fragments, which the script cannot process as a whole.
 
 %html.odf-odt-template%
