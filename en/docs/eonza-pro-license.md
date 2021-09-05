@@ -70,4 +70,4 @@ SOFTWARE.
 
 ## 7. Additional information
 
-1. If you have questions regarding this License Agreement, please contact Eonza Development Team by sending an email to [eonza.dev@gmail.com](mailto:eonza.dev@gmail.com).
+1. If you have questions regarding this License Agreement, please contact Eonza Development Team by sending an email to [eonzadev@gmail.com](mailto:eonzadev@gmail.com).

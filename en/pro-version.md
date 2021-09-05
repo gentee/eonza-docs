@@ -27,7 +27,7 @@ Also, you can **upgrade the program for free** during the entire period of the l
 
 %html.promo%
 
-If you use Eonza, you can become one of the first users of the Pro version for free. We are giving away **64 licenses** for a period of one year to six months. One user/company can get only one license. To receive a **free license key**, send an email to [eonza.dev@gmail.com](mailto:eonza.dev@gmail.com) with the following information:
+If you use Eonza, you can become one of the first users of the Pro version for free. We are giving away **64 licenses** for 1 year. One user/company can get only one license. To receive a **free license key**, send an email to [eonzadev@gmail.com](mailto:eonzadev@gmail.com) with the following information:
 
 * Name
 * Company (optional)
@@ -35,10 +35,7 @@ If you use Eonza, you can become one of the first users of the Pro version for f
 
 License Term | Used/Reserved
 -------------|---------------
-**1 year** | **12/16**
-10 months | 0/16
-8 months | 0/16
-6 months | 0/16
+1 year | 17/64
 
 ## Purchase Pro version
 
@@ -50,7 +47,7 @@ Not a subscription. After the one year period ends, the Pro version will no long
 
 ## Contacts
 
-Send all questions, suggestions and comments to [eonza.dev@gmail.com](mailto:eonza.dev@gmail.com).
+Send all questions, suggestions and comments to [eonzadev@gmail.com](mailto:eonzadev@gmail.com).
 
 <!--## Source code
 

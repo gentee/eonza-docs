@@ -19,8 +19,8 @@ Specify the name of the variable that contains the SMTP server settings. This va
 Enter the email of the sender. If no sender is specified, the username to connect to the SMTP server will be used. It is recommended that the sender is the same as the username, otherwise the mail server may not send the email.
 
 ``` txt
-eonza.dev@gmail.com
-Support Team <eonza.dev@gmail.com>
+eonzadev@gmail.com
+Support Team <eonzadev@gmail.com>
 ```
 
 **To**  

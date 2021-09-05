@@ -34,7 +34,7 @@ Specify the type of connection.
 Provide a username to connect to the server. As a rule, it is the same as an email.
 
 ``` txt
-eonza.dev@gmail.com
+eonzadev@gmail.com
 ```
 
 **Password**.  

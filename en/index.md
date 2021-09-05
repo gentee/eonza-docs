@@ -70,7 +70,7 @@ html:
       <h2>%res.contacts%</h2>
       <ul>
       <li><a href="https://github.com/gentee/eonza/issues">GitHub issues</a></li>
-      <li><a href="mailto:eonza.dev@gmail.com?Subject=Eonza">eonza.dev@gmail.com</a></li>
+      <li><a href="mailto:eonzadev@gmail.com?Subject=Eonza">eonzadev@gmail.com</a></li>
       </ul>
       </div>
       <div  class="column" style="padding-left: 1em;max-width: 350px;">
