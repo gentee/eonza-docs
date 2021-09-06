@@ -7,5 +7,7 @@ topmenu:
     href: docs/
   - title: "%scripts%"
     href: scripts/
+  - title: "%support%"
+    href: support
   - title: "%prover%"
     href: pro-version
