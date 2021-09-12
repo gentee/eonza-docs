@@ -25,6 +25,9 @@ navmenu:
        - href: create-archive
        - href: unpack-targz
        - href: unpack-zip
+  - href: browser
+    children:
+       - href: fill-in-form
   - href: cryptography
     children:
        - href: decrypt-file

@@ -7,6 +7,8 @@ desc: Eonza Program Changelog for 2021
 <!--## Beta version 1.8.0 
 ## Developer version-->
 
+## Developer version
+
 ## Version 1.21.0 - 2021/09/05
 
 * Added the [Foreach Row in XLSX](/scripts/foreach-xlsx.html) command.
