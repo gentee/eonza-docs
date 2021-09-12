@@ -9,6 +9,8 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Added the [Fill in Form](/scripts/fill-in-form.html) command.
+
 ## Version 1.21.0 - 2021/09/05
 
 * Added the [Foreach Row in XLSX](/scripts/foreach-xlsx.html) command.
