@@ -10,6 +10,7 @@ desc: Eonza Program Changelog for 2021
 ## Developer version
 
 * Added the [Fill in Form](/scripts/fill-in-form.html) command.
+* Added *Escape Filename* action to the **Set Variable** command.
 
 ## Version 1.21.0 - 2021/09/05
 

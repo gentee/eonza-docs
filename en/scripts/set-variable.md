@@ -54,6 +54,7 @@ You can specify a list of functions that will sequentially convert the current v
 * **Absolute Path**. If the value is a relative path to a file or a directory, then it is converted into an absolute path.
 * **Append**. The value of the field *Parameter* will be appended to the current value.
 * **Append Path**. The path or file name in the *Parameter* field will be added to the current value with a **/** or **\\** separator, depending on the OS.
+* **Escape Filename**. Replace ':', '/', '\\' with '_' as file names with such characters may be incompatible with the file system of the particular OS.
 * **Filename**. Get the last file or directory name from the current value.
 * **Get Environment Variable**. Get the value of the environment variable specified in the *Parameter* field. If the parameter is not specified, then the variable name is taken from the current value.
 * **Hash**. Calculates the hash of the current value. In the *Parameter* field specify the hashing method - **md5** or **sha256**. If nothing is specified, *MD5* will be used.
