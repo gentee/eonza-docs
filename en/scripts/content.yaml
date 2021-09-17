@@ -54,6 +54,7 @@ navmenu:
        - href: markdown-to-html
   - href: files
     children:
+       - href: auto-increment-filename
        - href: copy-file
        - href: copy-files
        - href: create-dir
