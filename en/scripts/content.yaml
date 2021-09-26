@@ -71,6 +71,7 @@ navmenu:
        - href: curdir
        - href: move-file
        - href: move-files
+       - href: parse-filename
        - href: read-file
        - href: rename-file
        - href: rename-files
