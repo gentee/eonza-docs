@@ -9,6 +9,7 @@ desc: История изменений программы Eonza за 2021
 
 ## Версия разработчика
 
+* Добавлена командa [Создать документы из Excel](/ru/scripts/create-docs-from-excel.html).
 * Добавлена командa [Разобрать имя файла](/ru/scripts/parse-filename.html).
 * Добавлена командa [Заполнить форму](/ru/scripts/fill-in-form.html).
 * Добавлена командa [Автоувеличение имени файла](/ru/scripts/auto-increment-filename.html).

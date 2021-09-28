@@ -103,6 +103,7 @@ navmenu:
        - href: httprequest
   - href: office
     children:
+       - href: create-docs-from-excel
        - href: docx-template
        - href: foreach-xlsx
        - href: odf-odt-template

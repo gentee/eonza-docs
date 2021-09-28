@@ -9,6 +9,7 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Added the [Create Documents From Excel](/scripts/create-docs-from-excel.html) command.
 * Added the [Parse Filename](/scripts/parse-filename.html) command.
 * Added the [Fill in Form](/scripts/fill-in-form.html) command.
 * Added the [Auto Increment Filename](/scripts/auto-increment-filename.html) command.
