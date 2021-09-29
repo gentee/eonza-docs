@@ -20,7 +20,7 @@ You can install and use the Eonza extension for Chrome browser. This extension a
 
 ## Installing the extension
 
-You can download and build the extension yourself from the sources located at [repository on github.com](https://github.com/gentee/eonza-chrome). The easiest way is to [**download ready-made archive**](https://github.com/gentee/eonza-chrome/releases/download/v1.0.0/eonza-chrome.zip) and unpack it into any directory.
+You can download and build the extension yourself from the sources located at [repository on github.com](https://github.com/gentee/eonza-chrome). The easiest way is to [**download ready-made archive**](https://github.com/gentee/eonza-chrome/releases/download/v1.1.0/eonza-chrome.zip) and unpack it into any directory.
 
 After the extension files have been unpacked, launch your browser and open the page with extensions. This can be done in the settings section or by specifying *chrome://extensions/* in the address bar. Turn on the **Developer mode** and click on the **Load unpacked** button. Specify the directory with the unpacked files in the directory selection window.
 
