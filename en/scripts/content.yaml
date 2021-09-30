@@ -106,6 +106,7 @@ navmenu:
        - href: create-docs-from-excel
        - href: docx-template
        - href: foreach-xlsx
+       - href: get-excel-cells
        - href: odf-odt-template
        - href: ods-template
        - href: xlsx-template
