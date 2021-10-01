@@ -7,7 +7,7 @@ desc: Eonza Program Changelog for 2021
 <!--## Beta version 1.8.0 
 ## Developer version-->
 
-## Developer version
+## Version 1.22.0 - 2021/10/01
 
 * Added the [Get Excel Cells](/scripts/get-excel-cells.html) command.
 * Added the [Create Documents From Excel](/scripts/create-docs-from-excel.html) command.
