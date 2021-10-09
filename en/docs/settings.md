@@ -46,6 +46,9 @@ Specify the number of days after which a completed task can be deleted.
 **Maximum number of tasks**  
 Specify the maximum number of tasks to be stored.
 
+**Hide duplicate tasks**  
+Check this checkbox if you want to hide duplicate tasks in the Task Manager. In this case, if there are several tasks with the same script name, status and user, then only the most recent completed task will be shown in the list. Pinned and unfinished tasks are always shown. 
+
 %html.settings-general-2%
 
 ## Scripts

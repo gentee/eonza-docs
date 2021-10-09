@@ -9,7 +9,9 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Added a checkbox *Hide duplicate tasks* (in the Task Manager) in the general settings of the program.
 * Added the *sudo Password* parameter to the [Bash](/scripts/bash.html) command.
+* Added a change in the task status (Terminated) when it is externally terminated by the user. For example, Ctrl-C in the terminal.
 
 ## Version 1.22.0 - 2021/10/01
 
