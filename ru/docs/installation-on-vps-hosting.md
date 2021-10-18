@@ -51,7 +51,7 @@ whitelist:
 
 ## Шаг 3. Создание systemd сервиса
 
-Зарегистрируем программу Eonza в качестве сервиса. Для этого создадим файл **eonza.service** в директории **/usr/lib/systemd/system**. Ниже приведен самый простой вариант, хотя *.service* файл может иметь гораздо больше параметров.
+Зарегистрируем программу Eonza в качестве сервиса. Для этого создадим файл **eonza.service** в соответствующей директории для .service файлов. Например, в **/usr/lib/systemd/system** (CentOS) или **/lib/systemd/system** (Ubuntu). Ниже приведен самый простой вариант, хотя *.service* файл может иметь гораздо больше параметров.
 
 ``` ini
 [Unit]
@@ -68,8 +68,8 @@ WantedBy=multi-user.target
 Запускаем и подключаем наш сервис. Eonza будет автоматически запускаться после перезагрузки системы.
 
 ``` txt
-systemctl start eonza.service
 systemctl enable eonza.service
+systemctl start eonza.service
 ```
 
 Если вы измените файл eonza.service, то необходимо выполнить *systemctl daemon-reload* для обновления настроек. Для получения статуса сервиса используйте *systemctl status eonza.service* или *service eonza status*.
