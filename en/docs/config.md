@@ -21,6 +21,7 @@ The main settings of the program are stored in the YAML configuration file *eonz
 version: 1.1.0+1
 mode: default
 assetsdir: ""
+extsdir: ""
 log:
   dir: ""
   mode: file
@@ -47,6 +48,7 @@ whitelist: []
    * **develop** - developer mode.
    * **playground** - safe "sandbox" mode.
 * **assetsdir** - by default, the frontend files (html, js, png) are packed into an executable file. You can specify the directory with the unpacked files. This allows you to use modified versions of the files.
+* **extsdir** - directory for installing extensions. Each extension is installed in a separate subdirectory.
 * **whitelist** - if you installed Eonza on a remote server (hosting), we recommend specifying a "whitelist" of ip addresses in addition to password protection. In this case, specify the array of subnets from which which it is possible to connect to the program. If a request to Eonza comes from an ip-address that is not included in any of the specified networks, an error will be sent - *Access denied*. When defining the "whitelist", be sure to add the following subnetworks to it: **::1/128, 127.0.0.0/31**.
 
 ``` yaml
