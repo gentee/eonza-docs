@@ -9,6 +9,7 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Improved output to the Console and Log in the browser when the script runs.
 * Added the *Text* parameter to the [Write To File](/scripts/write-file.html) command.
 * Added a checkbox *Hide duplicate tasks* (in the Task Manager) in the general settings of the program.
 * Added the *sudo Password* parameter to the [Bash](/scripts/bash.html) command.

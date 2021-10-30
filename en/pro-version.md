@@ -35,7 +35,7 @@ If you use Eonza, you can become one of the first users of the Pro version for f
 
 License Term | Used/Reserved
 -------------|---------------
-**1 year** | **38/64**
+**1 year** | **40/64**
 
 ## Purchase Pro version
 
