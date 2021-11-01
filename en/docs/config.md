@@ -18,7 +18,6 @@ Eonza program does not require installation and is distributed as a single execu
 The main settings of the program are stored in the YAML configuration file *eonza.yaml*. Below is an example of a configuration file, which is created by default.
 
 ``` yaml
-version: 1.1.0+1
 mode: default
 assetsdir: ""
 extsdir: ""
@@ -42,7 +41,6 @@ playground:
 whitelist: []
 ```
 
-* **version** - Eonza version.
 * **mode** - program operation mode. If not specified, the program will run in the default mode. The following options are available:
    * **default** - default mode.
    * **develop** - developer mode.
