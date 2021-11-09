@@ -9,6 +9,8 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Added the [Convert JSON To Variable](/scripts/convert-json-to-variable.html) command.
+* Using *#varname#* for array objects returns a string in JSON format.
 * Improved output to the Console and Log in the browser when the script runs.
 * Added the *Text* parameter to the [Write To File](/scripts/write-file.html) command.
 * Added a checkbox *Hide duplicate tasks* (in the Task Manager) in the general settings of the program.
