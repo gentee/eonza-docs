@@ -13,6 +13,7 @@ license: License
 native: English
 onlinedemo: Online Demo
 onpage: On this page
+packages: Packages
 playground: Playground
 prolicense: Pro License
 promo: Get Pro version for free
@@ -20,6 +21,7 @@ prover: Pro Version
 repissue: Report issue
 scriptresult: The result of the script
 scripts: Scripts
+stdlib: Standard Library
 support: Support
 usage: Usage
 userguide: User Guide

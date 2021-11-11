@@ -1,0 +1,22 @@
+template: default
+pagemenu: _docs
+topmenu:
+  - title: "%downloads%"
+    href: downloads
+  - title: "%docs%"
+    href: docs/
+  - title: "%scripts%"
+    href: packages/
+  - title: "%support%"
+    href: support
+  - title: "%prover%"
+    href: pro-version    
+tabmenu:
+  - title: "%stdlib%"
+    href: /scripts/
+  - title: "%packages%"
+navmenu:
+  - href: index
+  - href: tests
+    children:
+       - href: alltests

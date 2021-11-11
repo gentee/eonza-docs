@@ -13,6 +13,7 @@ license: Лицензия
 native: Русский
 onlinedemo: Онлайн-демо
 onpage: На этой странице
+packages: Пакеты
 playground: "&quot;Песочница&quot;"
 prolicense: Лицензия Pro
 promo: Получи Pro версию бесплатно
@@ -20,6 +21,7 @@ prover: Pro версия
 repissue: Сообщить о проблеме
 scriptresult: Результат работы скрипта
 scripts: Скрипты
+stdlib: Стандартная библиотека
 support: Поддержка
 usage: Использование
 userguide: Руководство пользователя

@@ -10,7 +10,11 @@ topmenu:
   - title: "%support%"
     href: support
   - title: "%prover%"
-    href: pro-version    
+    href: pro-version
+tabmenu:
+  - title: "%packages%"
+    href: /packages/
+  - title: "%stdlib%"
 navmenu:
   - href: index
   - href: applications
