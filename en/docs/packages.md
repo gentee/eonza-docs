@@ -15,4 +15,4 @@ By default, only standard library scripts are available in the Eonza program. If
 
 %html.packages%
 
-You can read [documentation on for available packages](/packages/index.html).
+You can read the [documentation for all available packages](/packages/index.html).

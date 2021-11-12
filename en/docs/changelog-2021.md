@@ -9,6 +9,8 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* The scripts for testing the standard library are moved to the [Tests](/packages/tests.html) package.
+* Added [Packages](/docs/packages.html) tab.
 * Added the [Convert JSON To Variable](/scripts/convert-json-to-variable.html) command.
 * Using *#varname#* for array objects returns a string in JSON format.
 * Improved output to the Console and Log in the browser when the script runs.
