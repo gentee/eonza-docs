@@ -13,7 +13,9 @@ This manual describes the main features of the Eonza program, which is designed 
 * [**Scripts**](scripts.html). Here you can quickly find the necessary script and then launch it or open it in the editor.
 * [**Editor**](editor.html) allows you to create and modify scripts.
 * [**Task manager**](task-manager.html) allows you to manage the running scripts, as well as to view the history of launches and the results of completed scripts.
+* [**Packages**](packages.html) contains script packages for working with external programs, objects and services.
 * [**Scheduler**](scheduler.html) allows you to run scripts on a timer or when events occur.
+* [**Browser**](browser.html) contains scripts that are available for launching in Chrome extension Eonza.
 * [**Notifications**](notifications.html) contains received notifications.
 * [**Settings**](settings.html) contain customizable options for working with the program.
 * [**Help**](help.html) contains a feedback form and information about the program.
