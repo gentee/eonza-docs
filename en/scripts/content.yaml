@@ -105,6 +105,7 @@ navmenu:
        - href: download-file
        - href: get-webpage
        - href: httprequest
+       - href: send-json-request
   - href: office
     children:
        - href: create-docs-from-excel

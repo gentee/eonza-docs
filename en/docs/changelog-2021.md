@@ -9,6 +9,7 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Added the [Send JSON Request](/scripts/send-json-request.html) command.
 * The scripts for testing the standard library are moved to the [Tests](/packages/tests.html) package.
 * Added [Packages](/docs/packages.html) tab.
 * Added the [Convert JSON To Variable](/scripts/convert-json-to-variable.html) command.

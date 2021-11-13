@@ -13,6 +13,9 @@ Eonza - это **программа с открытым исходным код�
 * **[github.com/gentee/eonza](https://github.com/gentee/eonza)**  
 [**Golang**] Основной репозитарий с исходным кодом Eonza.
 
+* **[github.com/gentee/eonza-scripts](https://github.com/gentee/eonza-scripts)**  
+[**YAML**] Репозитарий со всеми скриптами стандартной библиотеки и встроенных пакетов.
+
 * **[github.com/gentee/eonza-assets](https://github.com/gentee/eonza-assets)**  
 [**JavaScript (VueJS), HTML, CSS**] Репозитарий с пользовательским интерфейсом (Веб GUI).
 
