@@ -8,8 +8,9 @@ desc: История изменений программы Eonza за 2021
 ## Версия разработчика -->
 ## Версия разработчика
 
+* Добавлен пакет [Todoist](/ru/packages/todoist.html) и команды [Экспорт Todoist](/ru/packages/export-todoist.html), [Создать Todoist задачу](/ru/packages/create-todoist-task.html).
 * Добавлена команда [Отправить JSON запрос](/ru/scripts/send-json-request.html).
-* Скрипты для тестирования стнадартной библиотеки перенесены в пакет [Тесты](/ru/packages/tests.html).
+* Скрипты для тестирования стандартной библиотеки перенесены в пакет [Тесты](/ru/packages/tests.html).
 * Добавлена поддержка [пакетов](/ru/docs/packages.html).
 * Добавлена команда [Конвертировать JSON в переменную](/ru/scripts/convert-json-to-variable.html).
 * При использовании *#varname#* для объектов массивов возвращается строка в JSON формате.

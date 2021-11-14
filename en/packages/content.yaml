@@ -20,3 +20,7 @@ navmenu:
   - href: tests
     children:
        - href: alltests
+  - href: todoist
+    children:
+      - href: create-todoist-task
+      - href: export-todoist
