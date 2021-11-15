@@ -31,7 +31,8 @@ Specify the name of a variable in which the server response will be written. An 
 **Headers**  
 You can define additional request headers if needed. For example, **Authorization**. You don't have to specify the *Content-Type* header. It will be added automatically with the value *application/json; charset=UTF-8*.
 
-**Optional Parameters**  
+## Optional Parameters
+
 You can specify additional parameters.
 
 **response**  

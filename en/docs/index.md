@@ -5,8 +5,8 @@ img:
    eonza-1: eonza-1.png
    eonza-2: eonza-2.png
 html:
-   img1: '<img src="%img.eonza-1%" style="margin: 1em 1em;width: 600px;"/>'
-   img2: '<img src="%img.eonza-2%" style="margin: 1em 1em;width: 600px;"/>'
+   img1: '<img src="%img.eonza-1%" style="margin: 1em 1em;"/>'
+   img2: '<img src="%img.eonza-2%" style="margin: 1em 1em;"/>'
 ---
 # Introduction
 

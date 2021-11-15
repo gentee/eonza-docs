@@ -1,6 +1,9 @@
 ---
 title: Введение
 desc: Введение Eonza automation software.
+img:
+   eonza-1: eonza-1.png
+   eonza-2: eonza-2.png
 ---
 # Введение
 
