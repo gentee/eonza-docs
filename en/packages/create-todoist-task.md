@@ -8,7 +8,6 @@ html:
 ---
 # Create Todoist Task
 
-**v1.23**  
 The **Create Todoist Task** command creates the specified task in the Todoist service. For the script to work, the API token must be specified in the package settings.
 
 %html.create-todoist-task%

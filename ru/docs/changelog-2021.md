@@ -6,7 +6,7 @@ desc: История изменений программы Eonza за 2021
 
 <!--## Бета версия 1.8.0
 ## Версия разработчика -->
-## Версия разработчика
+## Версия 1.23.0 - 2021/11/15
 
 * Добавлен пакет [Todoist](/ru/packages/todoist.html) и команды [Экспорт Todoist](/ru/packages/export-todoist.html), [Создать Todoist задачу](/ru/packages/create-todoist-task.html).
 * Добавлена команда [Отправить JSON запрос](/ru/scripts/send-json-request.html).

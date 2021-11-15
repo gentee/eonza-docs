@@ -7,7 +7,7 @@ desc: Eonza Program Changelog for 2021
 <!--## Beta version 1.8.0 
 ## Developer version-->
 
-## Developer version
+## Version 1.23.0 - 2021/11/15
 
 * Added [Todoist](/packages/todoist.html) package and [Export Todoist](/packages/export-todoist.html), [Create Todoist Task](/packages/create-todoist-task.html) commands.
 * Added the [Send JSON Request](/scripts/send-json-request.html) command.

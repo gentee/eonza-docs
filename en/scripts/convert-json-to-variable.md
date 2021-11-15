@@ -8,7 +8,6 @@ html:
 ---
 # Convert JSON To Variable
 
-**v1.23**  
 The **Convert JSON to variable** command converts JSON-formatted text to a variable object. 
 
 %html.convert-json-to-variable%

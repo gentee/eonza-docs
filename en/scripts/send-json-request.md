@@ -8,7 +8,6 @@ html:
 ---
 # Send JSON Request
 
-**v1.23**  
 Nowadays, JSON is often used in REST API messaging. The **Send JSON Request** command sends a JSON request to the specified URL and stores the received response in an object variable. You won't need to parse the JSON response additionally.
 
 %html.send-json-request%

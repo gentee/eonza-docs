@@ -8,7 +8,6 @@ html:
 ---
 # Export Todoist
 
-**v1.23**  
 The free Todoist account does not have the ability to export existing projects and tasks. How to back up Todoist content in this case? The **Export Todoist** script gets your projects, sections, tasks, comments and labels in JSON format and packs them into a zip file. For the script to work, the API token must be specified in the package settings.
 
 %html.export-todoist%

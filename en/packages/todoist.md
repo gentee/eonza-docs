@@ -10,7 +10,6 @@ html:
 ---
 # Todoist
 
-**v1.23**  
 The **Todoist** package  contains scripts to work with [Todoist](https://todoist.com/) scheduling service. All scripts use the Todoist server's REST API to manage tasks. For all scripts of the package to work it is necessary to specify API Token in the package settings.
 
 %html.todoist%
