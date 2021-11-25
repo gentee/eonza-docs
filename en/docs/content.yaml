@@ -47,6 +47,7 @@ navmenu:
      - href: variables-and-values
      - href: constants
      - href: optional-parameters
+     - href: logging
   - title: "%usage%"
     href: usage
     children:

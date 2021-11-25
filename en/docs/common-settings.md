@@ -34,4 +34,25 @@ check1 && isopen
 !myvar || todo || myvar2
 ```
 
+## Advanced Settings
+
+Here you can additionally specify general settings for the commands to be run.
+
+**params**  
+In the editor, you can only specify specific states for checkboxes and dropdown lists. There may be a situation where you want the value of a checkbox or drop-down list to be determined while the script is running. Open the script in the editor and look up the names of the corresponding parameters. After that specify the desired value in *params*. For example, if the name of the checkbox parameter is *recursive* and you want the checkbox to depend on the *mycheck* variable, specify
+
+```yaml
+params:
+   recursive: "#mycheck#"
+```
+
+In this case it doesn't matter what state of the checkbox is specified in the script parameters below.
+
+**log**  
+By default, the script sets the logging level that is specified in its [settings](editor-settings.html). You can change the [logging level](logging.html) by specifying this parameter.
+
+```yaml
+log: disable
+```
+
 [%dwnsample%](/samples/sample-7.yaml)

@@ -9,6 +9,8 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Added **log** parameter to [Advanced Settings](/docs/common-settings.html).
+* Improved [logging](/docs/logging.html).
 * Fixed bug when parsing JSON with *null* fields.
 * Fixed some minor bugs.
 
