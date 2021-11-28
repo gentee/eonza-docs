@@ -80,6 +80,7 @@ navmenu:
        - href: rename-file
        - href: rename-files
        - href: chdir
+       - href: create-temporary-file
        - href: write-file
   - href: forms
     children:

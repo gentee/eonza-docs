@@ -9,6 +9,7 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Added the [Temporary File](/scripts/create-temporary-file.html) command.
 * Added **log** parameter to [Advanced Settings](/docs/common-settings.html).
 * Improved [logging](/docs/logging.html).
 * Fixed bug when parsing JSON with *null* fields.
