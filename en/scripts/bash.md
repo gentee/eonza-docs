@@ -8,7 +8,7 @@ html:
 ---
 # Bash
 
-The **Bash** command executes the specified bash script. You must specify the script text, not the path to the bash file.
+The **Bash** command executes the specified bash script. You must specify the script text, not the path to the bash file. The next command will be executed after the script finishes.
 
 %html.bash%
 
@@ -17,6 +17,3 @@ Specify the Bash script code that you want to execute.
 
 **sudo Password**  
 You can provide a sudo password if you want to run the script as superuser. Do not explicitly enter your password. It is better to define the corresponding value in the Secure Storage of the Pro version and specify the value name here (for example, #@rootpsw#). You can also request a password using the [Form](form.html) command and specify the appropriate variable name here (for example, #rootpsw#). In this case, the password will not be available to third parties.
-
-**Wait until application finishes**  
-Check this box if you want to wait for the bash script to finish. Otherwise, the next command will be executed right after the call to bash, without waiting for it to finish.

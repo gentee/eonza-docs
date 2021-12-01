@@ -9,6 +9,7 @@ desc: Eonza Program Changelog for 2021
 
 ## Developer version
 
+* Fixed problems with Stdin in **Bash** command.
 * Added the [Temporary File](/scripts/create-temporary-file.html) command.
 * Added **log** parameter to [Advanced Settings](/docs/common-settings.html).
 * Improved [logging](/docs/logging.html).
