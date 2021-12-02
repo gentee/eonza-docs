@@ -24,3 +24,7 @@ navmenu:
     children:
       - href: create-todoist-task
       - href: export-todoist
+  - href: veracrypt
+    children:
+      - href: dismount-veracrypt-volume
+      - href: mount-veracrypt-volume
