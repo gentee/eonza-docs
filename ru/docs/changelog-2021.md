@@ -8,6 +8,7 @@ desc: История изменений программы Eonza за 2021
 ## Версия разработчика -->
 ## Версия разработчика
 
+* Добавлена возможность [переопределения скриптов](/ru/docs/how-to-override-script.html).
 * Добавлен пакет [VeraCrypt](/ru/packages/veracrypt.html) и команды [Монтировать том VeraCrypt](/ru/packages/mount-veracrypt-volume.html), [Размонтировать том VeraCrypt](/ru/packages/dismount-veracrypt-volume.html).
 * Исправлены проблемы с Stdin в команде **Bash**.
 * Добавлена команда [Временный файл](/ru/scripts/create-temporary-file.html).
