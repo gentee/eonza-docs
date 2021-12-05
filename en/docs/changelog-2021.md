@@ -7,7 +7,7 @@ desc: Eonza Program Changelog for 2021
 <!--## Beta version 1.8.0 
 ## Developer version-->
 
-## Developer version
+## Version 1.24.0 - 2021/12/05
 
 * Added the ability to [override scripts](/docs/how-to-override-script.html). 
 * Added [VeraCrypt](/packages/veracrypt.html) package and [Mount VeraCrypt Volume](/packages/mount-veracrypt-volume.html), [Dismount VeraCrypt Volume](/packages/dismount-veracrypt-volume.html) commands.

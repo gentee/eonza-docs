@@ -6,7 +6,8 @@ desc: История изменений программы Eonza за 2021
 
 <!--## Бета версия 1.8.0
 ## Версия разработчика -->
-## Версия разработчика
+
+## Версия 1.24.0 - 2021/12/05
 
 * Добавлена возможность [переопределения скриптов](/ru/docs/how-to-override-script.html).
 * Добавлен пакет [VeraCrypt](/ru/packages/veracrypt.html) и команды [Монтировать том VeraCrypt](/ru/packages/mount-veracrypt-volume.html), [Размонтировать том VeraCrypt](/ru/packages/dismount-veracrypt-volume.html).

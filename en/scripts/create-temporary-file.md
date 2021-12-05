@@ -8,7 +8,6 @@ html:
 ---
 # Temporary File
 
-**v1.24**  
 The **Temporary file** command creates a temporary file with a randomly generated name. In the future, it is advisable to delete the created file if it is no longer needed.
 
 %html.create-temporary-file%
