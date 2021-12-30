@@ -55,4 +55,11 @@ By default, the script sets the logging level that is specified in its [settings
 log: disable
 ```
 
+**ref**  
+For each command you can specify an identifier name. The script contains a stack of such names and you can use these names to get information about which part of the script is currently running. For example, identifier names are used when [saving form data](autofill-forms.html) in the Pro version. If you show the same forms, but want to use different autocomplete form data, then specify for each form its own *ref* parameter.
+
+```yaml
+ref: form1
+```
+
 [%dwnsample%](/samples/sample-7.yaml)

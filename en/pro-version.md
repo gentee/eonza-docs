@@ -19,8 +19,9 @@ Eonza Pro Version makes your work with the program more convenient and secure. T
 Using the Pro version gives you the following additional features.
 
 * You can add [roles and users](/docs/users.html).
-* [Two-factor authentication](/docs/pro-security.html).
+* [Two-factor authentication](/docs/pro-settings.html).
 * [Secure storage](/docs/pro-storage.html) for passwords and tokens that can be used in scripts.
+* Saving form fields and their [autofill](/docs/autofill-forms.html) at next launches.
 * Priority support.
 
 Also, you can **upgrade the program for free** during the entire period of the license.
@@ -35,7 +36,7 @@ If you use Eonza, you can become one of the first users of the Pro version for f
 
 License Term | Used/Reserved
 -------------|---------------
-**1 year** | **52/64**
+**1 year** | **58/64**
 
 ## Purchase Pro version
 

@@ -1,6 +1,6 @@
 ---
-title: Security tab in the Pro version
-desc: Documentation for the Security tab in the Pro version of Eonza.
+title: Settings tab in the Pro version
+desc: Documentation for the Settings tab in the Pro version of Eonza.
 img:
    pro-security: pro-security.png
    pro-security-users: pro-security-users.png
@@ -8,7 +8,12 @@ html:
    pro-security: '<img src="%img.pro-security%" style="margin: 1em 1em;"/>'
    pro-security-users: '<img src="%img.pro-security-users%" style="margin: 1em 1em;"/>'
 ---
-# Security
+# Settings
+
+**Autofill Forms**  
+Check this box if you want to [save entered data](autofill-forms.html) in forms. In this case, the saved values will be substituted in the form fields on the next run. It is also possible to save several variants for filling out the form.
+
+## Security
 
 The Pro version provides additional features for safe work in the Eonza program.
 

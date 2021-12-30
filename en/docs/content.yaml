@@ -52,6 +52,7 @@ navmenu:
   - title: "%usage%"
     href: usage
     children:
+    - href: autofill-forms
     - href: chrome-extension
     - href: config
     - href: command-line-parameters
@@ -66,7 +67,7 @@ navmenu:
         title: "%prolicense%"
       - href: pro-general
       - href: users
-      - href: pro-security
+      - href: pro-settings
       - href: pro-storage
   - href: development
     children:

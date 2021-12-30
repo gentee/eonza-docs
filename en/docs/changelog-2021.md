@@ -7,6 +7,11 @@ desc: Eonza Program Changelog for 2021
 <!--## Beta version 1.8.0 
 ## Developer version-->
 
+## Developer version
+
+* Added [autofill forms](/docs/autofill-forms.html) in scripts for Pro version.
+* Added several improvements.
+
 ## Version 1.24.0 - 2021/12/05
 
 * Added the ability to [override scripts](/docs/how-to-override-script.html). 
@@ -89,7 +94,7 @@ desc: Eonza Program Changelog for 2021
     * [License Pro](/docs/eonza-pro-license.html)
     * [General Settings](/docs/pro-general.html)
     * [Roles and users](/docs/users.html)
-    * [Security](/docs/pro-security.html)
+    * [Security](/docs/pro-settings.html)
     * [Storage](/docs/pro-storage.html)
 
 ## Version 1.16.0 - 2021/04/06
