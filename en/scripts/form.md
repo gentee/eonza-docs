@@ -49,7 +49,48 @@ Specify the type of form element
 
 * **Password**. An element of this type is used to enter passwords. All characters are hidden when you enter them. Also, the entered value is not written to the log file.
 
-**Text**.  
+* **Checkbox List**. This element displays a table with a checkbox for each row. In the **Text** field you should specify the name of the variable-object that contains an array of objects with two parameters: *value* and *text*. The *text* field contains the column header, and *value* is the name of the value field. In the **Variable Name** field specify the name of the object variable with an array of objects that will be displayed in the table. Each element of the array must have field names that correspond to the table columns. For example,
+
+```json
+// create a variable for describing the columns with the Parse JSON command
+[
+    {"value": "name", "text": "Name"},
+    {"value": "age", "text": "Age"},
+]
+```
+
+```json
+// create a variable with the data with the Parse JSON command
+[
+    {"name": "John Doe", "age": "23"},
+    {"name": "Maria", "age": "18"},
+]
+```
+
+If you create and use these two variables, the form will display tables with two columns (*Name* and *Age*) and two records.
+
+By default, after submitting the form, all unchecked elements in the variable array will be removed. If you do not want to delete elements, then you must add a field to the objects that will store the element's status. You also need to add a description only with the *value* parameter to the beginning of the column array.
+
+```json
+[
+    {"value": "checked"},
+    {"value": "name", "text": "Name"},
+    { "value": "age", "text": "Age"},
+]
+```
+
+```json
+[
+    { "name": "John Doe", "age": "23", "checked": true},
+    { "name": "Maria", "age": "18"},
+]
+```
+
+In this case, elements with this field equal to *true* will be marked in the table. After submitting the form, all records will have the value of this field *true* (for the selected elements) or *false*.
+
+If you want to show a list of checkboxes with one column, then the array can contain any objects (strings, numbers). In this case, leave the **Text** field blank.
+
+**Text**  
 Description or name of the form element.
 
 **Variable name**  
