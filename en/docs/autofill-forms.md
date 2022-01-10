@@ -22,3 +22,13 @@ The next time you run the script, the previous values will be substituted in the
 Subsequently, you can select the name of the value set from the drop-down list and the field values will be substituted in the form.
 
 Forms with the same fields are considered different in different scripts and they separately store the saved sets of values. If you want the same forms to be considered different in one script, then define the **ref** parameter for them in [common settings](common-settings.html).
+
+If you want to disable autofill fields, call the **SetSystemFlags** function in the **Source code** command.
+
+```go
+// Disable autofill
+SetSystemFlags(0x10000000 | 0x0001)
+
+// Enable autofill
+SetSystemFlags(0x20000000 | 0x0001)
+```
