@@ -1,0 +1,65 @@
+settings:
+  name: checkbox-list-sample
+  title: Checkbox List Sample
+  loglevel: 6
+tree:
+- name: file-list
+  values:
+    _optional: 'onlyfiles: true'
+    path: '#.apppath#'
+    recursive: false
+    resultvar: list
+- name: checkbox-list
+  values:
+    columns:
+    - text: ""
+      value: checked
+    - text: Filename
+      value: name
+    - text: Size
+      value: size
+    - text: Time
+      value: time
+    custbtns: {}
+    retbtn: msgbtn
+    text: Selected items will be checked too in the next form
+    varname: list
+- name: checkbox-list
+  values:
+    columns:
+    - text: ""
+      value: checked
+    - text: Filename
+      value: name
+    - text: Size
+      value: size
+    - text: Time
+      value: time
+    custbtns: {}
+    retbtn: msgbtn
+    text: ""
+    varname: list
+- name: parse-json
+  values:
+    resultvar: users
+    value: '[ "John Doe", "Mark Smith", "Maria Simpson", "Bill Stivens", "Julius Cesar",
+      "Kelly Stone"]'
+- name: checkbox-list
+  values:
+    columns: []
+    custbtns: {}
+    retbtn: msgbtn
+    text: Unselected items will be removed from the list
+    varname: users
+- name: checkbox-list
+  values:
+    columns: []
+    custbtns: {}
+    retbtn: msgbtn
+    text: Select users
+    varname: users
+- name: source-code
+  values:
+    code: |-
+      Println(GetVarObj("list"))
+      Println(GetVarObj("users"))

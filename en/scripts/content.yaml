@@ -84,6 +84,7 @@ navmenu:
        - href: write-file
   - href: forms
     children:
+       - href: checkbox-list
        - href: create-report
        - href: file-confirmation
        - href: form
