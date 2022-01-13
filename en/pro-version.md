@@ -26,7 +26,7 @@ Using the Pro version gives you the following additional features.
 
 Also, you can **upgrade the program for free** during the entire period of the license.
 
-%html.promo%
+<!--%html.promo%
 
 If you use Eonza, you can become one of the first users of the Pro version for free. We are giving away **64 licenses** for 1 year. One user/company can get only one license. To receive a **free license key**, send an email to [eonzadev@gmail.com](mailto:eonzadev@gmail.com) with the following information:
 
@@ -36,7 +36,7 @@ If you use Eonza, you can become one of the first users of the Pro version for f
 
 License Term | Used/Reserved
 -------------|---------------
-**1 year** | **67/64**
+**1 year** | **67/64**-->
 
 ## Purchase Pro version
 
