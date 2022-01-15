@@ -10,7 +10,6 @@ html:
 ---
 # Autofill Forms
 
-**v1.25**  
 The Pro version of Eonza allows you to save values of the fields you specify in the forms when executing scripts. Password fields are not saved. To save the form fields, check the **Save Form Data** checkbox, which is displayed below all form elements.
 
 %html.autofill-forms-1%

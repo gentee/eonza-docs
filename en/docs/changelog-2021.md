@@ -4,16 +4,6 @@ desc: Eonza Program Changelog for 2021
 ---
 # Changelog for 2021
 
-<!--## Beta version 1.8.0 
-## Developer version-->
-
-## Developer version
-
-* Added the [Checkbox List](/scripts/checkbox-list.html) command.
-* Added *Checkbox List* to the [Form](/scripts/form.html) command.
-* Added [autofill forms](/docs/autofill-forms.html) in scripts for Pro version.
-* Added several improvements.
-
 ## Version 1.24.0 - 2021/12/05
 
 * Added the ability to [override scripts](/docs/how-to-override-script.html). 

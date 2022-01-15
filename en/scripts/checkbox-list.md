@@ -10,7 +10,6 @@ html:
 ---
 # Checkbox List
 
-**v1.25**  
 The **Checkbox List** command displays the array elements as a list with one or more columns. The user can check the desired records. Depending on the settings, items that are not checked will be automatically removed from the array or each item will be assigned a field with the value *true* (for selected items) or *false*.
 
 %html.checkbox-list%
