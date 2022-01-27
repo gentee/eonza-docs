@@ -26,6 +26,6 @@ support: Support
 usage: Usage
 userguide: User Guide
 version: Version
-ver: 1.25.0
+ver: 1.25.1
 betaver: 1.26.0
 gitpath: https://github.com/gentee/eonza/releases/download/v%ver%/eonza-%ver%
