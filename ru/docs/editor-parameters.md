@@ -54,7 +54,7 @@ img:
 {"type": "str",
  "items":[
      {"title": "My Path", "value": "/home/user/mypath" },
-     {"title": "Backup Path", "value": "/home/user/backup" },
+     {"title": "Backup Path", "value": "/home/user/backup" }
  ]
 }
 ```
