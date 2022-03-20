@@ -7,6 +7,10 @@ desc: Eonza Program Changelog for 2022
 <!--## Beta version 1.8.0 
 ## Developer version-->
 
+## Developer version
+
+* Added the [Append To Variable](/scripts/append-to-variable.html) command.
+
 ## Version 1.25.1 - 2022/01/16
 
 * Added the [Checkbox List](/scripts/checkbox-list.html) command.

@@ -146,6 +146,7 @@ navmenu:
     children:
        - href: append-to-array
        - href: append-to-map
+       - href: append-to-variable
        - href: convert-json-to-variable
        - href: foreach
        - href: set-environment
