@@ -17,6 +17,9 @@ tabmenu:
   - title: "%packages%"
 navmenu:
   - href: index
+  - href: file-utilities
+    children:
+       - href: foreach-empty-dir
   - href: tests
     children:
        - href: alltests
