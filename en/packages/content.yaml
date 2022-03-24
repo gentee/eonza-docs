@@ -20,6 +20,7 @@ navmenu:
   - href: file-utilities
     children:
        - href: delete-empty-dirs
+       - href: find-duplicate-files
        - href: foreach-empty-dir
   - href: tests
     children:
