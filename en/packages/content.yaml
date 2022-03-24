@@ -19,6 +19,7 @@ navmenu:
   - href: index
   - href: file-utilities
     children:
+       - href: delete-empty-dirs
        - href: foreach-empty-dir
   - href: tests
     children:
