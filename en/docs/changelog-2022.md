@@ -7,7 +7,7 @@ desc: Eonza Program Changelog for 2022
 <!--## Beta version 1.8.0 
 ## Developer version-->
 
-## Developer version
+## Version 1.26.0 - 2022/03/27
 
 * Added the [Append To Variable](/scripts/append-to-variable.html) command.
 * Added the [File Utilities](/packages/file-utilities.html) package.
@@ -15,6 +15,8 @@ desc: Eonza Program Changelog for 2022
 * Added the [Duplicate File Finder](/packages/duplicate-file-finder.html) command (File Utilities package).
 * Added the [Find Duplicate Files](/packages/find-duplicate-files.html) command (File Utilities package).
 * Added the [Foreach Empty Dir](/packages/foreach-empty-dir.html) command (File Utilities package).
+* Added the [Function](/scripts/function.html) command.
+* Added the [Call Function](/scripts/call-function.html) command.
 
 ## Version 1.25.1 - 2022/01/16
 
