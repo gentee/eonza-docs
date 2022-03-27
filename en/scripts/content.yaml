@@ -120,9 +120,11 @@ navmenu:
   - href: programming
     children:
        - href: assertions
+       - href: call-function
        - href: error
        - href: exit
        - href: for-statement
+       - href: function
        - href: if-statement
        - href: return
        - href: sleep
