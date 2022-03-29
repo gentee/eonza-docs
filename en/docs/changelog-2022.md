@@ -10,6 +10,7 @@ desc: Eonza Program Changelog for 2022
 ## Developer version
 
 * Added **Button Link** element to the [Form](/scripts/form.html) command.
+* Added **Forms Alignment** in [Settings](/docs/settings.html).
 
 ## Version 1.26.0 - 2022/03/27
 

@@ -68,6 +68,9 @@ The page with personal settings.
 **Language**  
 You can specify your preferred language of the program interface and the scripts being executed.
 
+**Forms Alignment**  
+By default, all forms in scripts are aligned to the left edge. Here you can specify that forms are aligned to the center of the window in the browser.
+
 %html.settings-personal%
 
 ## Global Constants
