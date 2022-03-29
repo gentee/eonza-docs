@@ -7,6 +7,10 @@ desc: Eonza Program Changelog for 2022
 <!--## Beta version 1.8.0 
 ## Developer version-->
 
+## Developer version
+
+* Added **Button Link** element to the [Form](/scripts/form.html) command.
+
 ## Version 1.26.0 - 2022/03/27
 
 * Added the [Append To Variable](/scripts/append-to-variable.html) command.

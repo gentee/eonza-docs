@@ -37,6 +37,8 @@ Specify the type of form element
 }
 ```
 
+* **Button link**. Creates a button as a normal link. All features and settings are identical to the *Button* element described above.
+
 * **Dynamic**. You can generate a list of elements at runtime and show them using this type. To do this leave the *Text* field empty and the variable in the *Variable Name* field must contain a JSON string with the list of elements.
 
 ``` go
