@@ -35,9 +35,9 @@ desc: Команда создаёт форму для ввода данных
 
 ``` go
 [
-    {"type": "7", "var": "btn", "text": "#.retry#", "options": { "initial": "retry"}},
-    {"type": "7", "var": "btn", "text": "#.abort#", "options": {"initial": "abort"}},
-    {"type": "7", "var": "btn", "text": "#.ignore#", "options": {"initial": "ignore"}}
+    {"type": "7", "var": "btn", "text": "#.retry#", "options": "{ \"initial\": \"retry\"}"},
+    {"type": "7", "var": "btn", "text": "#.abort#", "options": "{\"initial\": \"abort\"}"},
+    {"type": "7", "var": "btn", "text": "#.ignore#", "options": "{\"initial\": \"ignore\"}"}
 ]
 ```
 
