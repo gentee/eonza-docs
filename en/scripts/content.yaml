@@ -91,6 +91,8 @@ navmenu:
        - href: message
        - href: notification
        - href: readme
+       - href: sales-script
+       - href: sales-script-page
   - href: log-console-output
     children:
        - href: log-output

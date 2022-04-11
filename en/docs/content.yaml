@@ -46,6 +46,7 @@ navmenu:
      - href: common-settings
      - href: variables-and-values
      - href: constants
+     - href: how-to-create-sales-script
      - href: how-to-override-script
      - href: optional-parameters
      - href: logging
