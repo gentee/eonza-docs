@@ -87,6 +87,8 @@ navmenu:
        - href: checkbox-list
        - href: create-report
        - href: file-confirmation
+       - href: flowchart
+       - href: flowchart-element
        - href: form
        - href: message
        - href: notification

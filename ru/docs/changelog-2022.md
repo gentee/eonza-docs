@@ -9,6 +9,8 @@ desc: История изменений программы Eonza за 2022
 
 ## Версия разработчика
 
+* Добавлена команда [Элемент блок-схемы](/ru/scripts/flowchart-element.html).
+* Добавлена команда [Блок-схема](/ru/scripts/flowchart.html).
 * Добавлена команда [Страница скрипта продаж](/ru/scripts/sales-script-page.html).
 * Добавлена команда [Скрипт продаж](/ru/scripts/sales-script.html).
 * Добавлен элемент **Кнопочная ссылка** в команду [Форма](/ru/scripts/form.html).

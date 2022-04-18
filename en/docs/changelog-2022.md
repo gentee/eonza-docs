@@ -9,6 +9,8 @@ desc: Eonza Program Changelog for 2022
 
 ## Developer version
 
+* Added the [Flowchart Element](/scripts/flowchart-element.html) command.
+* Added the [Flowchart](/scripts/flowchart.html) command.
 * Added the [Sales Script Page](/scripts/sales-script-page.html) command.
 * Added the [Sales Script](/scripts/sales-script.html) command.
 * Added **Button Link** element to the [Form](/scripts/form.html) command.
