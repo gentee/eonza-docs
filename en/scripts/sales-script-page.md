@@ -10,7 +10,6 @@ html:
 ---
 # Sales Script Page
 
-**v1.27.0**  
 The **Sales Script Page** command creates a page for the sales script. You can specify the necessary text and answer options to jump to the corresponding pages. This command does nothing. To run a sales script, use the [Sales Script](sales-script.html) command.
 
 %html.sales-script-page%

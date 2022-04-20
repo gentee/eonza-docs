@@ -12,7 +12,6 @@ html:
 ---
 # How to create a sales script
 
-**v1.27.0**  
 Eonza program has special features for creating sales scripts or phone scripts. You can create sales scripts **for free** and share them with other people.
 
 ## Step 1. Define the content of the script pages

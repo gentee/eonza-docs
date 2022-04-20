@@ -10,7 +10,6 @@ html:
 ---
 # Flowchart Element
 
-**v1.27.0**  
 The **Flowchart Element** command creates a page for the flowchart element. The command may contain other scripts that will be executed when you jump to this element. You can specify the necessary text and a list of further actions that will implement the transition to other flowchart elements. This command is similar to a function and only executes internal commands when jumping to that element. To run a flowchart, you must use the [Flowchart](flowchart.html) command.
 
 %html.flowchart-element%

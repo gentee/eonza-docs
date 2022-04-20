@@ -10,7 +10,6 @@ html:
 ---
 # Sales Script
 
-**v1.27.0**  
 The **Sales Script** command launches the sales script. First, you need to create pages for the sales script using the [Sales Script Page](sales-script-page.html) command.
 
 %html.sales-script%

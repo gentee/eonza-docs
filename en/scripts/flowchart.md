@@ -10,7 +10,6 @@ html:
 ---
 # Flowchart
 
-**v1.27.0**  
 The **Flowchart** command starts the flowchart. First, you need to create flowchart elements using the [Flowchart Element](flowchart-element.html) command.
 
 %html.flowchart%
