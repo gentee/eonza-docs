@@ -7,7 +7,7 @@ desc: Eonza Program Changelog for 2022
 <!--## Beta version 1.8.0 
 ## Developer version-->
 
-## Developer version
+## Version 1.27.0 - 2022/04/20
 
 * Added the [Flowchart Element](/scripts/flowchart-element.html) command.
 * Added the [Flowchart](/scripts/flowchart.html) command.
