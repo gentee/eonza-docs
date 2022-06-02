@@ -24,8 +24,10 @@ res:
       * Running scripts from a Chrome extension.
       * Export/import of scripts to/from a text YAML file.
       * It is possible to suspend, resume and terminate script execution.
-      * Secure storage for passwords and tokens (Pro).
-      * User access by role (Pro).
+      * Secure storage for passwords and tokens.
+      * User access by role.
+      * Two-factor authentication.
+      * Saving form fields and their autofill at next launches.
 html:
    line: <div>&nbsp;</div>
    features: |-

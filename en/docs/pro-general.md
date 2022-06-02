@@ -10,6 +10,9 @@ html:
 ---
 # General
 
+This page is not up to date.
+
+<!--
 This tab displays the operating mode of the Pro version and license information. At the top of the tab, you can see the status of the Pro version - it can be active or disabled.
 
 %html.pro-general-trial%
@@ -50,3 +53,4 @@ License key status.
 * *Maximum number of licenses exceeded* - the program with the given license key has already been activated on the maximum number of computers.
 * *Not activated* - the key cannot be activated for some reason. However, in this case, the Pro version works without restrictions.
 * *Active* - the key is activated.
+-->

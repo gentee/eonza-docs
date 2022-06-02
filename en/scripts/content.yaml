@@ -9,8 +9,6 @@ topmenu:
     href: scripts/
   - title: "%support%"
     href: support
-  - title: "%prover%"
-    href: pro-version
 tabmenu:
   - title: "%packages%"
     href: /packages/

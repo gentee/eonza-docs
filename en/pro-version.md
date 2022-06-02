@@ -10,7 +10,9 @@ html:
 ---
 # PRO version
 
-Eonza Pro Version makes your work with the program more convenient and secure. The basic functionality and all the scripts remain unchanged.
+This page is not up to date.
+
+<!--Eonza Pro Version makes your work with the program more convenient and secure. The basic functionality and all the scripts remain unchanged.
 
 * [Eonza Pro License](/docs/eonza-pro-license.html)
 
@@ -25,7 +27,7 @@ Using the Pro version gives you the following additional features.
 * Priority support.
 
 Also, you can **upgrade the program for free** during the entire period of the license.
-
+-->
 <!--%html.promo%
 
 If you use Eonza, you can become one of the first users of the Pro version for free. We are giving away **64 licenses** for 1 year. One user/company can get only one license. To receive a **free license key**, send an email to [eonzadev@gmail.com](mailto:eonzadev@gmail.com) with the following information:
@@ -37,7 +39,7 @@ If you use Eonza, you can become one of the first users of the Pro version for f
 License Term | Used/Reserved
 -------------|---------------
 **1 year** | **67/64**-->
-
+<!--
 ## Purchase Pro version
 
 An annual license for the Pro version costs **$48**.
@@ -49,7 +51,7 @@ Not a subscription. After the one year period ends, the Pro version will no long
 ## Contacts
 
 Send all questions, suggestions and comments to [eonzadev@gmail.com](mailto:eonzadev@gmail.com).
-
+-->
 <!--## Source code
 
 Eonza is open source software, but it doesn't have the code that belongs to the Pro version. The Pro version license gives you the right to get the source code of the Pro version.

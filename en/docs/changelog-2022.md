@@ -7,6 +7,11 @@ desc: Eonza Program Changelog for 2022
 <!--## Beta version 1.8.0 
 ## Developer version-->
 
+## Version 1.28.0 - 2022/06/03
+
+* Removed Pro version.
+* All features of the Pro version have been transferred to the free version (Advanced).
+
 ## Version 1.27.0 - 2022/04/20
 
 * Added the [Flowchart Element](/scripts/flowchart-element.html) command.

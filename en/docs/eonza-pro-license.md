@@ -4,7 +4,9 @@ desc: Eonza Pro End User License Agreement
 ---
 # Eonza Pro End User License Agreement
 
-Please read this End User License Agreement (“EULA”) before you purchase a License Key for the Eonza Pro.
+This page is not up to date.
+
+<!--Please read this End User License Agreement (“EULA”) before you purchase a License Key for the Eonza Pro.
 
 ## 0. Definitions
 
@@ -31,9 +33,9 @@ Please read this End User License Agreement (“EULA”) before you purchase a L
 3. You are free to make any modifications to the source covered by this EULA. You are also free to compile the source after modifying it and using the compiled product obtained thereafter in compliance with this EULA.
 
 4. You may NOT under any circumstance copy, redistribute and/or republish the source or a work based on it (which includes binary or object code compiled from it) in part or whole.
-
+-->
 <!--5. You may not copy, modify, sublicense, or distribute the Eonza Pro except as expressly provided under this License. Any attempt otherwise to copy, modify, sublicense or distribute the Eonza Pro is void, and will automatically terminate your rights under this License.-->
-
+<!--
 5. If you intend to incorporate the source code, in part or whole, into any free or proprietary program, you need to explicitly write to the original author(s) to ask for permission.
 
 ## 3. Term
@@ -60,9 +62,7 @@ Please read this End User License Agreement (“EULA”) before you purchase a L
 
 ## 6. No Warranty  
 
-THE EONZA PRO IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+THE EONZA PRO IS PROVIDED "ASThis page is not up to date.RPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -71,3 +71,4 @@ SOFTWARE.
 ## 7. Additional information
 
 1. If you have questions regarding this License Agreement, please contact Eonza Development Team by sending an email to [eonzadev@gmail.com](mailto:eonzadev@gmail.com).
+-->

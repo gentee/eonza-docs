@@ -9,8 +9,6 @@ topmenu:
     href: scripts/
   - title: "%support%"
     href: support
-  - title: "%prover%"
-    href: pro-version    
 navmenu:
   - title: "%getstart%"
     children:
@@ -40,6 +38,11 @@ navmenu:
     - href: browser
     - href: notifications
     - href: settings
+    - title: "%advanced%"
+      children:
+        - href: users
+        - href: pro-settings
+        - href: pro-storage
     - href: help
   - href: script-development
     children:
@@ -62,14 +65,6 @@ navmenu:
     - href: restore-password
     - href: run-script-http
     - href: two-factor-authentication
-  - title: "%prover%"
-    children:
-      - href: eonza-pro-license
-        title: "%prolicense%"
-      - href: pro-general
-      - href: users
-      - href: pro-settings
-      - href: pro-storage
   - href: development
     children:
     - href: open-source
