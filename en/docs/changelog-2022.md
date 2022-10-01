@@ -7,6 +7,12 @@ desc: Eonza Program Changelog for 2022
 <!--## Beta version 1.8.0 
 ## Developer version-->
 
+## Version 1.29.0 - 2022/10/01
+
+* Added Deflate compression in Office Template commands.
+* Now Eonza on private hosts (like 192.168.1.100) works via http-protocol.
+* Updated third-party libraries.
+
 ## Version 1.28.0 - 2022/06/03
 
 * Removed Pro version.
